@@ -73,11 +73,11 @@ För att skapa ett nytt repo med desktop klienten så kan vi klicka på **+ Crea
 
 ![](https://lh6.googleusercontent.com/TpP2mAMNVohIZ8sSTCgSdI8WyqAm5UaoD-hhy4FpJ5GAeuu8N58mRL-pxQK5gByqLHkuh8DV_ySIg7Y4DuYPL88hZWGvExwL8RqLeLAd-oDk4W4mk-PnxAxwqKUP2zpEVfSKYUuI)
 
-Alternativt så gör vi detta genom Github.com, då får vi.
+Alternativt så gör vi detta genom Github.com.
 
 * [ ] Surfa till [https://github.com/](https://github.com/)
 * [ ] Logga in
-* [ ] Klicka på + i menyn och välja, New repository
+* [ ] Klicka på + i menyn och välj, New repository
 * [ ] Skriv in ett namn
 * [ ] Klicka på att skapa
 
