@@ -8,7 +8,7 @@ description: Introduktion till Git och Github
 
 [Git](https://git-scm.com/) är ett versions-hanteringssystem för projekt och [Github](https://github.com/) är ett webbhotell för Git-projekt.
 
-#### Varför?
+### Varför?
 
 Vi använder Github i alla programmeringskurserna på skolan. Anledningen till att vi gör det är att vi dels kan få en bra överblick över din progression genom uppgiften. Men det ger oss även viss dokumentation av ditt arbete samt en samlad plattform där vi sköter inlämningar.
 
@@ -56,6 +56,30 @@ För att sedan kunna använda Git från cmdline behöver vi lägga till det i di
 * [ ] Starta Powershell \(eller starta om det om du hade det igång\)
 * [ ] Skriv kommandot `git`, funkar det så bör få en lista över tillgängliga kommandon för programmet.
 * [ ] Klart.
+
+### Ditt första repository
+
+{% hint style="info" %}
+Tips: Kör igenom desktop klientens tutorial om detta är helt nytt.
+{% endhint %}
+
+Ett repository, eller repo, är en sida på Github där alla dina filer till projektet är samlade\(tillsammans med massa annat\). På Github.com så har det en url som följer samma mönster.
+
+{% hint style="info" %}
+github.com/username/repository-namn
+{% endhint %}
+
+För att skapa ett nytt repo med desktop klienten så kan vi klicka på **+ Create a New...** och följer instruktionerna.
+
+![](https://lh6.googleusercontent.com/TpP2mAMNVohIZ8sSTCgSdI8WyqAm5UaoD-hhy4FpJ5GAeuu8N58mRL-pxQK5gByqLHkuh8DV_ySIg7Y4DuYPL88hZWGvExwL8RqLeLAd-oDk4W4mk-PnxAxwqKUP2zpEVfSKYUuI)
+
+Alternativt så gör vi detta genom Github.com, då får vi.
+
+* [ ] Surfa till [https://github.com/](https://github.com/)
+* [ ] Logga in
+* [ ] Klicka på + i menyn och välja, New repository
+* [ ] Skriv in ett namn
+* [ ] Klicka på att skapa
 
 
 
