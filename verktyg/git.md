@@ -71,7 +71,7 @@ github.com/username/repository-namn
 
 För att skapa ett nytt repo med desktop klienten så kan vi klicka på **+ Create a New...** och följer instruktionerna.
 
-![](https://lh6.googleusercontent.com/TpP2mAMNVohIZ8sSTCgSdI8WyqAm5UaoD-hhy4FpJ5GAeuu8N58mRL-pxQK5gByqLHkuh8DV_ySIg7Y4DuYPL88hZWGvExwL8RqLeLAd-oDk4W4mk-PnxAxwqKUP2zpEVfSKYUuI)
+![GitHub desktop klient](https://lh6.googleusercontent.com/TpP2mAMNVohIZ8sSTCgSdI8WyqAm5UaoD-hhy4FpJ5GAeuu8N58mRL-pxQK5gByqLHkuh8DV_ySIg7Y4DuYPL88hZWGvExwL8RqLeLAd-oDk4W4mk-PnxAxwqKUP2zpEVfSKYUuI)
 
 Alternativt så gör vi detta på webbplatsen, men då behöver du välja "Add an Existing..." i desktop klienten för att koppla ihop dem.
 
@@ -134,7 +134,7 @@ Börja med att surfa till ditt repo på github.com. Där väljer du sedan att re
 
 ![Redigera och commita &#xE4;ndringar p&#xE5; GitHub](../.gitbook/assets/commit.png)
 
-{% hint style="success" %}
+{% hint style="info" %}
 Det finns nu ett sätt att undvika problem och det är att göra Fetch origin följt av Pull origin. Då hämtar du och laddar ned ändringarna som gjorts på GitHub. Gör du detta innan du börjat arbeta så kommer du inte att få någon konflikt, eller merge issue
 {% endhint %}
 
@@ -216,7 +216,7 @@ Om du markerat Intialize this repository with a README så kommer du inte att f�
 Här får du en lista över de kommandon som behöver köras lokalt i mappen för ditt git repo för att färdigställa allt. Värt att notera här är att det även skapar en README.md fil åt dig så att filen finns. Det är som följer.
 
 {% hint style="danger" %}
-Om du copy pastar detta, var noga med att alltid vara i rätt mapp!
+Om du copy pasta detta, var noga med att alltid vara i rätt mapp!
 {% endhint %}
 
 ```bash
@@ -319,7 +319,7 @@ Automatic merge failed; fix conflicts and then commit the result.
 
 Enklast är nu att öppna code och redigera de dokument med konflikter som finns, precis som för klienten.
 
-![Redigera de filer som har konflikter och spara.](../.gitbook/assets/changes.png)
+![Redigera de filer som har konflikter och spara](../.gitbook/assets/changes.png)
 
 När du sedan sparat dina ändringar behöver du göra en ny commit och pusha.
 
@@ -333,10 +333,73 @@ Om alla konflikter är lösta och det fungerar så är det klart och löst.
 
 ## Branches
 
+Tanken med Git är att vi ska arbeta med olika branches hela tiden. Den här guiden visar hur du gör med cmdline.
+
+> **Branching** is the way to work on different versions of a repository at one time.
+
+I övningarna ovan så har vi enbart arbetat med `master` branch och det är alltså något en ska försöka undvika. För att göra det så arbetar vi istället med andra branches än `master` och sedan slår vi ihop dem. Här nedan följer instruktioner för detta.
+
+#### Skapa en ny branch
+
+Se till att du är i rätt mapp, vi fortsätter från tidigare repo.
+
+```bash
+cd \code
+cd wu1-test
+git branch feature
+git checkout feature
+```
+
+Här byter vi till rätt mapp, sedan kör vi två Git kommandon. `git branch feature`, skapar en ny branch med namnet feature och `git checkout feature` byter till den branchen. Feature är såklart det namn vi har valt på vår branch och du byter ut det till vad som passar.
+
+{% hint style="danger" %}
+Var noga med att du arbetar i rätt branch, kontrollera!
+{% endhint %}
+
+```bash
+git branch
+# Vilket ger oss en lista av de branches som finns och * för den aktiva
+* feature
+  master
+```
+
+![Du kan kolla detta i code](../.gitbook/assets/branch.png)
+
+Så vi vet nu att vi arbetar i rätt branch, `feature`, så nu kan vi ändra på filerna i den. Skapa en ny fil i code och döp den till log.md.
+
+![Ny fil i feature branch](../.gitbook/assets/bfile.png)
+
+Låt oss säga att vi är nöjda med våra ändringar och att allting fungerar, vi vill nu commita detta till master. Det finns då två sätt att göra det på. Vi kan antingen slå ihop allt lokalt och sedan pusha master, eller så laddar vi upp vår branch till GitHub och skapar sedan en pull request. Det första alternativet fungerar rätt bra när vi själva arbetar på ett projekt, men om vi samarbetar med andra så bör vi absolut följa det senare alternativet. Jag kommer att visa det första alternativet här, för att kolla det senare, läs GitHubs guide som finns länkad [här](https://guides.github.com/activities/hello-world/) nedanför.
+
+```bash
+git branch # kolla vi är i feature
+git add . # . betyder, lägg till alla filer i mappen
+git commit -m"ny fil i ny branch"
+```
+
+Om vi nu kontrollerar filera i mappen, med `dir` eller `ls -la`, så ska vi se `log.md` filen. Byt nu till master branch och kontrollera filerna igen, `log.md` bör då inte synas. Vi kan nu slå ihop våra branches.
+
+```bash
+git checkout master
+git merge feature
+```
+
+Med detta så bör våra ändringar ha slagits ihop mellan våra branches, får vi merge konflikter så kan vi lösa dem på samma sätt som tidigare. Slutligen så tar vi bort vår feature branch för den har tjänat sitt syfte.
+
+```bash
+git branch -d feature
+```
+
+Så nu har vi sett ett exempel på hur GitHubs workflow ser ut, se till att läsa på om detta i GitHubs egna guider för att få en bättre förståelse för hur det fungerar.
+
 ## Läs mer
 
+* Cheat sheet, [https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
 * Hello world på GitHub, [https://guides.github.com/activities/hello-world/](https://guides.github.com/activities/hello-world/)
 * Understanding flow, [https://guides.github.com/introduction/flow/](https://guides.github.com/introduction/flow/)
+* Pages, [https://guides.github.com/features/pages/](https://guides.github.com/features/pages/)
+* [https://guides.github.com/](https://guides.github.com/)
+* [https://help.github.com/en/github/getting-started-with-github](https://help.github.com/en/github/getting-started-with-github)
 
 
 
