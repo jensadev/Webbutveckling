@@ -2,10 +2,10 @@
 
 * [Initial page](README.md)
 
-## Verktyg <a id="verktyg-1"></a>
+## Verktyg
 
-* [Git](verktyg-1/git.md)
-* [Visual Studio Code](verktyg-1/visual-studio-code.md)
+* [Visual Studio Code](verktyg/visual-studio-code.md)
+* [Git](verktyg/git.md)
 
 ## HTML
 
