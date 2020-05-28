@@ -161,7 +161,7 @@ Det du nu behöver göra är att öppna filen i code. Detta för att lösa denna
 
 ![Code hj&#xE4;lper oss att redigera filerna och v&#xE4;lja vilken kod vi vill spara](../.gitbook/assets/changes.png)
 
-Konflikt dialogen i klienten kommer sedan uppdateras när du sparat filen, löst konflikten och du kan nu committa dina ändringar. Avsluta sedan med att pusha.
+Konfliktdialogen i klienten kommer sedan uppdateras när du sparat filen, löst konflikten och du kan nu commita dina ändringar. Avsluta sedan med att pusha.
 
 ![L&#xF6;st!](../.gitbook/assets/resolved.png)
 
@@ -179,7 +179,7 @@ Att arbeta med de grafiska klienterna för att prata med GitHub funkar utmärkt,
 Skapa en code mapp om du inte har gjort det
 {% endhint %}
 
-Vi använder sedan `cmd`, `windows terminal`, `ubuntu`, `wsl` eller liknande för att skapa mappar och initiera Git.
+Vi använder sedan `cmd`, `windows terminal`, `ubuntu`, `wsl` eller liknande för att skapa en mapp för repot.
 
 ```bash
 # I Windows cmdline skriver du
@@ -189,10 +189,6 @@ md code # md är make directory, så använd bara om du inte skapat med Utforska
 cd code
 md wu1-test
 cd wu1-test
-
-git init # initierar detta som ett repository
-
-code . # startar visual studio code i mappen
 ```
 
 {% hint style="info" %}
@@ -204,4 +200,77 @@ När du nu har mappen skapad så behöver vi skapa repot på GitHub, gör det ge
 {% hint style="info" %}
 Det är generellt en bra ide att döpa mappen för sitt repo till repots namn
 {% endhint %}
+
+För att kunna fortsätta så behöver vi skapa ett repo på GitHubs webbplats, så surfa dit och välj Create new repository. Fyll sedan i formuläret och döpt det till wu1-test.
+
+![Skapa ett nytt repository dialogen p&#xE5; GitHub](../.gitbook/assets/newrepo.png)
+
+När du sedan klickat i att skapa det så kommer du att presenteras med en Quick setup för att koppla detta till din lokala dator.
+
+{% hint style="info" %}
+Om du markerat Intialize this repository with a README så kommer du inte att få Quick setup instruktionerna.
+{% endhint %}
+
+![Quick setup](../.gitbook/assets/qset.png)
+
+Här får du en lista över de kommandon som behöver köras lokalt i mappen för ditt git repo för att färdigställa allt. Värt att notera här är att det även skapar en README.md fil åt dig så att filen finns. Det är som följer.
+
+{% hint style="danger" %}
+Om du copy pastar detta, var noga med att alltid vara i rätt mapp!
+{% endhint %}
+
+```bash
+cd c:\code\wu1-test
+
+echo "# wu1-test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/jensnti/wu1-test.git
+git push -u origin master
+```
+
+1. echo skriver ett text meddelande och med &gt;&gt; så pipar det texten till en fil. README.md skapas
+2. git init, initialiserar mappen som ett git repo
+3. git add _filnamn_ lägger till en eller flera filer till repot
+4. git commit -m "meddelande", skapar en commit med det meddelande du anger.
+5. git remote add origin _github url_, detta kopplar samman git repot med remote origin på GitHub
+6. git push, säger åt oss att skicka vår senaste commit till GitHub
+
+{% hint style="info" %}
+Bortsett från att ladda upp README, så är det viktiga här att köra git init, git remote add.  
+När detta är gjort kan du arbeta med filerna på det sätt du väljer.
+{% endhint %}
+
+Så om du har copy pastat kommandona ovan så har du initierat repot och skapat readme filen, bra. Om du hade för bråttom och klistrade in det i c:, leta upp mappen .git i utforskaren och ta bort den. Börja sedan om.
+
+Vi ska nu redigera filen och ladda upp det på GitHub, innan vi provar att ställa till det och sedan lösa problemet.
+
+I cmdline, i mappen du har öppen bör du kunna skriva `code .` för att starta code, notera punkten efter code, den säger att du ska öppna code i den nuvarande mappen. Redigera sedan README.md och spara.
+
+Gå sedan tillbaka till ditt shell\(cmdline\) och kör följande.
+
+```bash
+git add README.md
+git commit -m "Uppdaterade README"
+git push
+```
+
+Det kommer förhoppningsvis stå något liknande detta, vilket betyder att det har fungerat.
+
+```bash
+c:\code\wu1-test>git push
+Counting objects: 39, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (28/28), done.
+Writing objects: 100% (39/39), 5.44 KiB | 928.00 KiB/s, done.
+Total 39 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/jensnti/wu1-test.git
+ * [new branch]      master -> master
+```
+
+### Problem då?
+
+Precis som i avsnittet med desktop klienten ska vi här titta på vad vi kan göra om vi får en merge issue när vi ska pusha till GitHub.
 
