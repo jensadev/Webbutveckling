@@ -256,7 +256,7 @@ git commit -m "Uppdaterade README"
 git push
 ```
 
-Det kommer förhoppningsvis stå något liknande detta, vilket betyder att det har fungerat.
+Det kommer förhoppningsvis stå något liknande detta, vilket betyder att det har fungerat. Om något annat har blivit fel så rekommenderar jag att du läser felmeddelanden och jobbar utifrån det.
 
 ```bash
 c:\code\wu1-test>git push
@@ -272,5 +272,71 @@ To https://github.com/jensnti/wu1-test.git
 
 ### Problem då?
 
-Precis som i avsnittet med desktop klienten ska vi här titta på vad vi kan göra om vi får en merge issue när vi ska pusha till GitHub.
+Precis som i avsnittet med desktop klienten ska vi här titta på vad vi kan göra om vi får en merge issue när vi ska pusha till GitHub. Vi börjar med att se till att vi är synkade lokalt mot remote.
+
+```bash
+git fetch
+git pull
+```
+
+Vi kan sedan surfa till repot på GitHub, där gör vi så en ändring i README.md och commitar den.
+
+![Redigera README.md p&#xE5; GitHub](../.gitbook/assets/commit.png)
+
+Vi ska sedan göra en lokal ändring i README.md, utan att först synka den med remote origin. Så öppna code och skriv mer i README.md.
+
+```bash
+git add README.md
+git commit -m"uppdatering av readme"
+git push
+```
+
+Eftersom våra repos inte är synkade så kommer vi nu att få en git merge, felmeddelandet ser ut ungefär såhär.
+
+```bash
+To https://github.com/jensnti/wu1-test.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/jensnti/wu1-test.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+```
+
+Vi får då försöka lösa detta, vår push misslyckades och läser vi meddelandet så får vi en hint om vad som ska göras.
+
+```bash
+git pull
+```
+
+Vilket ger oss följande meddelande\(och har du code öppet så bör README.md visa merge meddelandet\).
+
+```bash
+Auto-merging README.md
+CONFLICT (content): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+```
+
+Enklast är nu att öppna code och redigera de dokument med konflikter som finns, precis som för klienten.
+
+![Redigera de filer som har konflikter och spara.](../.gitbook/assets/changes.png)
+
+När du sedan sparat dina ändringar behöver du göra en ny commit och pusha.
+
+```bash
+git add README.md
+git commit -m"fixade konflikter"
+git push
+```
+
+Om alla konflikter är lösta och det fungerar så är det klart och löst.
+
+## Branches
+
+## Läs mer
+
+* Hello world på GitHub, [https://guides.github.com/activities/hello-world/](https://guides.github.com/activities/hello-world/)
+* Understanding flow, [https://guides.github.com/introduction/flow/](https://guides.github.com/introduction/flow/)
+
+
 
