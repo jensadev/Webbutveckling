@@ -16,13 +16,14 @@
 ## HTML
 
 * [Din första HTML fil](html/untitled.md)
-* [Språket](html/spraket.md)
+* [Språket](html/html-spraket.md)
 * [DOM](html/dom.md)
 * [Semantik](html/semantik.md)
 
 ## CSS
 
 * [Din första CSS fil](css/untitled.md)
+* [Språket](css/css-spraket.md)
 
 ## Media
 
@@ -32,6 +33,7 @@
 ## Javascript
 
 * [Ditt första skript](javascript/ditt-foersta-skript.md)
+* [Språket](javascript/js-spraket.md)
 
 ## Tester
 
