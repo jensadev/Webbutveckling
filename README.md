@@ -1,3 +1,9 @@
+---
+description: >-
+  Här finns länkar till de olika avsnittet tillsammans med det centrala
+  innehållet för kursen.
+---
+
 # Start
 
 ## Centralt innehåll
