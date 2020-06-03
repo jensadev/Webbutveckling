@@ -258,6 +258,15 @@ git push
 
 Det kommer förhoppningsvis stå något liknande detta, vilket betyder att det har fungerat. Om något annat har blivit fel så rekommenderar jag att du läser felmeddelanden och jobbar utifrån det.
 
+Du kan här stöta på problem med att Git vill att du specifierar vem du är, du behöver då konfigurera detta och skriva det.
+
+```bash
+git config user.name "Your Git Username"
+git config user.email "your@address.com"
+```
+
+När det är angett så bör du då kunna göra din commit och sedan pusha.
+
 ```bash
 c:\code\wu1-test>git push
 Counting objects: 39, done.
