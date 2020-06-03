@@ -1,6 +1,12 @@
-# Din första CSS fil
+---
+description: >-
+  I arbetet med en webbsida eller webbplats så är det viktigt att vi
+  kontrollerar kvalitén på produkten löpande under utvecklingen.
+---
 
-> Märkspråk och deras inbördes roller, syntax och semantik – där det huvudsakliga innehållet är standarderna för HTML och CSS samt orientering om Ecmaskript och dokumentobjektsmodellen \(DOM\).
+# Kodvalitet
+
+> Kvalitetssäkring av applikationens funktion och validering av kodens kvalitet.
 
 ## Getting Super Powers
 

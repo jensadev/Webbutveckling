@@ -1,5 +1,7 @@
 # Din första HTML fil
 
+> Märkspråk och deras inbördes roller, syntax och semantik – där det huvudsakliga innehållet är standarderna för HTML och CSS samt orientering om Ecmaskript och dokumentobjektsmodellen \(DOM\).
+
 ## Getting Super Powers
 
 Becoming a super hero is a fairly straight forward process:

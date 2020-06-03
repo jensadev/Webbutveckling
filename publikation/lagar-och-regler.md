@@ -1,6 +1,12 @@
-# Din första CSS fil
+---
+description: >-
+  När du publicerar på webben är det viktigt att du känner till vilka lagar och
+  regler som gäller, så att du kan följa dem.
+---
 
-> Märkspråk och deras inbördes roller, syntax och semantik – där det huvudsakliga innehållet är standarderna för HTML och CSS samt orientering om Ecmaskript och dokumentobjektsmodellen \(DOM\).
+# Lagar och regler
+
+> Lagar och andra bestämmelser som styr digital information, till exempel personuppgiftslagen och lagen om elektronisk kommunikation.
 
 ## Getting Super Powers
 

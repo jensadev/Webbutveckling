@@ -1,6 +1,12 @@
-# Din första CSS fil
+---
+description: >-
+  För att kunna publicera produkterna vi skapar behöver vi ett
+  publicerings-system.
+---
 
-> Märkspråk och deras inbördes roller, syntax och semantik – där det huvudsakliga innehållet är standarderna för HTML och CSS samt orientering om Ecmaskript och dokumentobjektsmodellen \(DOM\).
+# Git pages
+
+> Publikation av webbplatser med och utan webbpubliceringssystem.
 
 ## Getting Super Powers
 

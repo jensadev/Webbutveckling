@@ -1,6 +1,10 @@
-# Din första CSS fil
+---
+description: >-
+  Med semantik menas något som är meningsbärande, det berättar något om vad det
+  är.
+---
 
-> Märkspråk och deras inbördes roller, syntax och semantik – där det huvudsakliga innehållet är standarderna för HTML och CSS samt orientering om Ecmaskript och dokumentobjektsmodellen \(DOM\).
+# Semantik
 
 ## Getting Super Powers
 

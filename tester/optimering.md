@@ -1,6 +1,13 @@
-# Din första CSS fil
+---
+description: >-
+  I vårt producerade material behöver vi även ta hänsyn till
+  överföringshastighet och optimering av resurser.
+---
 
-> Märkspråk och deras inbördes roller, syntax och semantik – där det huvudsakliga innehållet är standarderna för HTML och CSS samt orientering om Ecmaskript och dokumentobjektsmodellen \(DOM\).
+# Optimering
+
+> * Interoperabilitet genom att följa standarder och testa på olika användaragenter.
+> * Bilder och media med alternativa format, optimering och tillgänglighet.
 
 ## Getting Super Powers
 

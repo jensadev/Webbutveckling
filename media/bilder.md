@@ -1,8 +1,20 @@
-# Din första CSS fil
+# Bilder
 
-> Märkspråk och deras inbördes roller, syntax och semantik – där det huvudsakliga innehållet är standarderna för HTML och CSS samt orientering om Ecmaskript och dokumentobjektsmodellen \(DOM\).
+> Bilder och media med alternativa format, optimering och tillgänglighet.
 
-## Getting Super Powers
+## Bildformat
+
+Det finns ett antal olika typer av bildformat, vilka passar olika bra beroende på vad vår bild föreställer.
+
+### PNG
+
+### JPEG
+
+### GIF
+
+### SVG
+
+## Optimering
 
 Becoming a super hero is a fairly straight forward process:
 
