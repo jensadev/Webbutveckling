@@ -11,7 +11,7 @@ description: >-
 * Webben som plattform, dess historia och samhällspåverkan.
 * [Teknisk orientering om webbens protokoll, adresser, säkerhet och samspelet mellan klient och server.](teknisk-orientering/viktiga-begrepp.md)
 * [Publikation av webbplatser med och utan webbpubliceringssystem.](publikation/git-pages.md)
-* [Processen för ett webbutvecklingsprojekt med målsättningar, planering, specifikation av struktur och design, kodning, optimering, testning, dokumentation och uppföljning.](projekt/planering.md)
+* [Processen för ett webbutvecklingsprojekt med målsättningar, planering, specifikation av struktur och design, kodning, optimering, testning, dokumentation och uppföljning.](https://jens-andreasson.gitbook.io/projekt/)
 * Märkspråk och deras inbördes roller, syntax och semantik – där det huvudsakliga innehållet är standarderna för [HTML](html/html-spraket.md) och [CSS](css/css-spraket.md) samt orientering om [Ecmaskript](javascript/js-spraket.md) och [dokumentobjektsmodellen](html/dom.md) \(DOM\).
 * Teckenkodning, begrepp, standarder och handhavande.
 * [Bilder och media med alternativa format, optimering och tillgänglighet.](media/bilder.md)

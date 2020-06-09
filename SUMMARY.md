@@ -12,6 +12,7 @@
 ## Teknisk orientering
 
 * [Viktiga begrepp](teknisk-orientering/viktiga-begrepp.md)
+* [Teckenkodning](teknisk-orientering/teckenkodning.md)
 
 ## HTML
 
@@ -45,10 +46,4 @@
 
 * [Git pages](publikation/git-pages.md)
 * [Lagar och regler](publikation/lagar-och-regler.md)
-
-## Projekt
-
-* [Planering](projekt/planering.md)
-* [Dokumentation](projekt/dokumentation.md)
-* [Uppföljning](projekt/uppfoeljning.md)
 
