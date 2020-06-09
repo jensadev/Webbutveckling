@@ -14,6 +14,8 @@ Git pages, localhost och www.google.com
 
 http, https, tcp/ip
 
+### Portar
+
 ## Adresser
 
 dns
