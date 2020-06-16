@@ -6,33 +6,36 @@ description: Introduktion till Git och Github
 
 ## GitHub
 
-[Git](https://git-scm.com/) är ett versions-hanteringssystem för projekt och [GitHub](https://github.com/) är ett webbhotell\(enkelt uttryckt\) för Git-projekt.
+[**Git**](https://git-scm.com/) är ett **versions-hanteringssystem** för projekt och [**GitHub**](https://github.com/) är en **utvecklarplattform** för att arbeta med Git som ägs av Microsoft. GitHub är en plattform som är värd för alla möjliga olika arbeten med kod.
 
 ### Varför?
 
-Vi använder GitHub i alla programmeringskurserna på skolan. Anledningen till att vi gör det är att vi dels kan få en bra överblick över din progression genom uppgiften. Men det ger oss även viss dokumentation av ditt arbete samt en samlad plattform där vi sköter inlämningar.
+GitHub är något som skolan använder i alla programmeringskurser. Anledningen till det är att Git är ett utmärkt verktyg för att se:
 
-Jag som lärare kan även enkelt dela kod till er och ni kan använda den.
+* Progression
+* Arbete
+* Förståelse
+* Dokumentation
 
-GitHub ger även utmärkta möjligheter till samarbete och att lära av varandra. Det är även ett välkänt och väldigt ofta förekommande verktyg i arbetslivet.
+GitHub låter både lärare och elever att dela kod. GitHub ger även utmärkta möjligheter till samarbete och att lära av varandra. Github är även ett välkänt och väldigt ofta förekommande verktyg i arbetslivet.
 
-Vi kommer även att använda oss av GitHub classroom.
+GitHub Classroom. kommer även att användas som komplement till Google Classroom i kursen.
 
 {% hint style="info" %}
- Har du registrerat ett konto på [GitHub](https://github.com/)?
+ Registrera ett konto på [GitHub](https://github.com/)
 {% endhint %}
 
 ### Installation
 
-GitHub kommer som en desktop applikation och som ett cmdline verktyg. För desktop klienten så laddar du ned programmet och kör installationsfilen.
+GitHub finns både som **desktop**- och **command line** \(**cmd\)** applikation . Oavsett vilken **klient** du ska använda så behöver du ladda ned och installera den.
 
 {% hint style="info" %}
-Ladda ned och installera desktop klienten, [https://desktop.github.com/](https://desktop.github.com/)
+Hämta desktop-klienten här, [https://desktop.github.com/](https://desktop.github.com/)
 {% endhint %}
 
-#### Om du vill installera cmdline Git
+#### Om du vill installera cmd Git
 
-För cmdline versionen så laddar du antingen ned [Git portable](https://git-scm.com/download/win), eller kör [WSL](https://jens-andreasson.gitbook.io/webbserverprogrammering/utvecklarmiljo/wsl). Detta är alltså inte en GitHub klient på samma sätt som GitHubs desktop applikation.
+För cmd-versionen så laddar du antingen ned [Git portable](https://git-scm.com/download/win), eller kör [WSL](https://jens-andreasson.gitbook.io/webbserverprogrammering/utvecklarmiljo/wsl). Detta är alltså inte en GitHub klient på samma sätt som GitHubs desktop-klient.
 
 {% hint style="info" %}
 Ladda ned 64-bit Git portable for Windows, [https://git-scm.com/download/win](https://git-scm.com/download/win)
@@ -42,28 +45,34 @@ Ladda ned 64-bit Git portable for Windows, [https://git-scm.com/download/win](ht
 Ett _portable_ program är ett program utan installationsfiler. Du laddar ned det, packar\(oftast\) upp det och sedan kan du köra programmet
 {% endhint %}
 
-PortableGit är en .exe fil som packar upp sina filer där du väljer att spara dem. Kör det och välj att spara filerna under `c:\tools\portablegit`.
+**PortableGit** är en **körbar** \(**executable, exe**\) fil som låter dig packa upp de filer du behöver. Kör programmet och välj att spara filerna under `c:\tools\portablegit`.
 
-För att sedan kunna använda Git från cmdline behöver vi lägga till det i ditt systems PATH variabel, detta så att systemet kan hitta programmet.
+Windows behöver kunna hitta program för att kunna köra dem från cmd \(till exempel **Powershell**\). För det används systemets **PATH**, en global sökväg som går att redigera. För att lägga till ett program i PATH:
 
-1. Starta Utforskaren\(Explorer\), `win+E`
-2. Högerklicka på den här datorn, välj Egenskaper.
-3. Du får nu upp Kontrollpanelen, System och säkerhet, System
-4. Välj Avancerade systeminställningar
-5. Klicka på Miljövariabler
-6. Under Användarvariabler för din användare, så letar du upp och dubbelklickar på Path
-7. Välj Ny och skriv in sökvägen till `\bin` mappen i Git katalogen. Det bör vara, `C:\tools\PortableGit\bin`
-8. Starta Powershell \(eller starta om det om du hade det igång\)
-9. Skriv kommandot `git`, funkar det så bör få en lista över tillgängliga kommandon för programmet
-10. Klart, fira!
+1. Starta **Utforskaren** \(**Explorer**\), `win+E`
+2. Högerklicka på **Den här datorn**, välj **Egenskaper**
+3. Öppna **System och säkerhet, System**    i **Kontrollpanelen**
+4. Välj **Avancerade systeminställningar**
+5. Klicka på **Miljövariabler**
+6. Välj **Användarvariabler** för din användare
+7. Dubbelklicka på PATH
+8. Välj **Ny** och skriv in **sökvägen** `c:\tools\PortableGit\bin`
+   1. Byt sökväg om du installerar andra program
+9. Starta Powershell
+10. Kör git, du kommer att se programmets hjälp.
+11. Klart
+
+{% hint style="warning" %}
+Efter ändringar i PATH måste cmd-program startas om för att ändringarna ska gälla
+{% endhint %}
 
 ### Ditt första repository
 
 {% hint style="info" %}
-Tips: Kör igenom desktop klientens tutorial om detta är helt nytt
+Gör desktop-klientens tutorial
 {% endhint %}
 
-Ett repository, eller repo, är en sida på GitHub där alla dina filer till projektet är samlade\(tillsammans med massa annat\). På github.com så har det en url som följer samma mönster.
+Ett **repository \(**eller **repo**\), är en ****folder som innehåller information om ett Git-projekt. Ett repo kan kopplas till en sida på GitHub. Där finns filerna för projektet tillsammans med annat. Github sparar adressen \(unifrom resource locator url\) till repos enlså har det en url som följer samma mönster.
 
 {% hint style="info" %}
 github.com/username/repository-namn
