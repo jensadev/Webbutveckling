@@ -49,14 +49,14 @@ Ett _portable_ program är ett program utan installationsfiler. Du laddar ned de
 
 Windows behöver kunna hitta program för att kunna köra dem från cmd \(till exempel **Powershell**\). För det används systemets **PATH**, en global sökväg som går att redigera. För att lägga till ett program i PATH:
 
-1. Starta **Utforskaren** \(**Explorer**\), `win+E`
+1. Starta **Utforskaren** \(**Explorer**\) win+e
 2. Högerklicka på **Den här datorn**, välj **Egenskaper**
 3. Öppna **System och säkerhet, System**    i **Kontrollpanelen**
 4. Välj **Avancerade systeminställningar**
 5. Klicka på **Miljövariabler**
 6. Välj **Användarvariabler** för din användare
 7. Dubbelklicka på PATH
-8. Välj **Ny** och skriv in **sökvägen** `c:\tools\PortableGit\bin`
+8. Välj **Ny** och skriv in **sökvägen** c:\tools\PortableGit\bin
    1. Byt sökväg om du installerar andra program
 9. Starta Powershell
 10. Kör git, du kommer att se programmets hjälp.
@@ -66,68 +66,65 @@ Windows behöver kunna hitta program för att kunna köra dem från cmd \(till e
 Efter ändringar i PATH måste cmd-program startas om för att ändringarna ska gälla
 {% endhint %}
 
-### Ditt första repository
+## Ditt första repository
 
 {% hint style="info" %}
-Gör desktop-klientens tutorial
+Börja med desktop-klientens tutorial
 {% endhint %}
 
-Ett **repository \(**eller **repo**\), är en ****folder som innehåller information om ett Git-projekt. Ett repo kan kopplas till en sida på GitHub. Där finns filerna för projektet tillsammans med annat. Github sparar adressen \(unifrom resource locator url\) till repos enlså har det en url som följer samma mönster.
+Ett **repository \(**eller **repo**\), är en ****folder som innehåller information om ett Git-projekt. Ett repo kan kopplas till en sida på GitHub. Där finns filerna för projektet tillsammans med annat. Github sparar webb-adressen \(**Unifrom Resource Locator, URL**\) till repos enligt samma mönster.
 
 {% hint style="info" %}
 github.com/username/repository-namn
 {% endhint %}
 
-För att skapa ett nytt repo med desktop klienten så kan vi klicka på **+ Create a New...** och följer instruktionerna.
+För att skapa ett nytt repo med desktop-klienten, klicka på **+ Create a New...**
 
-![GitHub desktop klient](https://lh6.googleusercontent.com/TpP2mAMNVohIZ8sSTCgSdI8WyqAm5UaoD-hhy4FpJ5GAeuu8N58mRL-pxQK5gByqLHkuh8DV_ySIg7Y4DuYPL88hZWGvExwL8RqLeLAd-oDk4W4mk-PnxAxwqKUP2zpEVfSKYUuI)
+![GitHubs desktop-klient, det bl&#xE5;markerade &#xE4;r start-tutorialen](https://lh6.googleusercontent.com/TpP2mAMNVohIZ8sSTCgSdI8WyqAm5UaoD-hhy4FpJ5GAeuu8N58mRL-pxQK5gByqLHkuh8DV_ySIg7Y4DuYPL88hZWGvExwL8RqLeLAd-oDk4W4mk-PnxAxwqKUP2zpEVfSKYUuI)
 
-Alternativt så gör vi detta på webbplatsen, men då behöver du välja "Add an Existing..." i desktop klienten för att koppla ihop dem.
+Ett repo kan även skapas på Github.com. För att koppla det till desktop-klienten klicka "Add an Existing...".
 
 1. Surfa till [https://github.com/](https://github.com/)
-2. Logga in
-3. Klicka på + i menyn och välj, New repository
-4. Skriv in ett namn
-5. Klicka på att skapa
+2. Logga in med ditt konto
+3. Klicka på + i menyn
+4. Välj, New repository
+5. Skriv in ett namn
+6. Klicka på Create
 
 ## Att använda Github
 
-Git är ett versionshanteringssystem, med det menas att det håller reda på dina filer och innehållet i dem. Detta sker lokalt med git, men när vi använder GitHub så kan vi synka det med filer som sparas på deras tjänst. Vi ska nu testa detta.
+Git är ett versionshanteringssystem, med det menas att det håller reda på filer, filernas innehåll och ändringar. Repot sköter det lokalt på en dator och det kan synkas mot GitHub.
 
 {% hint style="info" %}
-Att ha ett centralt ställe på din dator där du sparar allt arbetet med kod är god praxis
+Det är god praxis att spara all kod på ett samlat ställe
 {% endhint %}
 
-Först ska vi se till att vi har en mapp där vi kan spara allt arbete med kod på din dators hårddisk. Öppna Utforskaren\(Explorer\) i Windows och skapa en ny mapp\(Folder\) i c:\
+Först ska du skapa en mapp på din dator där du kan spara all kod. Öppna Utforskaren \(Explorer\) och skapa en ny **mapp** \(folder\) i c:\
 
 ![Skapa en c:\code mapp i Utforskaren](../.gitbook/assets/mapp.png)
 
-Bra, nu kan vi komma igång. [Klicka här om du vill hoppa till avsnittet för cmdline](git.md#git-cmdline).
+[Klicka här om du vill hoppa till avsnittet för cmd](git.md#git-cmdline).
 
 ### Github desktop
 
-{% hint style="warning" %}
-Här förutsätts det att du har kört igenom desktop klientens tutorial
-{% endhint %}
-
-Först så ska vi skapa ett repo att använda.
+Skapa först ett nytt repo.
 
 ![Skapa ett nytt repo](../.gitbook/assets/cnew.png)
 
-När det är klart så kan du sedan välja att publicera detta till Github, det kommer då att skapas ett repo på Githubs webbsida som kopplas till din lokala mapp.
+Publicera sedan ditt repo till Github, det kommer då att skapas ett repo på Githubs webbsida som kopplas till det lokala repot. Viktigt i arbetet mellan lokal dator och Github är att filerna är synkroniserade, annars kan det bli [problem](git.md#problem-och-att-loesa-dem).
 
 ![Publicera p&#xE5; GitHub](../.gitbook/assets/pub.png)
 
-Vi är nu redo att börja arbeta. Förslagsvis öppnar du nu ditt repo med Visual Studio Code. Använd antingen knappen eller i code så väljer du Open Folder i File menyn.
+Använd sedan **Visual Studio Code** \(**vscode**\) för att öppna ditt repo. Antingen genom knappen i desktop-klienten, eller i vscode genom att välja Open Folder i File-menyn.
 
-I code så skapar du sedan en ny fil. I filen skriver du det som följer och sparar det sedan som `README.md`
+Skapa sedan en ny fil i vscode. Redigera filen och spara som README.md
 
 ```bash
 # Hallå världen
 Hej
 ```
 
-I alla repon bör det finnas en `README.md` fil, detta är en den fil som GitHub automatiskt visar för repot och den är skriven i [Markdown](https://guides.github.com/features/mastering-markdown/).
+Readme-filen är en standard i repon. I filen skrivs information kring projektet och GitHub visar den automatiskt på projektets sida. Filen skrivs i märkspråket [**Markdown**](https://guides.github.com/features/mastering-markdown/) \(**MD**\).
 
 Nu när vi har ändringar i filen så kan vi hoppa över till klienten igen. Vi ser där en lista över våra ändringar.  Klicka sedan Commit to master och efter det Push origin. Du har nu laddat upp dina lokala ändringar till GitHub.
 
