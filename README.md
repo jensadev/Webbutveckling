@@ -15,7 +15,7 @@ description: >-
 * Märkspråk och deras inbördes roller, syntax och semantik – där det huvudsakliga innehållet är standarderna för [HTML](html/html-spraket.md) och [CSS](css/css-spraket.md) samt orientering om [Ecmaskript](javascript/js-spraket.md) och [dokumentobjektsmodellen](html/dom.md) \(DOM\).
 * [Teckenkodning, begrepp, standarder och handhavande.](teknisk-orientering/teckenkodning.md)
 * [Bilder och media med alternativa format, optimering och tillgänglighet.](media/bilder.md)
-* Riktlinjer för god praxis inom webbutveckling.
+* [Riktlinjer för god praxis inom webbutveckling.](tester/checklista-foer-webbsidor.md)
 * [Interoperabilitet genom att följa standarder och testa på olika användaragenter.](tester/kodvalitet.md)
 * [Applikationer som fungerar oberoende av val av användaragent, operativsystem eller hårdvaruplattform och hur tillgänglighet uppnås även för användare med funktionsnedsättning.](tester/anvaendbarhet-och-tillgaenglighet.md)
 * [Kvalitetssäkring av applikationens funktion och validering av kodens kvalitet.](tester/kodvalitet.md)
