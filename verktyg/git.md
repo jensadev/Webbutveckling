@@ -46,16 +46,16 @@ PortableGit är en .exe fil som packar upp sina filer där du väljer att spara 
 
 För att sedan kunna använda Git från cmdline behöver vi lägga till det i ditt systems PATH variabel, detta så att systemet kan hitta programmet.
 
-* [ ] Starta Utforskaren\(Explorer\), `win+E`
-* [ ] Högerklicka på den här datorn, välj Egenskaper.
-* [ ] Du får nu upp Kontrollpanelen, System och säkerhet, System
-* [ ] Välj Avancerade systeminställningar
-* [ ] Klicka på Miljövariabler
-* [ ] Under Användarvariabler för din användare, så letar du upp och dubbelklickar på Path
-* [ ] Välj Ny och skriv in sökvägen till `\bin` mappen i Git katalogen. Det bör vara, `C:\tools\PortableGit\bin`
-* [ ] Starta Powershell \(eller starta om det om du hade det igång\)
-* [ ] Skriv kommandot `git`, funkar det så bör få en lista över tillgängliga kommandon för programmet
-* [ ] Klart, fira!
+1. Starta Utforskaren\(Explorer\), `win+E`
+2. Högerklicka på den här datorn, välj Egenskaper.
+3. Du får nu upp Kontrollpanelen, System och säkerhet, System
+4. Välj Avancerade systeminställningar
+5. Klicka på Miljövariabler
+6. Under Användarvariabler för din användare, så letar du upp och dubbelklickar på Path
+7. Välj Ny och skriv in sökvägen till `\bin` mappen i Git katalogen. Det bör vara, `C:\tools\PortableGit\bin`
+8. Starta Powershell \(eller starta om det om du hade det igång\)
+9. Skriv kommandot `git`, funkar det så bör få en lista över tillgängliga kommandon för programmet
+10. Klart, fira!
 
 ### Ditt första repository
 
@@ -75,11 +75,11 @@ För att skapa ett nytt repo med desktop klienten så kan vi klicka på **+ Crea
 
 Alternativt så gör vi detta på webbplatsen, men då behöver du välja "Add an Existing..." i desktop klienten för att koppla ihop dem.
 
-* [ ] Surfa till [https://github.com/](https://github.com/)
-* [ ] Logga in
-* [ ] Klicka på + i menyn och välj, New repository
-* [ ] Skriv in ett namn
-* [ ] Klicka på att skapa
+1. Surfa till [https://github.com/](https://github.com/)
+2. Logga in
+3. Klicka på + i menyn och välj, New repository
+4. Skriv in ett namn
+5. Klicka på att skapa
 
 ## Att använda Github
 
