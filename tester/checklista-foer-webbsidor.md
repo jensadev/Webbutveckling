@@ -27,14 +27,14 @@ Innan du lämnar in projekt och arbeten är det bra att testa det. En del tester
 * Om möjligt:
   * Hosta på skolan.
   * Kör hostingtjänst enligt kurs.
-    * [Heroku](https://www.heroku.com/)
+    * [Heroku](https://www.heroku.com/).
 
 ## Manuell granskning
 
 * Sidan fungerar i ett par webbläsare.
 * Sidan fungerar på telefon.
   * Använd Git pages. live eller lokal server för att testa.
-* Kolla av checklistan, [https://webbriktlinjer.se/testa-din-webbplats/  ](https://webbriktlinjer.se/testa-din-webbplats/)
+* Kolla av checklistan, [https://webbriktlinjer.se/testa-din-webbplats/  ](https://webbriktlinjer.se/testa-din-webbplats/).
 
 ## Lagar och regler
 
@@ -45,18 +45,18 @@ Innan du lämnar in projekt och arbeten är det bra att testa det. En del tester
 ## Validering
 
 * Alla sidans dokument validerar som korrekt HTML  .
-  * [https://validator.nu/    ](https://validator.nu/)
+  * [https://validator.nu/    ](https://validator.nu/).
 * All CSS validerar som korrekt CSS.
-  * [https://jigsaw.w3.org/css-validator/    ](https://jigsaw.w3.org/css-validator/)
+  * [https://jigsaw.w3.org/css-validator/    ](https://jigsaw.w3.org/css-validator/).
 
 ## Design
 
 Försök att kontinuerligt utvärdera sidans design, framförallt om den är din egen. Var inte rädd för att ändra om det inte fungerar. 
 
-* Skissa
-* Gör prototyper
-* Utvärdera
-* Testa användbarheten
+* Skissa.
+* Gör prototyper.
+* Utvärdera.
+* Testa användbarheten.
 
 ## Media
 
@@ -74,17 +74,17 @@ Försök att kontinuerligt utvärdera sidans design, framförallt om den är din
 ## Tillgänglighet
 
 * Sidan har testats med Wave.
-  * [https://wave.webaim.org/    ](https://wave.webaim.org/)
+  * [https://wave.webaim.org/    ](https://wave.webaim.org/).
   * Finns även som extension.
 * Arbete är gjort för att begränsa och åtgärda kontrast-varningar.
   * Motivera.
 * Sidan använder semantiska strukturelement.
 * Sidan är begriplig och fungerar utan:
-  * CSS
-  * Javascript
+  * CSS.
+  * Javascript.
 
 {% hint style="danger" %}
-Sidan är inte en katastrof enligt [https://webbriktlinjer.se/riktlinjer/](%20https://webbriktlinjer.se/riktlinjer/)
+Sidan du skapat är inte en katastrof enligt [https://webbriktlinjer.se/riktlinjer/](%20https://webbriktlinjer.se/riktlinjer/).
 {% endhint %}
 
 ## Helhet

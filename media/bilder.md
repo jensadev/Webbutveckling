@@ -16,8 +16,8 @@ På grund av tekniska begränsningar användes webben enbart från stationära d
 
 Statistik från [statcounter](https://gs.statcounter.com/):
 
-* [Stationär \(desktop\)](https://gs.statcounter.com/screen-resolution-stats/desktop/worldwide)
-* [Mobiltelefon](https://gs.statcounter.com/screen-resolution-stats/mobile/worldwide)
+* [Stationär \(desktop\)](https://gs.statcounter.com/screen-resolution-stats/desktop/worldwide).
+* [Mobiltelefon](https://gs.statcounter.com/screen-resolution-stats/mobile/worldwide).
 
 Upplösningen 1366 x 768 är fortfarande vanligast på stationära datorer, tätt följt av 1920 x 1080. Av denna anledning är det viktigt att testa olika upplösningar vid skapandet av en webbsida. 1366 x 768 har bildförhållandet 16:9 så formatet är densamma som för 1920 x 1080.
 
@@ -88,7 +88,7 @@ SVG använder CSS för bland annat färg och typsnitt.
 Det finns ett antal nya experimentella bildformat som används på webben. De optimerar bilder i väldigt hög grad, men de stöds ännu inte av alla webbläsare. När dessa format används är det viktigt att kontrollera i vilka webbläsare det fungerar och erbjuda alternativ.
 
 {% hint style="info" %}
-Använd experimentella format med försiktighet
+Använd experimentella format med försiktighet.
 {% endhint %}
 
 ## Optimering

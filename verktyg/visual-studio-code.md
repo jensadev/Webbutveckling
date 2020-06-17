@@ -34,11 +34,11 @@ Här följer en lista med olika användbara extensions. De är länkade till [Ma
 
 #### Teman
 
-* [Slime Theme](https://marketplace.visualstudio.com/items?itemName=smlombardi.slime), mörkt och trevligt
+* [Slime Theme](https://marketplace.visualstudio.com/items?itemName=smlombardi.slime), mörkt och trevligt.
 
 #### Webb
 
-* [Live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), låter dig arbeta med en webbsida utan att behöva ladda om hela tiden
+* [Live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), låter dig arbeta med en webbsida utan att behöva ladda om hela tiden.
 
 
 
