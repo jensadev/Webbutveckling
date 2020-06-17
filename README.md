@@ -1,7 +1,7 @@
 ---
 description: >-
-  Här finns länkar till de olika avsnittet tillsammans med det centrala
-  innehållet för kursen.
+  Utifrån det centrala innehållet för webbutveckling finns här länkar till de
+  olika områdena.
 ---
 
 # Start

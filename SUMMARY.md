@@ -6,6 +6,7 @@
 
 * [Visual Studio Code](verktyg/visual-studio-code.md)
 * [Git](verktyg/git.md)
+* [Skisser](verktyg/skisser.md)
 * [Figma](verktyg/figma.md)
 * [Photoshop](verktyg/photoshop.md)
 
