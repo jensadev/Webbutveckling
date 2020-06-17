@@ -101,7 +101,7 @@ Det är god praxis att spara all kod på ett samlat ställe
 
 Först ska du skapa en mapp på din dator där du kan spara all kod. Öppna Utforskaren \(Explorer\) och skapa en ny **mapp** \(folder\) i c:\
 
-![Skapa en c:\code mapp i Utforskaren](../.gitbook/assets/mapp.png)
+![Skapa en code mapp i c: med hj&#xE4;lp av Utforskaren](../.gitbook/assets/mapp.png)
 
 [Klicka här om du vill hoppa till avsnittet för cmd](git.md#git-cmdline).
 
@@ -132,19 +132,31 @@ Nu när vi har ändringar i filen så kan vi hoppa över till klienten igen. Vi 
 Här förutsätts det att du inte har gjort några ändringar på github.com, du kommer annars få konflikter
 {% endhint %}
 
+### Commit
+
+**Commits** är kärnan i att arbeta med GIthub. Du arbetar med filer på **local**. När du arbetat färdigt med filerna så behöver du först lägga till dem, **add**, sedan **commit**. Det sista steget är **push** för att skicka filerna till **remote**, alltså Github.
+
+{% hint style="info" %}
+Github training, Commits, [https://youtu.be/A-Cll9jEnnM](https://youtu.be/A-Cll9jEnnM)
+{% endhint %}
+
 ### Problem och att lösa dem
 
-Som tidigare nämnt så är Git ett versionshanteringssystem, detta kan leda till att det blir konflikter mellan dina lokala filer och de som finns sparade på GitHub. Git måste bestämma vilken version av filen som ska användas och vad den ska innehålla. För att lära oss hantera detta så ska vi skapa en sådan konflikt.
+Git ett versionshanteringssystem, detta kan leda till att det blir konflikter \(**issues**\) mellan olika versioner av filer. Git måste bestämma vilken version av filen som ska användas och vad den ska innehålla. För att du ska lära dig hantera en sådan konflikt ska du först få skapa en, för att sedan lösa den.
 
-Börja med att surfa till ditt repo på github.com. Där väljer du sedan att redigare din README.md fil. Gör en ändring och välj Commit changes.
+Börja på Github.com. Redigera \(**edit**\) README-filen. Gör en eller flera ändringar och välj sedan **Commit changes**.
 
 ![Redigera och commita &#xE4;ndringar p&#xE5; GitHub](../.gitbook/assets/commit.png)
 
 {% hint style="info" %}
-Det finns nu ett sätt att undvika problem och det är att göra Fetch origin följt av Pull origin. Då hämtar du och laddar ned ändringarna som gjorts på GitHub. Gör du detta innan du börjat arbeta så kommer du inte att få någon konflikt, eller merge issue
+Det finns nu ett sätt att undvika problem och det är att göra **Fetch origin** följt av **Pull origin**. Då hämtar Git-klienten ändringarna som gjorts från GitHub. Gör du det innan du börjar arbeta med filerna så kommer du förhoppningsvis kunna undvika konflikter av denna typ \(**merge issues**\).
 {% endhint %}
 
-Om vi inte har haft framförhållningen att köra Fetch så måste vi då kunna lösa problemet. Det gör vi som följer. Se nu till att du har ändringar på origin som du inte har lokalt. Gå sedan in i code och gör ändringar.
+Om en konflikt uppstår måste du kunna lösa problemet för att kunna fortsätta arbeta med Git. För att testa detta.
+
+* Redigera README-filen på remote \(Github.com\)
+* Redigera README-filen på local \(din dator\)
+* Kom ihåg att spara
 
 {% code title="README.md" %}
 ```bash
@@ -155,26 +167,26 @@ Detta är ändringar som inte finns på origin och origin har ändrats!
 ```
 {% endcode %}
 
-Öppna sedan klienten och välj Commit to master. Du kommer då att få en varning om att du behöver hämta origin. 
+Välj sedan **Commit to master** i klienten. Klienten varnar då om att origin behövers hämtas \(pull\). 
 
-![Klienten ber&#xE4;ttar vad vi beh&#xF6;ver g&#xF6;ra f&#xF6;r att kunna ladda upp v&#xE5;r senaste commit](../.gitbook/assets/pull.png)
+![Klienten f&#xF6;rklarar vad n&#xE4;sta steg &#xE4;r](../.gitbook/assets/pull.png)
 
-Detta kommer leda till en konflikt som behöver lösas innan vi kan slå ihop de ändringar vi har gjort.
+En konflikt av typen merge issue har nu uppståt och måste lösas \(**resolve**\).
 
-![Klienten varnar oss](../.gitbook/assets/resolve.png)
+![Klienten varnar om konflikten](../.gitbook/assets/resolve.png)
 
 Det du nu behöver göra är att öppna filen i code. Detta för att lösa denna konflikt. I code så kommer då de ändringar som gjorts visas. Du behöver välja vilka ändringar i filen du ska spara. Välj och spara sedan filen.
 
-![Code hj&#xE4;lper oss att redigera filerna och v&#xE4;lja vilken kod vi vill spara](../.gitbook/assets/changes.png)
+![Vscode fungerar tillsammans med Git f&#xF6;r att underl&#xE4;tta arbetet](../.gitbook/assets/changes.png)
 
-Konfliktdialogen i klienten kommer sedan uppdateras när du sparat filen, löst konflikten och du kan nu commita dina ändringar. Avsluta sedan med att pusha.
+Konflikt-dialogen i klienten uppdateras när filen eller filerna redigerats. Konflikten är då löst och ändringarna behöver commitas. Avsluta med att pusha.
 
-![L&#xF6;st!](../.gitbook/assets/resolved.png)
+![Konflikten &#xE4;r l&#xF6;st](../.gitbook/assets/resolved.png)
 
-Det är inte alltid så här lätt att lösa konflikter mot GitHub, men detta är grundprincipen.
+Git konflikter kan ta olika form, men det här är hur du löser en typ av dem.
 
 {% hint style="info" %}
-Du kan även använda code för att jobba mot GitHub. Du hittar mer om det i Source Control tabben
+Vscode kan också användas för att jobba mot GitHub. Då används  Source Control tabben
 {% endhint %}
 
 ### Git cmdline
