@@ -8,26 +8,21 @@ description: >-
 
 > Lagar och andra bestämmelser som styr digital information, till exempel personuppgiftslagen och lagen om elektronisk kommunikation.
 
-## Getting Super Powers
+## GDPR
 
-Becoming a super hero is a fairly straight forward process:
+GDPR är det EU-direktiv som ersatt personuppgiftslagen sedan...
 
-```
-$ give me super-powers
-```
+## Copyright
 
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
+I arbetet med webben är det av yttersta vikt att känna till och även följa Copyright lagar. 
 
-Once you're strong enough, save the world:
+### Verkshöjd
 
-{% code title="hello.sh" %}
-```bash
-# Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
-{% endcode %}
+### Fair use
+
+Fair use är något som 
+
+## Lagen om elektronisk kommunikation \(LEK\)
 
 
 

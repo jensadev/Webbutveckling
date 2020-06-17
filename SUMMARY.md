@@ -25,11 +25,17 @@
 
 * [Din första CSS fil](css/untitled.md)
 * [Språket](css/css-spraket.md)
+* [Sass](css/sass.md)
 
 ## Media
 
 * [Bilder](media/bilder.md)
 * [Video](media/video.md)
+
+## Design
+
+* [Responsiv design](design/responsiv-design.md)
+* [Bootstrap](design/bootstrap.md)
 
 ## Javascript
 
@@ -38,7 +44,7 @@
 
 ## Tester
 
-* [Kodvalitet](tester/kodvalitet.md)
+* [Kodkvalitet](tester/kodkvalitet.md)
 * [Användbarhet och tillgänglighet](tester/anvaendbarhet-och-tillgaenglighet.md)
 * [Optimering](tester/optimering.md)
 * [Checklista för Webbsidor](tester/checklista-foer-webbsidor.md)

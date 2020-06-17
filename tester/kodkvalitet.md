@@ -4,7 +4,7 @@ description: >-
   kontrollerar kvalitén på produkten löpande under utvecklingen.
 ---
 
-# Kodvalitet
+# Kodkvalitet
 
 > Kvalitetssäkring av applikationens funktion och validering av kodens kvalitet.
 

@@ -1,7 +1,7 @@
 ---
 description: >-
-  Med semantik menas något som är meningsbärande, det berättar något om vad det
-  är.
+  Semantik är grekiska för tecken. På webben används semantiken för att visa på
+  innehåll, vara meningsbärande.
 ---
 
 # Semantik
