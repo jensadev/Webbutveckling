@@ -361,15 +361,15 @@ git push
 
 ## Branches
 
-Tanken med Git är att vi ska arbeta med olika branches hela tiden. Den här guiden visar hur du gör med cmdline.
+**Branches** \(svenska, grenar\) är ett sätt att arbeta med Git. Namnet kommer från den trädstruktur som Git har. Den här guiden visar hur du arbetar med branches i Git cmd.
 
 > **Branching** is the way to work on different versions of a repository at one time.
 
-I övningarna ovan så har vi enbart arbetat med `master` branch och det är alltså något en ska försöka undvika. För att göra det så arbetar vi istället med andra branches än `master` och sedan slår vi ihop dem. Här nedan följer instruktioner för detta.
+Som standard har alla repos en branch som heter **master**. Hittils har allt arbete du gjort skett i master. Det är något som generellt bör undvikas av olika skäl. Att arbeta i master kan leda till säkerhetsproblem, dataförlust och annat.
 
 #### Skapa en ny branch
 
-Se till att du är i rätt mapp, vi fortsätter från tidigare repo.
+Kontrollera att du är i rätt mapp. Fortsätt från det tidigare [test-repot](git.md#git-command-line).
 
 ```bash
 cd \code
@@ -378,10 +378,10 @@ git branch feature
 git checkout feature
 ```
 
-Här byter vi till rätt mapp, sedan kör vi två Git kommandon. `git branch feature`, skapar en ny branch med namnet feature och `git checkout feature` byter till den branchen. Feature är såklart det namn vi har valt på vår branch och du byter ut det till vad som passar.
+Kommandot git branch skapar en ny branch. Git branch följs av namnet på den branch som ska skapas. Git checkout följt av namnet på den branch som ska användas byter branch. Namnet på branchen i det här fallet är feature. Den branch som är vald blir **active** \(svenska, **aktiv**\).
 
 {% hint style="danger" %}
-Var noga med att du arbetar i rätt branch, kontrollera!
+Kontrollera att du arbetar i rätt branch
 {% endhint %}
 
 ```bash
@@ -391,34 +391,38 @@ git branch
   master
 ```
 
-![Du kan kolla detta i code](../.gitbook/assets/branch.png)
+![Aktiv branch i vscode](../.gitbook/assets/branch.png)
 
-Så vi vet nu att vi arbetar i rätt branch, `feature`, så nu kan vi ändra på filerna i den. Skapa en ny fil i code och döp den till log.md.
+Med branchen feature aktiv. Skapa en ny fil med namnet log.md.
 
-![Ny fil i feature branch](../.gitbook/assets/bfile.png)
+![Ny fil i vscode](../.gitbook/assets/bfile.png)
 
-Låt oss säga att vi är nöjda med våra ändringar och att allting fungerar, vi vill nu commita detta till master. Det finns då två sätt att göra det på. Vi kan antingen slå ihop allt lokalt och sedan pusha master, eller så laddar vi upp vår branch till GitHub och skapar sedan en pull request. Det första alternativet fungerar rätt bra när vi själva arbetar på ett projekt, men om vi samarbetar med andra så bör vi absolut följa det senare alternativet. Jag kommer att visa det första alternativet här, för att kolla det senare, läs GitHubs guide som finns länkad [här](https://guides.github.com/activities/hello-world/) nedanför.
+När arbetet med en branch är färdigt så behöver det commitas och sedan slås ihop \(**merge**\) med master. Det kan göras på två sätt. Allt kan antingen slås ihop lokalt för att sedan pusha det till master. Eller så utförs det på GitHub med en pull request. Det första alternativet fungerar när du arbetar själv på ett projekt, i alla andra fall är det senare att föredra. 
+
+Instruktionerna som följer visar hur du slår ihop dina branches lokalt. För att skapa en pull request, läs Githubs guide [här](https://guides.github.com/activities/hello-world/).
 
 ```bash
-git branch # kolla vi är i feature
+git branch # kontrollera aktiv branch
 git add . # . betyder, lägg till alla filer i mappen
-git commit -m"ny fil i ny branch"
+git commit -m "ny fil i ny branch"
 ```
 
-Om vi nu kontrollerar filera i mappen, med `dir` eller `ls -la`, så ska vi se `log.md` filen. Byt nu till master branch och kontrollera filerna igen, `log.md` bör då inte synas. Vi kan nu slå ihop våra branches.
+Kontrollera vilka filer som finns  i mappen med dir eller ls. Byt sedan branch och kontrollera igen.
+
+För att slå ihop branches väljer du först den branch som ska ta emot koden från en branch. Från den aktiva branchen körs kommandot git merge, med namnet på den branch som ska slås ihop till den aktiva.
 
 ```bash
 git checkout master
 git merge feature
 ```
 
-Med detta så bör våra ändringar ha slagits ihop mellan våra branches, får vi merge konflikter så kan vi lösa dem på samma sätt som tidigare. Slutligen så tar vi bort vår feature branch för den har tjänat sitt syfte.
+Om konflikter uppstår så läs felmeddelande och försöka att lösa dem som tidigare.  Efter att de slagits ihop så tar du bort den branch som inte längre används.
 
 ```bash
 git branch -d feature
 ```
 
-Så nu har vi sett ett exempel på hur GitHubs workflow ser ut, se till att läsa på om detta i GitHubs egna guider för att få en bättre förståelse för hur det fungerar.
+Att arbeta med branches är GitHubs workflow, läs mer om det i GitHubs material för att få en bättre förståelse för hur det fungerar.
 
 ## Läs mer
 
