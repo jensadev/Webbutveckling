@@ -20,7 +20,7 @@ I arbetet med webben är det av yttersta vikt att känna till och även följa C
 
 ### Fair use
 
-Fair use är något som 
+Fair use är något som relativt ofta nämns vid prat om copyright. Fair use är en amerikansk klausul? som inte finns i Sverige. 
 
 ## Lagen om elektronisk kommunikation \(LEK\)
 

@@ -21,7 +21,7 @@ description: >-
 * [Interoperabilitet genom att följa standarder och testa på olika användaragenter.](tester/kodkvalitet.md)
 * [Applikationer som fungerar oberoende av val av användaragent, operativsystem eller hårdvaruplattform och hur tillgänglighet uppnås även för användare med funktionsnedsättning.](tester/anvaendbarhet-och-tillgaenglighet.md)
 * [Kvalitetssäkring av applikationens funktion och validering av kodens kvalitet.](tester/kodkvalitet.md)
-* Säkerhet och sätt att identifiera hot och sårbarheter samt hur attacker kan motverkas genom effektiva åtgärder.
+* [Säkerhet och sätt att identifiera hot och sårbarheter samt hur attacker kan motverkas genom effektiva åtgärder.](tester/saekerhet.md)
 * [Lagar och andra bestämmelser som styr digital information, till exempel personuppgiftslagen och lagen om elektronisk kommunikation.](publikation/lagar-och-regler.md)
 * Terminologi inom området webbutveckling.
 
@@ -34,14 +34,14 @@ description: >-
 * Fördjupning i märkspråk där det huvudsakliga innehållet är standarderna för [HTML](html/html-spraket.md) och [CSS](css/css-spraket.md) med särskilt fokus på [responsiv design](design/responsiv-design.md).
 * [Språk](css/sass.md) med stöd för variabler för att förenkla CSS-generering.
 * Ramverk eller klassbibliotek inom [design](design/bootstrap.md) eller skriptspråk.
-* [Skriptspråk](javascript/js-spraket.md) för webbutveckling på klientsidan och dokumentobjektsmodell.
+* [Skriptspråk](javascript/js-spraket.md) för webbutveckling på klientsidan och [dokumentobjektsmodell](html/dom.md).
 * Bilder, ljud, video och två- eller tredimensionell interaktiv grafik för webbapplikationer.
 * [Riktlinjer för god praxis inom webbutveckling](tester/checklista-foer-webbsidor.md).
 * [Uppnående av interoperabilitet genom att följa standarder och testa på olika plattformar](tester/checklista-foer-webbsidor.md).
 * Applikationer som fungerar oberoende av vald plattform och hur [tillgänglighet ](tester/anvaendbarhet-och-tillgaenglighet.md)uppnås även för användare med funktionsnedsättning.
 * Kvalitetssäkring av applikationens funktion och validering av [kodens kvalitet](tester/kodkvalitet.md).
 * [Lagar och andra bestämmelser som styr digital information, till exempel personuppgiftslagen och lagen om elektronisk kommunikation](publikation/lagar-och-regler.md).
-* Säkerhet och sätt att identifiera hot och sårbarheter samt hur attacker kan motverkas genom effektiva åtgärder.
+* [Säkerhet och sätt att identifiera hot och sårbarheter samt hur attacker kan motverkas genom effektiva åtgärder.  ](tester/saekerhet.md)
 * Terminologi inom området webbutveckling.
 
 

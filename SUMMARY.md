@@ -47,6 +47,7 @@
 * [Kodkvalitet](tester/kodkvalitet.md)
 * [Användbarhet och tillgänglighet](tester/anvaendbarhet-och-tillgaenglighet.md)
 * [Optimering](tester/optimering.md)
+* [Säkerhet](tester/saekerhet.md)
 * [Checklista för Webbsidor](tester/checklista-foer-webbsidor.md)
 
 ## Publikation
