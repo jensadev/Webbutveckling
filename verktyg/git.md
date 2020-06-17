@@ -22,7 +22,7 @@ GitHub låter både lärare och elever att dela kod. GitHub ger även utmärkta 
 GitHub Classroom. kommer även att användas som komplement till Google Classroom i kursen.
 
 {% hint style="info" %}
- Registrera ett konto på [GitHub](https://github.com/)
+ Registrera ett konto på [GitHub](https://github.com/).
 {% endhint %}
 
 ### Installation
@@ -30,7 +30,7 @@ GitHub Classroom. kommer även att användas som komplement till Google Classroo
 GitHub finns både som **desktop**- och **command line** \(**cmd\)** applikation . Oavsett vilken **klient** du ska använda så behöver du ladda ned och installera den.
 
 {% hint style="info" %}
-Hämta desktop-klienten här, [https://desktop.github.com/](https://desktop.github.com/)
+Hämta desktop-klienten här, [https://desktop.github.com/](https://desktop.github.com/).
 {% endhint %}
 
 #### Om du vill installera cmd Git
@@ -38,38 +38,38 @@ Hämta desktop-klienten här, [https://desktop.github.com/](https://desktop.gith
 För cmd-versionen så laddar du antingen ned [Git portable](https://git-scm.com/download/win), eller kör [WSL](https://jens-andreasson.gitbook.io/webbserverprogrammering/utvecklarmiljo/wsl). Detta är alltså inte en GitHub klient på samma sätt som GitHubs desktop-klient.
 
 {% hint style="info" %}
-Ladda ned 64-bit Git portable for Windows, [https://git-scm.com/download/win](https://git-scm.com/download/win)
+Ladda ned 64-bit Git portable for Windows, [https://git-scm.com/download/win](https://git-scm.com/download/win).
 {% endhint %}
 
 {% hint style="info" %}
-Ett _portable_ program är ett program utan installationsfiler. Du laddar ned det, packar\(oftast\) upp det och sedan kan du köra programmet
+Ett _portable_ program är ett program utan installationsfiler. Du laddar ned det, packar\(oftast\) upp det och sedan kan du köra programmet.
 {% endhint %}
 
 **PortableGit** är en **körbar** \(**executable, exe**\) fil som låter dig packa upp de filer du behöver. Kör programmet och välj att spara filerna under `c:\tools\portablegit`.
 
 Windows behöver kunna hitta program för att kunna köra dem från cmd \(till exempel **Powershell**\). För det används systemets **PATH**, en global sökväg som går att redigera. För att lägga till ett program i PATH:
 
-1. Starta **Utforskaren** \(**Explorer**\) win+e
-2. Högerklicka på **Den här datorn**, välj **Egenskaper**
-3. Öppna **System och säkerhet, System**    i **Kontrollpanelen**
-4. Välj **Avancerade systeminställningar**
-5. Klicka på **Miljövariabler**
-6. Välj **Användarvariabler** för din användare
-7. Dubbelklicka på PATH
-8. Välj **Ny** och skriv in **sökvägen** c:\tools\PortableGit\bin
-   1. Byt sökväg om du installerar andra program
-9. Starta Powershell
+1. Starta **Utforskaren** \(**Explorer**\) win+e.
+2. Högerklicka på **Den här datorn**, välj **Egenskaper.**
+3. Öppna **System och säkerhet, System**    i **Kontrollpanelen.**
+4. Välj **Avancerade systeminställningar   .**
+5. Klicka på **Miljövariabler   .**
+6. Välj **Användarvariabler** för din användare.
+7. Dubbelklicka på PATH.
+8. Välj **Ny** och skriv in **sökvägen** c:\tools\PortableGit\bin   .
+   1. Byt sökväg om du installerar andra program.
+9. Starta Powershell   .
 10. Kör git, du kommer att se programmets hjälp.
-11. Klart
+11. Klart.
 
 {% hint style="warning" %}
-Efter ändringar i PATH måste cmd-program startas om för att ändringarna ska gälla
+Efter ändringar i PATH måste cmd-program startas om för att ändringarna ska gälla.
 {% endhint %}
 
 ## Ditt första repository
 
 {% hint style="info" %}
-Börja med desktop-klientens tutorial
+Börja med desktop-klientens tutorial.
 {% endhint %}
 
 Ett **repository \(**eller **repo**\), är en ****folder som innehåller information om ett Git-projekt. Ett repo kan kopplas till en sida på GitHub. Där finns filerna för projektet tillsammans med annat. Github sparar webb-adressen \(**Unifrom Resource Locator, URL**\) till repos enligt samma mönster.
@@ -80,28 +80,28 @@ github.com/username/repository-namn
 
 För att skapa ett nytt repo med desktop-klienten, klicka på **+ Create a New...**
 
-![GitHubs desktop-klient, det bl&#xE5;markerade &#xE4;r start-tutorialen](https://lh6.googleusercontent.com/TpP2mAMNVohIZ8sSTCgSdI8WyqAm5UaoD-hhy4FpJ5GAeuu8N58mRL-pxQK5gByqLHkuh8DV_ySIg7Y4DuYPL88hZWGvExwL8RqLeLAd-oDk4W4mk-PnxAxwqKUP2zpEVfSKYUuI)
+![GitHubs desktop-klient, det bl&#xE5;markerade &#xE4;r start-tutorialen.](https://lh6.googleusercontent.com/TpP2mAMNVohIZ8sSTCgSdI8WyqAm5UaoD-hhy4FpJ5GAeuu8N58mRL-pxQK5gByqLHkuh8DV_ySIg7Y4DuYPL88hZWGvExwL8RqLeLAd-oDk4W4mk-PnxAxwqKUP2zpEVfSKYUuI)
 
 Ett repo kan även skapas på Github.com. För att koppla det till desktop-klienten klicka "Add an Existing...".
 
-1. Surfa till [https://github.com/](https://github.com/)
-2. Logga in med ditt konto
-3. Klicka på + i menyn
-4. Välj, New repository
-5. Skriv in ett namn
-6. Klicka på Create
+1. Surfa till [https://github.com/](https://github.com/).
+2. Logga in med ditt konto.
+3. Klicka på + i menyn.
+4. Välj, New repository.
+5. Skriv in ett namn.
+6. Klicka på Create.
 
 ## Att använda Github
 
 Git är ett versionshanteringssystem, med det menas att det håller reda på filer, filernas innehåll och ändringar. Repot sköter det lokalt på en dator och det kan synkas mot GitHub.
 
 {% hint style="info" %}
-Det är god praxis att spara all kod på ett samlat ställe
+Det är god praxis att spara all kod på ett samlat ställe.
 {% endhint %}
 
 Först ska du skapa en mapp på din dator där du kan spara all kod. Öppna Utforskaren \(Explorer\) och skapa en ny **mapp** \(folder\) i c:\
 
-![Skapa en code mapp i c: med hj&#xE4;lp av Utforskaren](../.gitbook/assets/mapp.png)
+![Skapa en code mapp i c: med hj&#xE4;lp av Utforskaren.](../.gitbook/assets/mapp.png)
 
 [Klicka här om du vill hoppa till avsnittet för cmd](git.md#git-cmdline).
 
@@ -109,11 +109,11 @@ Först ska du skapa en mapp på din dator där du kan spara all kod. Öppna Utfo
 
 Skapa först ett nytt repo.
 
-![Skapa ett nytt repo](../.gitbook/assets/cnew.png)
+![Skapa ett nytt repo.](../.gitbook/assets/cnew.png)
 
 Publicera sedan ditt repo till Github, det kommer då att skapas ett repo på Githubs webbsida som kopplas till det lokala repot. Viktigt i arbetet mellan lokal dator och Github är att filerna är synkroniserade, annars kan det bli [problem](git.md#problem-och-att-loesa-dem).
 
-![Publicera p&#xE5; GitHub](../.gitbook/assets/pub.png)
+![Publicera p&#xE5; GitHub.](../.gitbook/assets/pub.png)
 
 Använd sedan **Visual Studio Code** \(**vscode**\) för att öppna ditt repo. Antingen genom knappen i desktop-klienten, eller i vscode genom att välja Open Folder i File-menyn.
 
@@ -129,7 +129,7 @@ Readme-filen är en standard i repon. I filen skrivs information kring projektet
 Nu när vi har ändringar i filen så kan vi hoppa över till klienten igen. Vi ser där en lista över våra ändringar.  Klicka sedan Commit to master och efter det Push origin. Du har nu laddat upp dina lokala ändringar till GitHub.
 
 {% hint style="danger" %}
-Här förutsätts det att du inte har gjort några ändringar på github.com, du kommer annars få konflikter
+Här förutsätts det att du inte har gjort några ändringar på github.com, du kommer annars få konflikter.
 {% endhint %}
 
 ### Commit
@@ -137,7 +137,7 @@ Här förutsätts det att du inte har gjort några ändringar på github.com, du
 **Commits** är kärnan i att arbeta med GIthub. Du arbetar med filer på **local**. När du arbetat färdigt med filerna så behöver du först lägga till dem, **add**, sedan **commit**. Det sista steget är **push** för att skicka filerna till **remote**, alltså Github.
 
 {% hint style="info" %}
-Github training, Commits, [https://youtu.be/A-Cll9jEnnM](https://youtu.be/A-Cll9jEnnM)
+Github training, Commits, [https://youtu.be/A-Cll9jEnnM](https://youtu.be/A-Cll9jEnnM).
 {% endhint %}
 
 ### Problem och att lösa dem
@@ -250,7 +250,7 @@ git push -u origin master
 6. git push, skickar repots commits till GitHub.
 
 {% hint style="info" %}
-git init och git remote add är de viktigaste kommando att köra i detta skede. Det initierar repot lokalt och kopplar det till remote, GitHub.
+Github training, Init, [https://youtu.be/WxMFZncm12s](https://youtu.be/WxMFZncm12s)
 {% endhint %}
 
 Om du kört kommandona ovan så har du initierat repot och skapat readme filen. Hade du för bråttom och klistrade in det i c:, leta upp mappen .git i utforskaren och ta bort den. Börja sedan om.
@@ -367,6 +367,12 @@ git push
 
 Som standard har alla repos en branch som heter **master**. Hittils har allt arbete du gjort skett i master. Det är något som generellt bör undvikas av olika skäl. Att arbeta i master kan leda till säkerhetsproblem, dataförlust och annat.
 
+{% hint style="info" %}
+Github training, Branch, [https://youtu.be/H5GJfcp3p4Q](https://youtu.be/H5GJfcp3p4Q).
+{% endhint %}
+
+
+
 #### Skapa en ny branch
 
 Kontrollera att du är i rätt mapp. Fortsätt från det tidigare [test-repot](git.md#git-command-line).
@@ -380,8 +386,8 @@ git checkout feature
 
 Kommandot git branch skapar en ny branch. Git branch följs av namnet på den branch som ska skapas. Git checkout följt av namnet på den branch som ska användas byter branch. Namnet på branchen i det här fallet är feature. Den branch som är vald blir **active** \(svenska, **aktiv**\).
 
-{% hint style="danger" %}
-Kontrollera att du arbetar i rätt branch
+{% hint style="info" %}
+GitHub training, Checkout, [https://youtu.be/HwrPhOp6-aM](https://youtu.be/HwrPhOp6-aM).
 {% endhint %}
 
 ```bash
@@ -389,9 +395,14 @@ git branch
 # Vilket ger oss en lista av de branches som finns och * för den aktiva
 * feature
   master
+
 ```
 
 ![Aktiv branch i vscode](../.gitbook/assets/branch.png)
+
+{% hint style="danger" %}
+Kontrollera alltid att du arbetar i rätt branch.
+{% endhint %}
 
 Med branchen feature aktiv. Skapa en ny fil med namnet log.md.
 
@@ -416,7 +427,13 @@ git checkout master
 git merge feature
 ```
 
-Om konflikter uppstår så läs felmeddelande och försöka att lösa dem som tidigare.  Efter att de slagits ihop så tar du bort den branch som inte längre används.
+Om konflikter uppstår så läs felmeddelande och försöka att lösa dem som tidigare.
+
+{% hint style="info" %}
+GitHub training, Merge, [https://youtu.be/yyLiplDQtf0](https://youtu.be/yyLiplDQtf0).
+{% endhint %}
+
+Efter att de slagits ihop så tar du bort den branch som inte längre används.
 
 ```bash
 git branch -d feature
@@ -432,6 +449,7 @@ Att arbeta med branches är GitHubs workflow, läs mer om det i GitHubs material
 * Pages, [https://guides.github.com/features/pages/](https://guides.github.com/features/pages/)
 * [https://guides.github.com/](https://guides.github.com/)
 * [https://help.github.com/en/github/getting-started-with-github](https://help.github.com/en/github/getting-started-with-github)
+* [https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-](https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-)
 
 
 
