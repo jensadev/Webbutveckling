@@ -189,15 +189,19 @@ Git konflikter kan ta olika form, men det här är hur du löser en typ av dem.
 Vscode kan också användas för att jobba mot GitHub. Då används  Source Control tabben
 {% endhint %}
 
-### Git cmdline
+### Git command line
 
-Att arbeta med de grafiska klienterna för att prata med GitHub funkar utmärkt, men det är väldigt bra att ha koll på hur det fungerar med cmdline verktygen också. Här följer instruktioner för hur vi skapar ett repo och löser en konflikt i cmdline klienten.
+Det är bra att ha kunskapr kring hur Git fungerar i cmd. Det här avsnittet repeterar hur du löser en konflikt med Git i cmd.
 
 {% hint style="warning" %}
 Skapa en code mapp om du inte har gjort det
 {% endhint %}
 
-Vi använder sedan `cmd`, `windows terminal`, `ubuntu`, `wsl` eller liknande för att skapa en mapp för repot.
+Använd sedan en terminal \(Powershell, cmd, [WSL](https://jens-andreasson.gitbook.io/webbserverprogrammering/utvecklarmiljo/wsl)\) för att skapa en mapp för ditt repo.
+
+{% hint style="info" %}
+Använd samma namn på mappen för repot som repots namn
+{% endhint %}
 
 ```bash
 # I Windows cmdline skriver du
@@ -210,32 +214,22 @@ cd wu1-test
 ```
 
 {% hint style="info" %}
-Du kan närsomhelst i cmdline skriva dir eller ls för att se vars i mappstrukturen du är. Notera även att i prompten så står det längst till vänster "vars du är"
+För att lista innehållet \(i en mapp\) eller se var i en filstruktur du befinner dig kan du i cmd skriva **dir** \(Windows\) eller **ls** \(Linux\).
 {% endhint %}
 
-När du nu har mappen skapad så behöver vi skapa repot på GitHub, gör det genom att repetera stegen som står här [ovan](git.md#ditt-foersta-repository), men döp repot till wu1-test.
+Skapa sedan ett nytt repo på GitHub, gör det genom att [repetera de här stegen](git.md#ditt-foersta-repository), ge repot namnet **wu1-test**.
+
+![Skapa ett nytt repository-dialogen p&#xE5; GitHub.com](../.gitbook/assets/newrepo.png)
+
+Klicka **Create repository** för att skapa repot. Då kommer **Quick setup** att visas.
 
 {% hint style="info" %}
-Det är generellt en bra ide att döpa mappen för sitt repo till repots namn
+Om du markerat "Intialize this repository with a README" så kommer inte Quick setup instruktionerna visas.
 {% endhint %}
 
-För att kunna fortsätta så behöver vi skapa ett repo på GitHubs webbplats, så surfa dit och välj Create new repository. Fyll sedan i formuläret och döpt det till wu1-test.
+![Quick setup p&#xE5; Github.com](../.gitbook/assets/qset.png)
 
-![Skapa ett nytt repository dialogen p&#xE5; GitHub](../.gitbook/assets/newrepo.png)
-
-När du sedan klickat i att skapa det så kommer du att presenteras med en Quick setup för att koppla detta till din lokala dator.
-
-{% hint style="info" %}
-Om du markerat Intialize this repository with a README så kommer du inte att få Quick setup instruktionerna.
-{% endhint %}
-
-![Quick setup](../.gitbook/assets/qset.png)
-
-Här får du en lista över de kommandon som behöver köras lokalt i mappen för ditt git repo för att färdigställa allt. Värt att notera här är att det även skapar en README.md fil åt dig så att filen finns. Det är som följer.
-
-{% hint style="danger" %}
-Om du copy pasta detta, var noga med att alltid vara i rätt mapp!
-{% endhint %}
+Quick setup är en lista över de kommandon som behöver köras för att slutföra skapandet av repot. Det skapar även en README-fil. **Om du kopierar Quick setup-koden, var noga med att köra den från rätt mapp!**
 
 ```bash
 cd c:\code\wu1-test
@@ -248,25 +242,28 @@ git remote add origin https://github.com/jensnti/wu1-test.git
 git push -u origin master
 ```
 
-1. echo skriver ett text meddelande och med &gt;&gt; så pipar det texten till en fil. README.md skapas
-2. git init, initialiserar mappen som ett git repo
-3. git add _filnamn_ lägger till en eller flera filer till repot
-4. git commit -m "meddelande", skapar en commit med det meddelande du anger.
-5. git remote add origin _github url_, detta kopplar samman git repot med remote origin på GitHub
-6. git push, säger åt oss att skicka vår senaste commit till GitHub
+1. echo skriver ut text och med &gt;&gt; så pipar \(skickas informationen, engelska **pipe**\) det texten till en fil. Det skapar filen README.md.
+2. git init, initialiserar mappen som ett git repo.
+3. git add _filnamn_ lägger till en eller flera filer till repot.
+4. git commit -m "meddelande", skapar en commit med ett namn.
+5. git remote add origin _github url_, detta kopplar samman git repot med remote origin på GitHub.
+6. git push, skickar repots commits till GitHub.
 
 {% hint style="info" %}
-Bortsett från att ladda upp README, så är det viktiga här att köra git init, git remote add.  
-När detta är gjort kan du arbeta med filerna på det sätt du väljer.
+git init och git remote add är de viktigaste kommando att köra i detta skede. Det initierar repot lokalt och kopplar det till remote, GitHub.
 {% endhint %}
 
-Så om du har copy pastat kommandona ovan så har du initierat repot och skapat readme filen, bra. Om du hade för bråttom och klistrade in det i c:, leta upp mappen .git i utforskaren och ta bort den. Börja sedan om.
+Om du kört kommandona ovan så har du initierat repot och skapat readme filen. Hade du för bråttom och klistrade in det i c:, leta upp mappen .git i utforskaren och ta bort den. Börja sedan om.
 
-Vi ska nu redigera filen och ladda upp det på GitHub, innan vi provar att ställa till det och sedan lösa problemet.
+Nästa steg är att redigera en fil och ladda upp det på GitHub.
 
-I cmdline, i mappen du har öppen bör du kunna skriva `code .` för att starta code, notera punkten efter code, den säger att du ska öppna code i den nuvarande mappen. Redigera sedan README.md och spara.
+Starta vscode från cmd genom att skriva.
 
-Gå sedan tillbaka till ditt shell\(cmdline\) och kör följande.
+```bash
+code .
+```
+
+Öppna filen README.md och redigera den. Använd sedan terminalen igen för att skapa en commit och skicka den till remote.
 
 ```bash
 git add README.md
@@ -274,16 +271,18 @@ git commit -m "Uppdaterade README"
 git push
 ```
 
-Det kommer förhoppningsvis stå något liknande detta, vilket betyder att det har fungerat. Om något annat har blivit fel så rekommenderar jag att du läser felmeddelanden och jobbar utifrån det.
+{% hint style="warning" %}
+Var noga med att läsa vad det står i terminalen, försök lösa eventuella fel
+{% endhint %}
 
-Du kan här stöta på problem med att Git vill att du specifierar vem du är, du behöver då konfigurera detta och skriva det.
+Första gången du commitar från cmd så behöver du ange dina användaruppgifter.
 
 ```bash
 git config user.name "Your Git Username"
 git config user.email "your@address.com"
 ```
 
-När det är angett så bör du då kunna göra din commit och sedan pusha.
+Upprepa sedan kommandona för att skapa en commit och skicka den till remote.
 
 ```bash
 c:\code\wu1-test>git push
@@ -297,20 +296,22 @@ To https://github.com/jensnti/wu1-test.git
  * [new branch]      master -> master
 ```
 
-### Problem då?
+### Problem och att lösa dem från cmd
 
-Precis som i avsnittet med desktop klienten ska vi här titta på vad vi kan göra om vi får en merge issue när vi ska pusha till GitHub. Vi börjar med att se till att vi är synkade lokalt mot remote.
+Konflikter kan ske oavsett vilken typ av Git-klient du använder. Precis som i tidigare [avsnitt ](git.md#problem-och-att-loesa-dem)ska du nu få lösa en konflikt, den här gången från cmd.
+
+Synkronisera först ditt lokala repo mot remote.
 
 ```bash
 git fetch
 git pull
 ```
 
-Vi kan sedan surfa till repot på GitHub, där gör vi så en ändring i README.md och commitar den.
+Öppna repot på GitHub.com. Redigera README.md och commita dina ändringar..
 
-![Redigera README.md p&#xE5; GitHub](../.gitbook/assets/commit.png)
+![Redigera README-filen p&#xE5; GitHub](../.gitbook/assets/commit.png)
 
-Vi ska sedan göra en lokal ändring i README.md, utan att först synka den med remote origin. Så öppna code och skriv mer i README.md.
+Öppna vscode och redigera README-filen. Sparan ändringarna och skapa en ny commit.
 
 ```bash
 git add README.md
@@ -318,7 +319,7 @@ git commit -m"uppdatering av readme"
 git push
 ```
 
-Eftersom våra repos inte är synkade så kommer vi nu att få en git merge, felmeddelandet ser ut ungefär såhär.
+Att pusha filerna resulterar i en konflikt \(merge issue\). Felmeddelandet ser ut ungefär såhär.
 
 ```bash
 To https://github.com/jensnti/wu1-test.git
@@ -330,13 +331,15 @@ hint: 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
 
-Vi får då försöka lösa detta, vår push misslyckades och läser vi meddelandet så får vi en hint om vad som ska göras.
+Push misslyckades. Var noga med att läsa hela meddelandet, då Git ger tips om hur felet ska lösas.
+
+Kör git pull för att initiera arbetet med att lösa konflikten.
 
 ```bash
 git pull
 ```
 
-Vilket ger oss följande meddelande\(och har du code öppet så bör README.md visa merge meddelandet\).
+Eftersom filerna i det lokala repot skiljer sig från filerna på remote kan inte Git automatisk slå ihop dem. Du behöver ange vad, eller vilken version som ska sparas.
 
 ```bash
 Auto-merging README.md
@@ -344,19 +347,17 @@ CONFLICT (content): Merge conflict in README.md
 Automatic merge failed; fix conflicts and then commit the result.
 ```
 
-Enklast är nu att öppna code och redigera de dokument med konflikter som finns, precis som för klienten.
+Använd sedan vscode för att öppna de filer som har konflikter. Vscode hjälper dig att redigera dem och välja vad som ska sparas.
 
 ![Redigera de filer som har konflikter och spara](../.gitbook/assets/changes.png)
 
-När du sedan sparat dina ändringar behöver du göra en ny commit och pusha.
+Spara sedan ändringarna; skapa en ny commit och pusha.
 
 ```bash
 git add README.md
 git commit -m"fixade konflikter"
 git push
 ```
-
-Om alla konflikter är lösta och det fungerar så är det klart och löst.
 
 ## Branches
 
