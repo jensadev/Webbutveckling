@@ -19,6 +19,12 @@ Statistik från [statcounter](https://gs.statcounter.com/):
 * [Stationär \(desktop\)](https://gs.statcounter.com/screen-resolution-stats/desktop/worldwide)
 * [Mobiltelefon](https://gs.statcounter.com/screen-resolution-stats/mobile/worldwide)
 
+Upplösningen 1366 x 768 är fortfarande vanligast på stationära datorer, tätt följt av 1920 x 1080. Av denna anledning är det viktigt att testa olika upplösningar vid skapandet av en webbsida. 1366 x 768 har bildförhållandet 16:9 så formatet är densamma som för 1920 x 1080.
+
+{% hint style="info" %}
+Även om användaren har en hög skärmupplösning, blir få gränssnitt bra med en fullskräms-bredd på 1920 pixlar.
+{% endhint %}
+
 ## Bildstorlek
 
 ### Dimension
@@ -47,15 +53,35 @@ Bilder är något som kan och ofta tar stor plats, därför är det viktigt att 
 
 ## Bildformat
 
-Det finns ett stort antal digitala bildformat. Några lämpar sig speciellt väl för webben.
+Det finns ett stort antal digitala **bildformat**. Några lämpar sig speciellt väl för webben.
 
-### PNG
+#### Komprimering
 
-### JPEG
+Digitala bilder använder i nästan alla fall någon form av [**komprimering**](https://sv.wikipedia.org/wiki/Datakompression). Komprimeringen hjälper till att begränsa bildens filstorlek. Det finns två typer av komprimering för bilder, **icke-destruktiv**- och **destruktiv** komprimering. En icke-destruktiv komprimering är begränsad då den arbetar på ett sådant sätt att data inte ska förloras, till skillnad mot en destruktiv komprimering där data förloras.
 
-### GIF
+### Portable Network Graphics \(PNG\)
 
-### SVG
+PNG utvecklades för att ersätta GIF-formatet. PNG är ett format som använder icke-destruktiv komprimering. PNG lämpar sig väl för grafiska element, men stora enfärgade områden. PNG kan fungera på fotografier, men kan inte mäta sig med JPEG när det kommer till filstorlek.
+
+### Joint Photographic Experts Group \(JPEG\)
+
+JPEG eller ofta JPG \(eftersom filändelser ofta är begränsade till tre tecken\) är ett bildformat med destruktiv komprimering. För fotografier kan JPEG ge en väldigt bra kompressionsgrad. JPEG lämpar sig dock mindre bra för bilder som innehåller text eller raka linjer.
+
+{% hint style="info" %}
+Undvik att arbeta i JPEG när du redigerar bilder; varje gång du sparar i JPEG-formatet försämras kvalitén.
+{% endhint %}
+
+### Graphics Interchange Format \(GIF\)
+
+GIF är en äldre bildstandard som funnits med länge på webben. Likt PNG lämpar sig GIF bäst för grafiska element. GIF bör dock undvikas för fotografier. GIF kan animeras.
+
+### Scalable Vector Graphics \(SVG\)
+
+SVG är ett **vektorgrafik**-format. Vektorgrafik är baserat på koordinater och SVG sparas i språket [**XML**](https://sv.wikipedia.org/wiki/XML). Det gör att vektorgrafik aldrig förlorar i kvalité när bilden skalas upp; det gör att SVG lämpar sig otroligt väl för ikoner och element som innehåller text, till exempel logotyper. Vektorgrafik fungerar inte alls för fotografier.
+
+{% hint style="info" %}
+SVG använder CSS för bland annat färg och typsnitt.
+{% endhint %}
 
 ### Webbformat
 
