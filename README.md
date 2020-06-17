@@ -44,5 +44,3 @@ description: >-
 * [Säkerhet och sätt att identifiera hot och sårbarheter samt hur attacker kan motverkas genom effektiva åtgärder.  ](tester/saekerhet.md)
 * Terminologi inom området webbutveckling.
 
-
-
