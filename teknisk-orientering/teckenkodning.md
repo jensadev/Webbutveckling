@@ -4,3 +4,11 @@
 
 
 
+## Vad är det?
+
+## UTF-8
+
+## Meta taggen
+
+### Charset
+
