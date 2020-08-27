@@ -12,9 +12,11 @@ Git pages, localhost och www.google.com
 
 ## Protokoll
 
-http, https, tcp/ip
+http, https, tcp/ip, udp
 
 ### Portar
+
+80, 443, 8000, 8080
 
 ## Adresser
 
