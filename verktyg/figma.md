@@ -18,7 +18,7 @@ Använd ditt Google-konto för att skapa en användare på [https://www.figma.co
 
 ### Gränssnitt
 
-Förklaring
+Förklaring.
 
 {% hint style="info" %}
 Figma, gränssnittet [https://youtu.be/DSrbwCrEIII](https://youtu.be/DSrbwCrEIII).
