@@ -12,8 +12,13 @@
 
 ## Ett exempel
 
+{% hint style="info" %}
+Om en HTML-fil har filnamnet **index** så kommer den automatiskt öppnas av webbläsaren när adressen besöks. Filändelsen är **.html**
+{% endhint %}
+
 Nedan följer grunden för ett korrekt HTML-dokument. Det består av ett antal element med tillhörande **attribut**. Element skrivs med **taggar** \(namnet inom &lt; &gt; tecken\).
 
+{% code title="index.html" %}
 ```markup
 <!DOCTYPE html>
 <html lang="se">
@@ -28,6 +33,7 @@ Nedan följer grunden för ett korrekt HTML-dokument. Det består av ett antal e
 </body>
 </html>
 ```
+{% endcode %}
 
 ### Element
 
