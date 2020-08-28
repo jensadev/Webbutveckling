@@ -119,10 +119,12 @@ Använd sedan **Visual Studio Code** \(**vscode**\) för att öppna ditt repo. A
 
 Skapa sedan en ny fil i vscode. Redigera filen och spara som README.md
 
+{% code title="README.md" %}
 ```bash
 # Hallå världen
 Hej
 ```
+{% endcode %}
 
 Readme-filen är en standard i repon. I filen skrivs information kring projektet och GitHub visar den automatiskt på projektets sida. Filen skrivs i märkspråket [**Markdown**](https://guides.github.com/features/mastering-markdown/) \(**MD**\).
 
@@ -203,8 +205,9 @@ Använd sedan en terminal \(Powershell, cmd, [WSL](https://jens-andreasson.gitbo
 Använd samma namn på mappen för repot som repots namn
 {% endhint %}
 
+{% tabs %}
+{% tab title="Windows Powershell" %}
 ```bash
-# I Windows cmdline skriver du
 c:
 cd \
 md code # md är make directory, så använd bara om du inte skapat med Utforskaren
@@ -212,6 +215,8 @@ cd code
 md wu1-test
 cd wu1-test
 ```
+{% endtab %}
+{% endtabs %}
 
 {% hint style="info" %}
 För att lista innehållet \(i en mapp\) eller se var i en filstruktur du befinner dig kan du i cmd skriva **dir** \(Windows\) eller **ls** \(Linux\).
@@ -231,6 +236,8 @@ Om du markerat "Intialize this repository with a README" så kommer inte Quick s
 
 Quick setup är en lista över de kommandon som behöver köras för att slutföra skapandet av repot. Det skapar även en README-fil. **Om du kopierar Quick setup-koden, var noga med att köra den från rätt mapp!**
 
+{% tabs %}
+{% tab title="Windows Powershell" %}
 ```bash
 cd c:\code\wu1-test
 
@@ -241,6 +248,8 @@ git commit -m "first commit"
 git remote add origin https://github.com/jensnti/wu1-test.git
 git push -u origin master
 ```
+{% endtab %}
+{% endtabs %}
 
 1. echo skriver ut text och med &gt;&gt; så pipar \(skickas informationen, engelska **pipe**\) det texten till en fil. Det skapar filen README.md.
 2. git init, initialiserar mappen som ett git repo.
@@ -259,17 +268,25 @@ Nästa steg är att redigera en fil och ladda upp det på GitHub.
 
 Starta vscode från cmd genom att skriva.
 
+{% tabs %}
+{% tab title="Windows Powershell" %}
 ```bash
 code .
 ```
+{% endtab %}
+{% endtabs %}
 
 Öppna filen README.md och redigera den. Använd sedan terminalen igen för att skapa en commit och skicka den till remote.
 
+{% tabs %}
+{% tab title="Windows Powershell" %}
 ```bash
 git add README.md
 git commit -m "Uppdaterade README"
 git push
 ```
+{% endtab %}
+{% endtabs %}
 
 {% hint style="warning" %}
 Var noga med att läsa vad det står i terminalen, försök lösa eventuella fel
@@ -277,13 +294,19 @@ Var noga med att läsa vad det står i terminalen, försök lösa eventuella fel
 
 Första gången du commitar från cmd så behöver du ange dina användaruppgifter.
 
+{% tabs %}
+{% tab title="Windows Powershell" %}
 ```bash
 git config user.name "Your Git Username"
 git config user.email "your@address.com"
 ```
+{% endtab %}
+{% endtabs %}
 
 Upprepa sedan kommandona för att skapa en commit och skicka den till remote.
 
+{% tabs %}
+{% tab title="Windows Powershell" %}
 ```bash
 c:\code\wu1-test>git push
 Counting objects: 39, done.
@@ -295,6 +318,8 @@ remote: Resolving deltas: 100% (2/2), done.
 To https://github.com/jensnti/wu1-test.git
  * [new branch]      master -> master
 ```
+{% endtab %}
+{% endtabs %}
 
 ### Problem och att lösa dem från cmd
 
