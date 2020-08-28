@@ -52,6 +52,10 @@ Notera att de flesta element består av en öppnings- och stängnings-tagg. Ett 
 
 Sidan här ovanför har ett antal **attribut** som tillhör taggarna.
 
+* lang, med ett värde som anger webbsidans språk. Webbläsaren använder det för eventuellt översättning baserat på användarens språk.
+* charset, vilket teckenkodning sidan ska använda.
+* name, viewport. Detta anger skalan som används av olika enheter när sidan visas.
+
 
 
 
