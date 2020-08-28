@@ -53,7 +53,7 @@ Notera att de flesta element består av en öppnings- och stängnings-tagg. Ett 
 Sidan här ovanför har ett antal **attribut** som tillhör taggarna.
 
 * lang, med ett värde som anger webbsidans språk. Webbläsaren använder det för eventuell översättning av sidan baserat på användarens språk.
-* charset, vilket [teckenkodning ](../teknisk-orientering/teckenkodning.md)sidan ska använda. Detta kommer i 99.9% av fallen vara **UTF-8**.
+* charset, vilket [teckenkodning ](../teknisk-orientering/teckenkodning.md)sidan ska använda. Detta kommer i 99.9% av fallen vara [**UTF-8**](../teknisk-orientering/teckenkodning.md#utf-8).
 * name, viewport. Detta anger skalan som används av olika enheter när sidan visas.
 
 
