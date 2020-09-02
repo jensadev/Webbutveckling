@@ -6,9 +6,13 @@
 
 * [Visual Studio Code](verktyg/visual-studio-code.md)
 * [Git](verktyg/git.md)
-* [Skisser](verktyg/skisser.md)
-* [Figma](verktyg/figma.md)
 * [Photoshop](verktyg/photoshop.md)
+
+## Prototyping
+
+* [Snabb prototyping](prototyping/snabb-prototyping.md)
+* [Skisser](prototyping/skisser.md)
+* [Figma](prototyping/figma.md)
 
 ## Teknisk orientering
 
