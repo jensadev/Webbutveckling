@@ -244,3 +244,7 @@ Bootstrap kan i början kännas väldigt överväldigande på grund av alla dess
 
 Att använda Bootstrap och att förstå dess funktion kräver att du arbeta med systemet och provar det. En bra start är just [dokumentationen](https://getbootstrap.com/docs/4.5/getting-started/introduction/) och att börja prova några komponenter. Det finns även en  [exempelsid](https://getbootstrap.com/docs/4.5/examples/), där hittar du ett antal sidor och kombinationer av komponenter för att komma igång. De exempel som finns kan även inspirera, men försök alltid att förstå delarna och var noga med att undersöka om Bootstraps grund har utökats med extra css.
 
+## Övningsuppgift
+
+Välj en trycksak med en intressant layout och försök återskapa den med Bootstrap.
+
