@@ -16,6 +16,8 @@ Det finns med andra ord väldigt stora summor pengar att spara.
 
 I det här fallet menas ett utkast, en testversion eller förlaga som används vid utvecklingen av en produkt. Mer specifikt i webbutveckling så är prototypen en första version av den sida som ska skapas med syfte att prova dess design, layout och funktion.
 
+![](../.gitbook/assets/kelly-sikkema-gchfxsdcmje-unsplash.jpg)
+
 
 
 

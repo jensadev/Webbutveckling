@@ -12,3 +12,5 @@ Papper kan med fördel användas i ett första stadium, innan processen fortsät
 
 ## Hur
 
+![](../.gitbook/assets/amelie-mourichon-zvduq0-opsy-unsplash.jpg)
+
