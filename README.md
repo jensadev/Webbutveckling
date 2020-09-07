@@ -1,7 +1,7 @@
 ---
 description: >-
   Utifrån det centrala innehållet för webbutveckling finns här länkar till de
-  olika områdena.
+  olika områdena. Materialet behandlar delar som ingår i webbutveckling 1 och 2.
 ---
 
 # Start
