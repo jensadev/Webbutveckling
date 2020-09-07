@@ -23,8 +23,8 @@
 
 * [Din första HTML fil](html/untitled.md)
 * [Språket](html/html-spraket.md)
-* [DOM](html/dom.md)
 * [Semantik](html/semantik.md)
+* [DOM](html/dom.md)
 
 ## CSS
 
