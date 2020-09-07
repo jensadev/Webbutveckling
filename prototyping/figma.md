@@ -36,3 +36,7 @@ Fler resurser hittar du här nedanför.
 
 * [Figma Tutorials: Getting started](https://www.youtube.com/playlist?list=PLXDU_eVOJTx7QHLShNqIXL1Cgbxj7HlN4)
 
+## Övningar
+
+Översätt 
+
