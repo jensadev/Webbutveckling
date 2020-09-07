@@ -33,7 +33,7 @@ description: >-
 * [Utvecklingsprocessen för ett webbtekniskt projekt med målsättningar, planering, specifikation av struktur och design, kodning, optimering, testning, dokumentation och uppföljning.  ](https://jens-andreasson.gitbook.io/projekt/)
 * Fördjupning i märkspråk där det huvudsakliga innehållet är standarderna för [HTML](html/html-spraket.md) och [CSS](css/css-spraket.md) med särskilt fokus på [responsiv design](design/responsiv-design.md).
 * [Språk](css/sass.md) med stöd för variabler för att förenkla CSS-generering.
-* Ramverk eller klassbibliotek inom [design](design/bootstrap.md) eller skriptspråk.
+* Ramverk eller klassbibliotek inom [design](design/bootstrap.md) eller [skriptspråk](javascript/ramverk.md).
 * [Skriptspråk](javascript/js-spraket.md) för webbutveckling på klientsidan och [dokumentobjektsmodell](html/dom.md).
 * Bilder, ljud, video och två- eller tredimensionell interaktiv grafik för webbapplikationer.
 * [Riktlinjer för god praxis inom webbutveckling](tester/checklista-foer-webbsidor.md).
