@@ -30,7 +30,9 @@ Figma, gränssnittet [https://youtu.be/DSrbwCrEIII](https://youtu.be/DSrbwCrEIII
 
 ## Exempel
 
-Hur använder en Figma då? [https://youtu.be/3q3FV65ZrUs](https://youtu.be/3q3FV65ZrUs)
+Hur använder en Figma då? Följande video förklarar gränssnittet och hur du arbetar med det. Följ gärna med i filmen, pausa och skapa din egen layout. Video från DesignCourse hittar du [här](https://youtu.be/3q3FV65ZrUs). 
+
+Fler resurser hittar du här nedanför.
 
 * [Figma Tutorials: Getting started](https://www.youtube.com/playlist?list=PLXDU_eVOJTx7QHLShNqIXL1Cgbxj7HlN4)
 
