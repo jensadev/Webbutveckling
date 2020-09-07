@@ -93,5 +93,7 @@ Använd experimentella format med försiktighet.
 
 ## Optimering
 
+Automatiserad optimering vs manuell.
+
 
 
