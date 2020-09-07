@@ -11,6 +11,6 @@ description: Ecmaskript == Javascript &&  Java != Javascript
 1. Öppna webbläsaren.
 2. Öppna utvecklarverktygen i webbläsaren\(Chrome, CTRL+SHIFT+i eller F12\).
 3. Leta reda på javascript-konsolen.
-4. Skriv `console.log('Hello world');`
+4. Skriv `alert('Hello world');`
 5. Fira. 👏
 
