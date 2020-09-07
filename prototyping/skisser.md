@@ -12,5 +12,7 @@ Papper kan med fördel användas i ett första stadium, innan processen fortsät
 
 ## Hur
 
+Rita är det förenklade svaret. En pappers-prototyp är ofta i form av 
+
 ![Mobil pappers-prototyp ](../.gitbook/assets/amelie-mourichon-zvduq0-opsy-unsplash.jpg)
 
