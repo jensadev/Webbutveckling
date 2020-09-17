@@ -20,7 +20,7 @@ En paragraf med text.
 
 ### Element
 
-I exemplet ovan så används paragraf elementet. Som de flesta HTML element består det av tre delar.
+I exemplet ovan så används paragraf-elementet. Som de flesta HTML element består det av tre delar.
 
 * Öppningstaggen
   * Indikerar vars elementet börjar. Det använder mindre än tecken, elementets namn och större än tecken.
@@ -35,7 +35,7 @@ HTML är ett otroligt robust språk då webbläsaren tolkar alla element och vis
 
 #### Nästla element
 
-I HTML kan element placeras innuti andra element, det kallars för att **nästla**\(engelska **nesting**\) element.
+I HTML kan element placeras inuti andra element, det kallas för att **nästla**\(engelska **nesting**\) element.
 
 {% tabs %}
 {% tab title="HTML" %}
@@ -47,16 +47,16 @@ I HTML kan element placeras innuti andra element, det kallars för att **nästla
 
 #### Block- och inline-element
 
-Det finns två kategorier av element, **block** element och **inline** element.
+Det finns två kategorier av element, **block-element** och **inline-element**.
 
-* Block element skapar ett tydligt block på en sida. Block element börjar på en ny rad efter det innehåll som finns före det. Efter ett block element kommer en radbrytning. Block element är ofta strukturella element på en sida.
-* Inline element är innehåll i block element. Inline element börjar eller slutar inte med en radbrytning.
+* Block-element skapar ett tydligt block på en sida. Block-element börjar på en ny rad efter det innehåll som finns före det. Efter ett block-element kommer en radbrytning. Block-element är ofta strukturella element på en sida.
+* Inline-element är innehåll i block element. Inline-element är oftast en mindre del av en sida. Inline-element börjar eller slutar inte med en radbrytning.
 
-I exemplet ovan är p ett block element och strong är ett inline element.
+I exemplet ovan är p ett block-element och strong är ett inline-element.
 
 #### Tomma element
 
-Vissa element följer inte mönstret med öppningstagg, innehåll och stängningstagg. De elementen kallas för tomma element. De används framförallt för att lägga till något annat i koden, till exempel bilder. 
+Vissa element följer inte mönstret med öppningstagg, innehåll, stängningstagg. De elementen kallas för tomma element. De används framförallt för att lägga till innehåll, till exempel bilder. 
 
 {% tabs %}
 {% tab title="HTML" %}
