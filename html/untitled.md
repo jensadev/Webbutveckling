@@ -58,5 +58,9 @@ Sidan här ovanför har ett antal **attribut** som tillhör taggarna.
 
 
 
+{% hint style="info" %}
+Med element och tillhörande attribut så byggs en webbsidas struktur upp.
+{% endhint %}
+
 
 
