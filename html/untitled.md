@@ -56,11 +56,7 @@ Sidan här ovanför har ett antal **attribut** som tillhör taggarna.
 * charset, vilket [teckenkodning ](../teknisk-orientering/teckenkodning.md)sidan ska använda. Detta kommer i 99.9% av fallen vara [**UTF-8**](../teknisk-orientering/teckenkodning.md#utf-8).
 * name, viewport. Detta anger skalan som används av olika enheter när sidan visas.
 
-
-
 {% hint style="info" %}
 Med element och tillhörande attribut så byggs en webbsidas struktur upp.
 {% endhint %}
-
-
 
