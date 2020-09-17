@@ -23,7 +23,6 @@
 
 * [Din första HTML fil](html/untitled.md)
 * [Språket](html/html-spraket.md)
-* [Semantik](html/semantik.md)
 * [Text](html/text.md)
 * [DOM](html/dom.md)
 
