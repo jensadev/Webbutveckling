@@ -76,7 +76,7 @@ Semantik är grekiska för tecken. I HTML används **semantiska element** för a
 
 De flesta element i HTML är semantiska. Semantiska element hjälper oss utvecklare att förstå koden, men det hjälper även webbläsaren att förstå och presentera strukturen. Rubrik-element får till exempel en större och fetare stil än en paragraf.
 
-Studera följande exempel och försök dra slutsatser kring innehållet. Om du vill testa det i en webbläsare för att se skillnaden.
+Studera följande exempel och försök dra slutsatser kring innehållet. Om du vill, testa det i en webbläsare för att se skillnaden.
 
 {% tabs %}
 {% tab title="HTML" %}
