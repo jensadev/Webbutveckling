@@ -78,7 +78,7 @@ When the calèche stopped, the driver jumped down and held out his hand to assis
 
 ## Inline element för text
 
-Semantiska element
+Text märks inte enbart upp med strukturella element. Semantiska element
 
 Emphasis &lt;em&gt;
 
