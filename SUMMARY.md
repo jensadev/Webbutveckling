@@ -24,6 +24,7 @@
 * [Din första HTML fil](html/untitled.md)
 * [Språket](html/html-spraket.md)
 * [Text](html/text.md)
+* [Struktur](html/struktur.md)
 * [DOM](html/dom.md)
 
 ## CSS
@@ -39,6 +40,7 @@
 
 ## Design
 
+* [Design och layout](design/design-och-layout.md)
 * [Responsiv design](design/responsiv-design.md)
 * [Bootstrap](design/bootstrap.md)
 

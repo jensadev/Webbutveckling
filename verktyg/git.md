@@ -193,6 +193,10 @@ Vscode kan också användas för att jobba mot GitHub. Då används  Source Cont
 
 ### Git command line
 
+{% hint style="danger" %}
+**Det här avsnittet handlar om Git command line, om du enbart använder desktop-klienten kan du stanna här.**
+{% endhint %}
+
 Det är bra att ha kunskapr kring hur Git fungerar i cmd. Det här avsnittet repeterar hur du löser en konflikt med Git i cmd.
 
 {% hint style="warning" %}
@@ -327,10 +331,14 @@ Konflikter kan ske oavsett vilken typ av Git-klient du använder. Precis som i t
 
 Synkronisera först ditt lokala repo mot remote.
 
+{% tabs %}
+{% tab title="Windows Powershell" %}
 ```bash
 git fetch
 git pull
 ```
+{% endtab %}
+{% endtabs %}
 
 Öppna repot på GitHub.com. Redigera README.md och commita dina ändringar..
 
@@ -338,11 +346,15 @@ git pull
 
 Öppna vscode och redigera README-filen. Sparan ändringarna och skapa en ny commit.
 
+{% tabs %}
+{% tab title="Windows Powershell" %}
 ```bash
 git add README.md
 git commit -m"uppdatering av readme"
 git push
 ```
+{% endtab %}
+{% endtabs %}
 
 Att pusha filerna resulterar i en konflikt \(merge issue\). Felmeddelandet ser ut ungefär såhär.
 
@@ -360,9 +372,13 @@ Push misslyckades. Var noga med att läsa hela meddelandet, då Git ger tips om 
 
 Kör git pull för att initiera arbetet med att lösa konflikten.
 
+{% tabs %}
+{% tab title="Windows Powershell" %}
 ```bash
 git pull
 ```
+{% endtab %}
+{% endtabs %}
 
 Eftersom filerna i det lokala repot skiljer sig från filerna på remote kan inte Git automatisk slå ihop dem. Du behöver ange vad, eller vilken version som ska sparas.
 
@@ -378,11 +394,15 @@ Använd sedan vscode för att öppna de filer som har konflikter. Vscode hjälpe
 
 Spara sedan ändringarna; skapa en ny commit och pusha.
 
+{% tabs %}
+{% tab title="Windows Powershell" %}
 ```bash
 git add README.md
 git commit -m"fixade konflikter"
 git push
 ```
+{% endtab %}
+{% endtabs %}
 
 ## Branches
 
@@ -415,6 +435,8 @@ Kommandot git branch skapar en ny branch. Git branch följs av namnet på den br
 GitHub training, Checkout, [https://youtu.be/HwrPhOp6-aM](https://youtu.be/HwrPhOp6-aM).
 {% endhint %}
 
+{% tabs %}
+{% tab title="Windows Powershell" %}
 ```bash
 git branch
 # Vilket ger oss en lista av de branches som finns och * för den aktiva
@@ -422,6 +444,8 @@ git branch
   master
 
 ```
+{% endtab %}
+{% endtabs %}
 
 ![Aktiv branch i vscode](../.gitbook/assets/branch.png)
 
@@ -437,20 +461,28 @@ När arbetet med en branch är färdigt så behöver det commitas och sedan slå
 
 Instruktionerna som följer visar hur du slår ihop dina branches lokalt. För att skapa en pull request, läs Githubs guide [här](https://guides.github.com/activities/hello-world/).
 
+{% tabs %}
+{% tab title="Windows Powershell" %}
 ```bash
 git branch # kontrollera aktiv branch
 git add . # . betyder, lägg till alla filer i mappen
 git commit -m "ny fil i ny branch"
 ```
+{% endtab %}
+{% endtabs %}
 
 Kontrollera vilka filer som finns  i mappen med dir eller ls. Byt sedan branch och kontrollera igen.
 
 För att slå ihop branches väljer du först den branch som ska ta emot koden från en branch. Från den aktiva branchen körs kommandot git merge, med namnet på den branch som ska slås ihop till den aktiva.
 
+{% tabs %}
+{% tab title="Windows Powershell" %}
 ```bash
 git checkout master
 git merge feature
 ```
+{% endtab %}
+{% endtabs %}
 
 Om konflikter uppstår så läs felmeddelande och försöka att lösa dem som tidigare.
 
@@ -460,9 +492,13 @@ GitHub training, Merge, [https://youtu.be/yyLiplDQtf0](https://youtu.be/yyLiplDQ
 
 Efter att de slagits ihop så tar du bort den branch som inte längre används.
 
+{% tabs %}
+{% tab title="Windows Powershell" %}
 ```bash
 git branch -d feature
 ```
+{% endtab %}
+{% endtabs %}
 
 Att arbeta med branches är GitHubs workflow, läs mer om det i GitHubs material för att få en bättre förståelse för hur det fungerar.
 
