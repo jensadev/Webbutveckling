@@ -100,3 +100,16 @@ ordered list &lt;ol&gt;
 
  Innehåller list item, &lt;li&gt;
 
+## Datum
+
+För att märka upp datum finns elementet `<time>`. Detta är väldigt praktiskt för att det finns väldigt mångas olika format att skriva ett datum. Format som kanske en människa begriper, men inte en dator.
+
+{% tabs %}
+{% tab title="HTML" %}
+```markup
+<time datetime="05-03">3 May</time>
+<time datetime="T20:35">8:35 P. M.</time>
+```
+{% endtab %}
+{% endtabs %}
+
