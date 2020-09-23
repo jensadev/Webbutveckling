@@ -95,3 +95,20 @@ Koden här ovan är inte komplett och vissa attribut har utelämnats för att f�
 Kopiera koden och kör den i webbläsaren, det du kommer se är att sidan saknar design. Det du ser är enbart standardformateringen av HTML.
 {% endhint %}
 
+### Olika element för innehåll
+
+Försök att strukturera din kod med hjälp av semantiska element där det är möjligt eftersom det underlättar för tillgängligheten. Men det finns även många tillfällen där det inte är möjligt. Du kommer även att behöva dela upp dig kod i nästlade element.
+
+För att dela upp innehåll kan [artikel-elementet](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article) användas som i exemplet. Ett annat element med semantisk betydelse är &lt;section&gt;,  vilket representerar en sektion av en helhet\(vilket kan vara en artikel\), läs mer [här](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section). Det kan vara svårt att välja element för sitt innehåll och därför finns det även ett generiskt element för innehåll, det heter `<div>`. En `<div>` har ingen semantisk mening. 
+
+
+
+## Övning
+
+1. Öppna filen index.html som du skapade i kapitlet om [text](text.md#oevning).
+2. Strukturera upp din tidigare kod. Använd dig av.
+   1. Sidhuvud, bokens titel.
+   2. Navigation, kapitel.
+   3. Innehåll för bokens text.
+      1. Du kan dela upp varje kapitel med taggen `<section>`
+

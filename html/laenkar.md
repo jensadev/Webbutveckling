@@ -113,7 +113,7 @@ Försök att alltid namnge dina filer och mappar med små bokstäver. Undvik äv
 
 ## Övning
 
-1. Öppna filen index.html som du skapade i [text kapitlet](text.md#oevning).
+1. Öppna filen index.html som du skapade i kapitlet om [text](text.md#oevning).
 2. Skapa en länk till sidan för [e-boken](https://www.gutenberg.org/files/345/345-h/345-h.htm).
 3. Märk upp innehållsförteckningen med länkar till dokument fragment.
    1. Kapitel 1, Kapitel 2 och så vidare.
