@@ -31,6 +31,7 @@
 ## CSS
 
 * [Din första CSS fil](css/css-start.md)
+* [Layout](css/css-layout.md)
 * [Språket](css/css-spraket.md)
 * [Sass](css/sass.md)
 
