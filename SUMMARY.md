@@ -18,6 +18,7 @@
 
 * [Viktiga begrepp](teknisk-orientering/viktiga-begrepp.md)
 * [Teckenkodning](teknisk-orientering/teckenkodning.md)
+* [DOM](teknisk-orientering/dom.md)
 
 ## HTML
 
@@ -26,7 +27,6 @@
 * [Text](html/text.md)
 * [Länkar](html/laenkar.md)
 * [Struktur](html/struktur.md)
-* [DOM](html/dom.md)
 
 ## CSS
 

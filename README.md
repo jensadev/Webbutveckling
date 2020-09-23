@@ -14,7 +14,7 @@ description: >-
 * [Teknisk orientering om webbens protokoll, adresser, säkerhet och samspelet mellan klient och server.](teknisk-orientering/viktiga-begrepp.md)
 * [Publikation av webbplatser med och utan webbpubliceringssystem.](publikation/git-pages.md)
 * [Processen för ett webbutvecklingsprojekt med målsättningar, planering, specifikation av struktur och design, kodning, optimering, testning, dokumentation och uppföljning.](https://jens-andreasson.gitbook.io/projekt/)
-* Märkspråk och deras inbördes roller, syntax och semantik – där det huvudsakliga innehållet är standarderna för [HTML](html/html-spraket.md) och [CSS](css/css-spraket.md) samt orientering om [Ecmaskript](javascript/js-spraket.md) och [dokumentobjektsmodellen](html/dom.md) \(DOM\).
+* Märkspråk och deras inbördes roller, syntax och semantik – där det huvudsakliga innehållet är standarderna för [HTML](html/html-spraket.md) och [CSS](css/css-spraket.md) samt orientering om [Ecmaskript](javascript/js-spraket.md) och [dokumentobjektsmodellen](teknisk-orientering/dom.md) \(DOM\).
 * [Teckenkodning, begrepp, standarder och handhavande.](teknisk-orientering/teckenkodning.md)
 * [Bilder och media med alternativa format, optimering och tillgänglighet.](media/bilder.md)
 * [Riktlinjer för god praxis inom webbutveckling.](tester/checklista-foer-webbsidor.md)
@@ -34,7 +34,7 @@ description: >-
 * Fördjupning i märkspråk där det huvudsakliga innehållet är standarderna för [HTML](html/html-spraket.md) och [CSS](css/css-spraket.md) med särskilt fokus på [responsiv design](design/responsiv-design.md).
 * [Språk](css/sass.md) med stöd för variabler för att förenkla CSS-generering.
 * Ramverk eller klassbibliotek inom [design](design/bootstrap.md) eller [skriptspråk](javascript/ramverk.md).
-* [Skriptspråk](javascript/js-spraket.md) för webbutveckling på klientsidan och [dokumentobjektsmodell](html/dom.md).
+* [Skriptspråk](javascript/js-spraket.md) för webbutveckling på klientsidan och [dokumentobjektsmodell](teknisk-orientering/dom.md).
 * Bilder, ljud, video och två- eller tredimensionell interaktiv grafik för webbapplikationer.
 * [Riktlinjer för god praxis inom webbutveckling](tester/checklista-foer-webbsidor.md).
 * [Uppnående av interoperabilitet genom att följa standarder och testa på olika plattformar](tester/checklista-foer-webbsidor.md).

@@ -37,7 +37,7 @@ Precis som att det finns en [grundmall ](untitled.md#ett-exempel)för ett HTML d
 {% code title="index.html" %}
 ```markup
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -100,6 +100,10 @@ Kopiera koden och kör den i webbläsaren, det du kommer se är att sidan saknar
 Försök att strukturera din kod med hjälp av semantiska element där det är möjligt eftersom det underlättar för tillgängligheten. Men det finns även många tillfällen där det inte är möjligt. Du kommer även att behöva dela upp dig kod i nästlade element.
 
 För att dela upp innehåll kan [artikel-elementet](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article) användas som i exemplet. Ett annat element med semantisk betydelse är &lt;section&gt;,  vilket representerar en sektion av en helhet\(vilket kan vara en artikel\), läs mer [här](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section). Det kan vara svårt att välja element för sitt innehåll och därför finns det även ett generiskt element för innehåll, det heter `<div>`. En `<div>` har ingen semantisk mening och bör enbart användas när en semantisk mening saknas. Läs mer om div-elementet [här](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section).
+
+## Mer än HTML
+
+Nästa steg är att koppla samman HTML koden med webbens språk för stilar, CSS. Det är först då du kommer att få kontroll över sidans utseende.
 
 ## Övning
 
