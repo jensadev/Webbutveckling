@@ -51,6 +51,10 @@ När du skapar länkar på din webbplats är det viktigt att du förstår hur du
 
 För att komma åt filer så används **relativa** sökvägar på webben. Det betyder att du utgår från dokumentet och vars det ligger i filstrukturen. Ofta utgår en sidan från index.html.
 
+{% hint style="warning" %}
+Använd aldrig absoluta sökvägar till filer i ditt dokument. Börjar sökvägen med c:\... så kommer det inte fungera för någon annan.
+{% endhint %}
+
 ### Länka i samma mapp
 
 Du vill länka från index.html till about.html som ligger i samma mapp.
@@ -102,4 +106,8 @@ Vissa länkar används för att länka mellan sektioner i ett dokument, det kall
 ```
 {% endtab %}
 {% endtabs %}
+
+{% hint style="info" %}
+Försök att alltid namnge dina filer och mappar med små bokstäver. Undvik även specialtecken\(åäö\) och mellanslag.
+{% endhint %}
 
