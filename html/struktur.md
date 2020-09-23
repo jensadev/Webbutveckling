@@ -32,7 +32,7 @@ Sist kommer en sidfot, oftast en rad längst ned på sidan där det samlas infor
 
 ## Koda en sidstruktur
 
-Precis som att det finns en [grundmall ](untitled.md#ett-exempel)för ett HTML dokument så kan vi skapa en liknande grund för komponenterna. Här nedan följer en grund för SVT Nyheter utifrån [bilden](struktur.md#komponenter).
+Precis som att det finns en [grundmall ](html-start.md#ett-exempel)för ett HTML dokument så kan vi skapa en liknande grund för komponenterna. Här nedan följer en grund för SVT Nyheter utifrån [bilden](struktur.md#komponenter).
 
 {% code title="index.html" %}
 ```markup
