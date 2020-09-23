@@ -109,4 +109,5 @@ För att dela upp innehåll kan [artikel-elementet](https://developer.mozilla.or
    2. Navigation, kapitel.
    3. Innehåll för bokens text.
       1. Du kan dela upp varje kapitel med taggen `<section>`
+   4. Sidfot med kontaktuppgift.
 
