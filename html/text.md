@@ -80,27 +80,83 @@ When the calèche stopped, the driver jumped down and held out his hand to assis
 
 Text märks inte enbart upp med block-element som ger dem struktur, utan det finns även ett antal inline-element för att formatera texten. Några av elementen är semantiska, de ger mening till formateringen, medans andra är rent visuella.
 
-För att visa att något ord är extra viktigt så kan vi betona det.
+För att visa att något ord är extra viktigt så kan vi **betona** det.
 
 ```text
 <p>Det är viktigt att <strong>fokusera</strong> när du ska lära dig något.</p>
 ```
 
-I exemplet ovan så 
+I exemplet ovan så används taggen strong inuti ett p-element, det är nästlat. Strong-elementet är ett inline-element så det blir ingen radbrytning kring det vilket är viktigt.
 
+För att rent visuellt märka upp text, med **fetstil** och _kursiv stil_ så används element utan semantisk mening. 
 
-
-Visuellt, &lt;b&gt; &lt;i&gt; &lt;u&gt;
-
-
+```text
+<p>Jag har köpt ett paket <b>Mirakel-flingor</b>. Flingorna är det <i>bästa</i>!</p>
+```
 
 ## Listor
 
-unordererd list &lt;ul&gt; 
+Listor finns överallt i text, att göra listor, handlarlistor och så vidare, du använder dem säkert. Listor kan antingen vara oordnade eller ordnade. En handlarlista kanske inte behöver en speciell ordning, men skriver du en instruktion så kan det vara avgörande att det sker i rätt ordning.
 
-ordered list &lt;ol&gt;
+Listor på webben används ofta till annat än det som visuellt kanske kan ses som en lista. De används ofta för att skapa struktur i till exempel menyer.
 
- Innehåller list item, &lt;li&gt;
+### Oordnade listor
+
+Listor där ordningen inte spelar något roll.
+
+{% tabs %}
+{% tab title="Plain Text" %}
+```text
+Banan
+Äpple
+Apelsin
+Kiwi
+```
+{% endtab %}
+
+{% tab title="HTML" %}
+```markup
+<ul>
+  <li>Banan</li>
+  <li>Äpple</li>
+  <li>Apelsin</li>
+  <li>Kiwi</li>
+</ul>
+```
+{% endtab %}
+{% endtabs %}
+
+En lista startar med med elementet för listans typ, **unordered** **list** har elementet `<ul>`. Varje element i listan blir sedan ett `<li>` element.
+
+### Ordnade listor
+
+Ordnade listor är listor där ordningen är viktig och det visas också av att det som standard blir en numrerad lista. Elementet för **ordered list** är `<ol>`. Varje enskilt element i listan märks sedan upp med `<li>`.
+
+{% tabs %}
+{% tab title="Plain Text" %}
+```text
+Ta fram stekpannan.
+Lägg i en klick smör och låt det smälta.
+Häll i ca. 1dl smet.
+Stek pannkakan.
+```
+{% endtab %}
+
+{% tab title="HTML" %}
+```markup
+<ol>
+    <li>Ta fram stekpannan.</li>
+    <li>Lägg i en klick smör och låt det smälta.</li>
+    <li>Häll i cirka 1dl smet.</li>
+    <li>Stek pannkakan.</li>
+</ol>
+```
+{% endtab %}
+{% endtabs %}
+
+{% hint style="info" %}
+Notera indragen\(indenteringen, engelska indentation\) i listan, det är viktigt att du arbetar så för att koden ska bli tydlig och läsbar.
+{% endhint %}
 
 ## Datum
 
