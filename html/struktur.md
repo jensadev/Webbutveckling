@@ -59,12 +59,12 @@ Precis som att det finns en [grundmall ](untitled.md#ett-exempel)för ett HTML d
       </h1>
     </header>
     <article>
-      <img src="#" alt="Rubrikbild">
+      <img src="https://picsum.photos/600/300" alt="Rubrikbild">
       <h2>Ryskt militärfartyg i krock i Öresund</h2>
       <p>Dimma i området. Danmark begär svensk hjälp</p>
     </article>
     <article>
-      <img src="#" alt="Rubrikbild">
+      <img src="https://picsum.photos/600/300" alt="Rubrikbild">
       <h2>Emma Frans om stigande smittkurvan: "Ganska väntat"</h2>
       <p>Forskare: Stora frågan är om uppgången fortsätter</p>
     </article>
