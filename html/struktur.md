@@ -59,13 +59,13 @@ Precis som att det finns en [grundmall ](untitled.md#ett-exempel)för ett HTML d
       </h1>
     </header>
     <article>
-      <img src="#" alt="Rubrikbild">
+      <img src="https://picsum.photos/600/300" alt="Rubrikbild">
       <h2>Ryskt militärfartyg i krock i Öresund</h2>
       <p>Dimma i området. Danmark begär svensk hjälp</p>
     </article>
     <article>
-      <img src="#" alt="Rubrikbild">
-      <h2>Enmma Frans om stigande smittkurvan: "Ganska väntat"</h2>
+      <img src="https://picsum.photos/600/300" alt="Rubrikbild">
+      <h2>Emma Frans om stigande smittkurvan: "Ganska väntat"</h2>
       <p>Forskare: Stora frågan är om uppgången fortsätter</p>
     </article>
     <aside>
@@ -89,7 +89,7 @@ Precis som att det finns en [grundmall ](untitled.md#ett-exempel)för ett HTML d
 ```
 {% endcode %}
 
-Koden här ovan är inte komplett och vissa attribut har utelämnats för att förenkla, men strukturen finns där. Notera att sidan inte har en `<header>`, istället tjänar sidans navigation som ett sidhuvud. Sidans huvudinnehåll börjar med en `<header>` för att ge fokus till viktiga nyheter. Varje nyhet använder sedan elementet `<article>`.
+Koden här ovan är inte komplett och vissa attribut har utelämnats för att förenkla, men strukturen finns där. Notera att sidan inte har en `<header>`, istället tjänar sidans navigation som ett sidhuvud. Sidans huvudinnehåll börjar med en `<header>` för att ge fokus till viktiga nyheter. Varje nyhet använder sedan elementet `<article>`. I sidans navigation används en oordnad-lista för att rada upp elementen i menyn.
 
 {% hint style="info" %}
 Kopiera koden och kör den i webbläsaren, det du kommer se är att sidan saknar design. Det du ser är enbart standardformateringen av HTML.
@@ -99,7 +99,7 @@ Kopiera koden och kör den i webbläsaren, det du kommer se är att sidan saknar
 
 Försök att strukturera din kod med hjälp av semantiska element där det är möjligt eftersom det underlättar för tillgängligheten. Men det finns även många tillfällen där det inte är möjligt. Du kommer även att behöva dela upp dig kod i nästlade element.
 
-För att dela upp innehåll kan [artikel-elementet](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article) användas som i exemplet. Ett annat element med semantisk betydelse är &lt;section&gt;,  vilket representerar en sektion av en helhet\(vilket kan vara en artikel\), läs mer [här](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section). Det kan vara svårt att välja element för sitt innehåll och därför finns det även ett generiskt element för innehåll, det heter `<div>`. En `<div>` har ingen semantisk mening och bör enbart användas när en semantisk mening saknas. Läs mer om div-elementet [här](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section).
+För att dela upp innehåll kan [artikel-elementet](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article) användas som i exemplet. Ett annat element med semantisk betydelse är `<section>`,  vilket representerar en sektion av en helhet\(vilket kan vara en artikel\), läs mer [här](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section). Det kan vara svårt att välja element för sitt innehåll och därför finns det även ett generiskt element för innehåll, det heter `<div>`. En `<div>` har ingen semantisk mening och bör enbart användas när en semantisk mening saknas. Läs mer om div-elementet [här](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section).
 
 ## Mer än HTML
 
