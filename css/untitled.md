@@ -14,7 +14,7 @@ Index.html första versionen.
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SVT Nyheter</title>
-  <link rel="stylesheet" href="stylesheets/html-struktur.css">
+  <link rel="stylesheet" href="stylesheets/main.css">
 </head>
 <body>
   <nav>
