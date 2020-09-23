@@ -37,16 +37,16 @@ Nedan följer grunden för ett korrekt HTML-dokument. Det består av ett antal e
 
 ### Element
 
-* &lt;!DOCTYPE html&gt; deklarerar att dokument är ett HTML5 dokument.
-* &lt;html&gt; är **root** \(det första\) elementet för ett HTML dokument.
-* &lt;head&gt; elementet innehåller information om webbsidan till webbläsaren.
-  * &lt;meta&gt; elementet specificerar [**teckenkodning** ](../teknisk-orientering/teckenkodning.md)bland annat.
-  * &lt;title&gt; innehåller sidans titel som värde, vilket syns in webbläsarens titel eller **tab.**
-* &lt;body&gt; elementet definierar sidans kropp, det innehåll som vi ser på webbsidan.
-  * &lt;h1&gt; elementet skapar en **rubrik** \(engelska **heading**\).
-  * &lt;p&gt; elementet skapar en **paragraf** \(engelska **paragraph**\).
+* `<!DOCTYPE html>` deklarerar att dokument är ett HTML5 dokument.
+* `<html>` är **root** \(det första\) elementet för ett HTML dokument.
+* `<head>` elementet innehåller information om webbsidan till webbläsaren.
+  * `<meta>` elementet specificerar [**teckenkodning** ](../teknisk-orientering/teckenkodning.md)bland annat.
+  * `<title>` innehåller sidans titel som värde, vilket syns in webbläsarens titel eller **tab.**
+* `<body>` elementet definierar sidans kropp, det innehåll som vi ser på webbsidan.
+  * `<h1>` elementet skapar en **rubrik** \(engelska **heading**\).
+  * `<p>` elementet skapar en **paragraf** \(engelska **paragraph**\).
 
-Notera att de flesta element har en öppnings- och stängnings-tagg. Ett elements värde skrivs mellan taggarna. Taggar stängs med en slash /.
+Notera att de flesta element har en öppnings- och stängnings-tagg. Ett elements värde skrivs mellan taggarna. Taggar stängs med ett snedstreck /.
 
 {% hint style="info" %}
 Studera indragen i exemplet, det är väldigt viktigt att skriv koden med indrag för att öka dess läsbarhet. Det underlättar för dig som utvecklar koden.
@@ -56,9 +56,9 @@ Studera indragen i exemplet, det är väldigt viktigt att skriv koden med indrag
 
 Exemplet ovanför har ett antal **attribut** som tillhör taggarna.
 
-* lang, med ett värde som anger webbsidans språk. Webbläsaren använder det för eventuell översättning av sidan baserat på användarens språk.
-* charset, vilket [teckenkodning ](../teknisk-orientering/teckenkodning.md)sidan ska använda. Detta kommer i 99.9% av fallen vara [**UTF-8**](../teknisk-orientering/teckenkodning.md#utf-8).
-* name, viewport. Detta anger skalan som används av olika enheter när sidan visas.
+* `lang`, med ett värde som anger webbsidans språk. Webbläsaren använder det för eventuell översättning av sidan baserat på användarens språk.
+* `charset`, vilket [teckenkodning ](../teknisk-orientering/teckenkodning.md)sidan ska använda. Detta kommer i 99.9% av fallen vara [**UTF-8**](../teknisk-orientering/teckenkodning.md#utf-8).
+* `name`, `viewport`. Detta anger skalan som används av olika enheter när sidan visas.
 
 {% hint style="info" %}
 Med element, attribut och tillhörande text så byggs en webbsidas struktur upp.
@@ -68,7 +68,7 @@ Med element, attribut och tillhörande text så byggs en webbsidas struktur upp.
 
 Exemplet som finns här ovanför innehåller de element som krävs för en korrekt skriven HTML sida, vi säger att den [validerar ](../tester/kodkvalitet.md#validering)som korrekt HTML. Du kommer att behöva dessa element för varje sida du skapar, så att skriva av dem för hand är inte rimligt.
 
-Du kan kopiera koden från exemplet här, men det är inte praktiskt i längden. Istället är det viktigt att du bekantar dig med den textredigerare eller [IDE ](../verktyg/visual-studio-code.md)som du använder för att koda. Den innehåller med största sannolikhet ett verktyg för att skapa viss kod. I Visual Studio Code skapar du en .html fil, sedan skriver du `html:5` och trycker tab.
+Du kan kopiera koden från exemplet här, men det är inte praktiskt i längden. Istället är det viktigt att du bekantar dig med den textredigerare eller [IDE ](../verktyg/visual-studio-code.md)som du använder för att koda. Den innehåller med största sannolikhet ett verktyg för att skapa viss kod. I [Visual Studio Code](../verktyg/visual-studio-code.md) skapar du en .html fil, sedan skriver du `html:5` och trycker tab.
 
 {% hint style="info" %}
 Nästan alla kod-element har kortkommandon i ditt IDE, lär dig dem!
