@@ -24,6 +24,7 @@
 * [Din första HTML fil](html/untitled.md)
 * [Språket](html/html-spraket.md)
 * [Text](html/text.md)
+* [Länkar](html/laenkar.md)
 * [Struktur](html/struktur.md)
 * [DOM](html/dom.md)
 
