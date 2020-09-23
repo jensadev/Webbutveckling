@@ -23,13 +23,13 @@ Nedan följer grunden för ett korrekt HTML-dokument. Det består av ett antal e
 <!DOCTYPE html>
 <html lang="se">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mitt första html dokument</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mitt första html dokument</title>
 </head>
 <body>
-    <h1>Välkommen!</h1>
-    <p>Detta är p elementets värde.</p>
+  <h1>Välkommen!</h1>
+  <p>Detta är p elementets värde.</p>
 </body>
 </html>
 ```
@@ -47,6 +47,10 @@ Nedan följer grunden för ett korrekt HTML-dokument. Det består av ett antal e
   * &lt;p&gt; elementet skapar en **paragraf** \(engelska **paragraph**\).
 
 Notera att de flesta element har en öppnings- och stängnings-tagg. Ett elements värde skrivs mellan taggarna. Taggar stängs med en slash /.
+
+{% hint style="info" %}
+Studera indragen i exemplet, det är väldigt viktigt att skriv koden med indrag för att öka dess läsbarhet. Det underlättar för dig som utvecklar koden.
+{% endhint %}
 
 ### Attribut
 
