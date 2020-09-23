@@ -65,7 +65,7 @@ Precis som att det finns en [grundmall ](untitled.md#ett-exempel)för ett HTML d
     </article>
     <article>
       <img src="#" alt="Rubrikbild">
-      <h2>Enmma Frans om stigande smittkurvan: "Ganska väntat"</h2>
+      <h2>Emma Frans om stigande smittkurvan: "Ganska väntat"</h2>
       <p>Forskare: Stora frågan är om uppgången fortsätter</p>
     </article>
     <aside>
