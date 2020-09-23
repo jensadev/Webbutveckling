@@ -173,5 +173,7 @@ För att märka upp datum finns elementet `<time>`. Detta är väldigt praktiskt
 
 ## Övning
 
-Kopiera två kapitel från [Dracula](https://www.gutenberg.org/files/345/345-h/345-h.htm) och märk upp texten med HTML element. Använd alla verktygen du lärt dig och skapa en innehållsförteckning med en lista.
+1. Skapa en ny HTML fil och döp den till index.html. 
+2. Kopiera två kapitel från [Dracula](https://www.gutenberg.org/files/345/345-h/345-h.htm) och märk upp texten med HTML element. Använd alla verktygen du lärt dig.
+3. Skapa en innehållsförteckning med en lista.
 
