@@ -107,7 +107,7 @@ Nästa steg är att koppla samman HTML koden med webbens språk för stilar, CSS
 
 ## Övning
 
-1. Öppna filen index.html som du skapade i kapitlet om [text](text.md#oevning).
+1. Öppna filen dracula.html som du skapade i kapitlet om [text](text.md#oevning).
 2. Strukturera upp din tidigare kod. Använd dig av.
    1. Sidhuvud, bokens titel.
    2. Navigation, kapitel.
