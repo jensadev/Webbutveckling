@@ -99,7 +99,7 @@ Kopiera koden och kör den i webbläsaren, det du kommer se är att sidan saknar
 
 Försök att strukturera din kod med hjälp av semantiska element där det är möjligt eftersom det underlättar för tillgängligheten. Men det finns även många tillfällen där det inte är möjligt. Du kommer även att behöva dela upp dig kod i nästlade element.
 
-För att dela upp innehåll kan [artikel-elementet](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article) användas som i exemplet. Ett annat element med semantisk betydelse är &lt;section&gt;,  vilket representerar en sektion av en helhet\(vilket kan vara en artikel\), läs mer [här](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section). Det kan vara svårt att välja element för sitt innehåll och därför finns det även ett generiskt element för innehåll, det heter `<div>`. En `<div>` har ingen semantisk mening. 
+För att dela upp innehåll kan [artikel-elementet](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article) användas som i exemplet. Ett annat element med semantisk betydelse är &lt;section&gt;,  vilket representerar en sektion av en helhet\(vilket kan vara en artikel\), läs mer [här](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section). Det kan vara svårt att välja element för sitt innehåll och därför finns det även ett generiskt element för innehåll, det heter `<div>`. En `<div>` har ingen semantisk mening och bör enbart användas när en semantisk mening saknas. Läs mer om div-elementet [här](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section).
 
 
 
