@@ -109,5 +109,6 @@ För att dela upp innehåll kan [artikel-elementet](https://developer.mozilla.or
    2. Navigation, kapitel.
    3. Innehåll för bokens text.
       1. Du kan dela upp varje kapitel med taggen `<section>`
-   4. Sidfot med kontaktuppgift.
+   4. Sidfot med länk till [e-boken](https://www.gutenberg.org/files/345/345-h/345-h.htm).
+3. Lägg till en bild.
 
