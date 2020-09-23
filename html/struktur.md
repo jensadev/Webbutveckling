@@ -101,8 +101,6 @@ Försök att strukturera din kod med hjälp av semantiska element där det är m
 
 För att dela upp innehåll kan [artikel-elementet](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article) användas som i exemplet. Ett annat element med semantisk betydelse är &lt;section&gt;,  vilket representerar en sektion av en helhet\(vilket kan vara en artikel\), läs mer [här](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section). Det kan vara svårt att välja element för sitt innehåll och därför finns det även ett generiskt element för innehåll, det heter `<div>`. En `<div>` har ingen semantisk mening och bör enbart användas när en semantisk mening saknas. Läs mer om div-elementet [här](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section).
 
-
-
 ## Övning
 
 1. Öppna filen index.html som du skapade i kapitlet om [text](text.md#oevning).
