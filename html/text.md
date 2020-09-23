@@ -33,7 +33,7 @@ För att skapa en rubrik\(engelska **heading**\) finns det sex olika element att
 
 Genom att märka upp text så skapas en struktur på sidan. Strukturen på texten låter användaren skanna av texten snabbare och uppfatta det som väcker intresse och är relevant. Strukturen underlättar också för sökmotorer som indexerar webbsidan, en bra strukturell hierarki ger bättre resultat. Strukturen är även avgörande för webbsidans tillgänglighet.
 
-## Ett kapitel
+## Ett exempel, Dracula
 
 Böcker är ett utmärkt exempel på strukturerad text. Se följande exempel, ett utdrag från Bram Stokers [Dracula](https://www.gutenberg.org/files/345/345-h/345-h.htm).
 
@@ -63,9 +63,9 @@ JONATHAN HARKER’S JOURNAL
 
 Studera exemplet och notera mönstret med elementen och vad de representerar. Rubrikerna och paragraferna har en semantisk betydelse vilket är viktigt. Elementet `<h1>` betyder att det är en huvudrubrik, elementets benämning bär en mening.
 
-### Övning
+### Övning, kapitel två
 
-Använd vscode för att skapa ett nytt HTML-dokument och strukturera följande text. 
+Använd vscode för att skapa ett nytt HTML-dokument. Döp dokumentet till dracula.html och strukturera följande text. 
 
 {% tabs %}
 {% tab title="Plain Text" %}
@@ -185,8 +185,8 @@ För att märka upp datum finns elementet `<time>`. Detta är väldigt praktiskt
 
 ## Övning
 
-1. Skapa en ny HTML fil och döp den till dracula.html. 
+1. Fortsätt arbeta med dracula.html.
 2. Kopiera två kapitel från [Dracula](https://www.gutenberg.org/files/345/345-h/345-h.htm) och märk upp texten med HTML element. 
-   1. Använd alla verktygen du lärt dig. Rubriker, paragrafer, tid.
+   1. Använd alla verktygen du lärt dig; rubriker, paragrafer, tid.
 3. Skapa en innehållsförteckning med en lista.
 
