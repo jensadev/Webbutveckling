@@ -20,7 +20,7 @@ För att märka upp en **paragraf**\(engelska **paragraph**\) så används `<p>`
 {% endtab %}
 {% endtabs %}
 
-För att skapa en rubrik\(engelska **heading**\) finns det sex olika element att välja mellan, `<h1>` , `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`. Siffrorna i h elementet representerar olika rubrik-nivåer där `<h1>` är huvudrubriken.
+För att skapa en rubrik\(engelska **heading**\) finns det sex olika element att välja mellan, `<h1>` , `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`. Siffrorna i heading-elementet representerar olika rubrik-nivåer där `<h1>` är huvudrubriken.
 
 {% tabs %}
 {% tab title="HTML" %}
@@ -78,13 +78,15 @@ When the calèche stopped, the driver jumped down and held out his hand to assis
 
 ## Inline element för text
 
-Text märks inte enbart upp med strukturella element. Semantiska element
+Text märks inte enbart upp med block-element som ger dem struktur, utan det finns även ett antal inline-element för att formatera texten. Några av elementen är semantiska, de ger mening till formateringen, medans andra är rent visuella.
 
-Emphasis &lt;em&gt;
+För att visa att något ord är extra viktigt så kan vi betona det.
 
-Strong &lt;strong&gt;
+```text
+<p>Det är viktigt att <strong>fokusera</strong> när du ska lära dig något.</p>
+```
 
-Quotation &lt;q&gt;
+I exemplet ovan så 
 
 
 
