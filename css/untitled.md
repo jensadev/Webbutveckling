@@ -2,9 +2,11 @@
 
 > Märkspråk och deras inbördes roller, syntax och semantik – där det huvudsakliga innehållet är standarderna för HTML och CSS samt orientering om Ecmaskript och dokumentobjektsmodellen \(DOM\).
 
+**Cascading Style Sheets**\(**CSS**\) är webbens verktyg för att skapa en webbplats utseende eller stil. CSS låter dig bestämma fonter, placeringar, färger och andra dekorativa funktioner.
+
 ## Ett exempel
 
-Index.html första versionen. 
+För att kunna arbeta med CSS behöver vi ett HTML dokument att utgå ifrån. Det som följer är index.html från kapitlet om HTML. Du kan ladda ned filen [här](https://raw.githubusercontent.com/jensnti/Webbutveckling/dffa89ec9e99f9d869c2b93d47e80afdc52c82e3/exempel/html-struktur.html). 
 
 {% code title="index.html" %}
 ```markup
@@ -61,8 +63,6 @@ Index.html första versionen.
 </html>
 ```
 {% endcode %}
-
-{% embed url="https://raw.githubusercontent.com/jensnti/Webbutveckling/dffa89ec9e99f9d869c2b93d47e80afdc52c82e3/exempel/html-struktur.html" %}
 
 
 
