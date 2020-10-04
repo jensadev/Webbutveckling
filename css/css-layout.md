@@ -60,6 +60,8 @@ För att kunna arbeta med CSS behöver vi ett HTML dokument att utgå ifrån. De
 ```
 {% endcode %}
 
+Att förvandla text till grafik är svårt och CSS kan vara väldigt besvärligt att arbeta med. Det finns många faktorer att känna till och förstå sig på.
+
 Version två av exempel-dokumentet med css selectorer.
 
 {% code title="index.html" %}

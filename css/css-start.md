@@ -39,7 +39,7 @@ p {
 
 ### Klass
 
-Med klass-typen av regeln skapar vi ett namn som vi sedan anger på de element där vi vill att regeln ska gälla. Klasser används när du behöver ge en stil-regel till ett eller flera element.
+Med klass-typen av regeln skapar vi ett namn som vi sedan anger på de element där vi vill att regeln ska gälla. Klasser används när du behöver ge en stil-regel till ett eller flera element. Klasser skrivs med `.regelnamn` och används med genom att ge elementet `class="regelnamn"` attributet.
 
 {% tabs %}
 {% tab title="CSS" %}
@@ -81,9 +81,71 @@ Den sista typen av selektor är ID. ID används främst för att namnge element 
 
 ## Cascading
 
+När du arbetar med CSS är det viktigt att känna till hur reglerna appliceras, reglerna har en ordning för hur de användas, **cascading**\(kaskad, flöde, vattenfall\). De appliceras i en särskild ordning.
 
+### Den sista i ordningen vinner
 
+Detta gäller inom samma fil.
 
+{% tabs %}
+{% tab title="CSS" %}
+```css
+h1 {
+    color: red;
+}
+
+h1 {
+    color: blue;
+}
+```
+{% endtab %}
+
+{% tab title="HTML" %}
+```markup
+<h1>Den här texten blir blå.</h1>
+```
+{% endtab %}
+{% endtabs %}
+
+Men ordningen gäller även när reglerna läses in. De läses in i följande ordning.
+
+* Extern fil, länkad inuti dokumentets head. `<link rel="stylesheet" href="style.css">`
+* style-element i dokumentet. `<style>h1 { color: red; } </style>`
+* Slutligen så kallade inline-stilar som attribut på element. `<h1 style="color: green;">`
+
+Ordningen kan ignoreras med attributet `!important`, men använd det med försiktighet då det kan göra felsökning svårare.
+
+{% tabs %}
+{% tab title="CSS" %}
+```css
+h1 {
+    color: pink !important;
+}
+```
+{% endtab %}
+{% endtabs %}
+
+### Klass före element
+
+{% tabs %}
+{% tab title="CSS" %}
+```css
+.heading {
+    color: red;
+}
+
+h1 {
+    color: blue;
+}
+```
+{% endtab %}
+
+{% tab title="HTML" %}
+```markup
+<h1 class="heading">Den här texten blir röd.</h1>
+```
+{% endtab %}
+{% endtabs %}
 
 
 
