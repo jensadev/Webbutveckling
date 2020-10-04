@@ -34,6 +34,10 @@ Sist kommer en sidfot, oftast en rad längst ned på sidan där det samlas infor
 
 Precis som att det finns en [grundmall ](html-start.md#ett-exempel)för ett HTML dokument så kan vi skapa en liknande grund för komponenterna. Här nedan följer en grund för SVT Nyheter utifrån [bilden](struktur.md#komponenter).
 
+{% hint style="info" %}
+Koden på [svt.se](https://www.svt.se/) är långt mer komplex än exemplet, bland annat på grund av olika tekniker på både klient och server. Är du nyfiken på webbsidas kod så högerklicka på sidan och välj **Visa sidkälla**\(engelska **View page source**\). 
+{% endhint %}
+
 {% code title="index.html" %}
 ```markup
 <!DOCTYPE html>
@@ -103,7 +107,7 @@ För att dela upp innehåll kan [artikel-elementet](https://developer.mozilla.or
 
 ## Mer än HTML
 
-Nästa steg är att koppla samman HTML koden med webbens språk för stilar, CSS. Det är först då du kommer att få kontroll över sidans utseende.
+Nästa steg är att koppla samman HTML koden med webbens språk för stilar, **cascading style sheets**\(**CSS**\). Det är först då du kommer att få kontroll över sidans utseende.
 
 ## Övning
 

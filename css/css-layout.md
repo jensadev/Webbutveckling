@@ -60,9 +60,7 @@ För att kunna arbeta med CSS behöver vi ett HTML dokument att utgå ifrån. De
 ```
 {% endcode %}
 
-
-
-Version två med css
+Version två med css selectorer.
 
 {% code title="index.html" %}
 ```markup
@@ -75,7 +73,7 @@ Version två med css
   <link rel="stylesheet" href="stylesheets/main.css">
 </head>
 <body>
-  <nav class="d-flex">
+  <nav class="navbar d-flex">
     <a href="#">SVT NYHETER</a>
     <ul>
       <li><a href="#">Nyheter</a></li>
@@ -137,7 +135,7 @@ h2 {
   font-size: 3rem;
 }
 
-nav {
+.navbar {
   width: 100%;
   justify-content: center;
 }
