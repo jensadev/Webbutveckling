@@ -60,7 +60,7 @@ För att kunna arbeta med CSS behöver vi ett HTML dokument att utgå ifrån. De
 ```
 {% endcode %}
 
-Version två med css selectorer.
+Version två av exempel-dokumentet med css selectorer.
 
 {% code title="index.html" %}
 ```markup
@@ -118,7 +118,7 @@ Version två med css selectorer.
 ```
 {% endcode %}
 
-{% embed url="https://raw.githubusercontent.com/jensnti/Webbutveckling/158752f5608cffe24514dd5bac35403c6e8c8d08/exempel/html-struktur.html" %}
+Tillhörande stylesheet.
 
 {% code title="stylesheets/main.css" %}
 ```css
@@ -167,8 +167,6 @@ main {
 }
 ```
 {% endcode %}
-
-{% embed url="https://raw.githubusercontent.com/jensnti/Webbutveckling/158752f5608cffe24514dd5bac35403c6e8c8d08/exempel/stylesheets/html-struktur.css" %}
 
 
 
