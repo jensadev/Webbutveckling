@@ -17,7 +17,11 @@ Strukturmässigt så kan vi dela upp det i följande element.
   * `section`, med rubrik, tidsangivelse och resume
   * efterföljande section
 
-Elementen kan även märkas upp med ID för sektionerna för att möjliggöra fragments-navigation. Detta kan användas om vi vill göra dokumentet till mer av en webbsida, än en direkt kopia.
+Elementen kan även märkas upp med ID för sektionerna för att möjliggöra fragments-navigation. Navigation, hypertext, är en möjlig förbättring vi kan göra av sidan för att utnyttja webbsidans styrkor. Kodad med HTML-element kan första delen se ut såhär. 
+
+#### Uppgift
+
+Koda resten av CV sidan. Texten hittar du i engelska-uppgiften. När du är klar så kan du jämföra ditt resultat med det [här](https://raw.githubusercontent.com/jensnti/Webbutveckling/1c9b95925e22827d8be32e8e4e620f53dda991ec/exempel/cv.html).
 
 {% code title="cv.html" %}
 ```markup
@@ -54,6 +58,10 @@ Elementen kan även märkas upp med ID för sektionerna för att möjliggöra fr
     </section>
 ```
 {% endcode %}
+
+### Layout med CSS
+
+
 
 ## SVT, ett exempel
 
