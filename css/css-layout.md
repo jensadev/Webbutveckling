@@ -1,6 +1,25 @@
 # Layout
 
-## Ett exempel
+## CV, en första layout
+
+För att skapa en sida med ett CV så är det i första hand en fråga om att märka upp text. När detta är gjort och en struktur har skapats finns det utrymme att arbeta vidare med att skapa en personlig stil. Det CV som skapas i detta exempel är ett CV för en fiktiv karaktär.
+
+{% hint style="info" %}
+Börja med att identifiera webbsidans komponenter och struktur.
+{% endhint %}
+
+![Marios CV, skapat av Stina&#xA9;](../.gitbook/assets/mario.png)
+
+Strukturmässigt så kan vi dela upp det i följande element.
+
+* header, bestënde av rubrik, kontaktuppgifter och porträtt
+* main
+  * section, med rubrik, tidsangivelse och resume
+  * efterföljande section
+
+Elementen kan även märkas upp med ID för sektionerna för att möjliggöra fragments-navigation. Detta kan användas om vi vill göra dokumentet till mer av en webbsida, än en direkt kopia.
+
+## SVT, ett exempel
 
 För att kunna arbeta med CSS behöver vi ett HTML dokument att utgå ifrån. Det som följer är index.html från kapitlet om HTML. Du kan ladda ned filen [här](https://raw.githubusercontent.com/jensnti/Webbutveckling/dffa89ec9e99f9d869c2b93d47e80afdc52c82e3/exempel/html-struktur.html). 
 
@@ -199,23 +218,18 @@ footer {
 ```
 {% endcode %}
 
-## Slutligt exempel
+## 
 
-Den färdiga koden för SVT-exemplet finns att hämta [här](https://github.com/jensnti/Webbutveckling/tree/master/exempel)\(svt-css.html, svt.css, img/\). Det är en mer färdig design och hoppet mellan versionerna är markant.
 
-* Strukturen har ändrats.
-  * Navbaren har fått en content div för att centrera innehållet.
-  * Header-elementet är flyttat utanför main, så att main kan delas i två kolumner.
-  * Aside-elementet har flyttats före nyhets-artiklarna, för att möjliggöra en float layout på två kolumner.
-* Fler helper klasser har skapats.
-* Några element har mer komplexa selektorer för att välja först eller sista elementet.
-* Det finns en media regel med brytpunkt på max-width. Detta för att ändra float layouten och ta bort de två spalterna ur main.
-* Det finns en media regel på min-width 1280px för att göra sidan mer läsbar på stora skärmar.
-* Ett par ikoner används från [Google material icons](https://material.io/resources/icons/). De har sparats som SVG och färgen har ändrats.
 
 ## Länkar
 
-* [https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS\_layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout)
+* Flexbox
+  * [https://www.internetingishard.com/html-and-css/flexbox/](https://www.internetingishard.com/html-and-css/flexbox/)
+  * [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS\_Flexible\_Box\_Layout/Basic\_Concepts\_of\_Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
+* Layout
+  * [https://www.w3schools.com/css/css\_templates.asp](https://www.w3schools.com/css/css_templates.asp)
+  * [https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS\_layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout)
 
 
 
