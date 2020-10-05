@@ -62,7 +62,7 @@ För att kunna arbeta med CSS behöver vi ett HTML dokument att utgå ifrån. De
 
 Att förvandla text till grafik är svårt och CSS kan vara väldigt besvärligt att arbeta med. Det finns många faktorer att känna till och förstå sig på.
 
-Version två av exempel-dokumentet med css selectorer.
+Version två av exempel-dokumentet med CSS klasser tillagda.
 
 {% code title="index.html" %}
 ```markup
@@ -75,12 +75,12 @@ Version två av exempel-dokumentet med css selectorer.
   <link rel="stylesheet" href="stylesheets/main.css">
 </head>
 <body>
-  <nav class="navbar d-flex">
+  <nav class="navbar d-flex align-center">
     <a href="#">SVT NYHETER</a>
-    <ul>
-      <li><a href="#">Nyheter</a></li>
-      <li><a href="#">Lokalt</a></li>
-      <li><a href="#">Sport</a></li>
+    <ul class="d-flex">
+      <li class="nav-item"><a href="#">Nyheter</a></li>
+      <li class="nav-item"><a href="#">Lokalt</a></li>
+      <li class="nav-item"><a href="#">Sport</a></li>
     </ul>
   </nav>
   <main>
@@ -127,6 +127,8 @@ Tillhörande stylesheet.
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
@@ -137,15 +139,47 @@ h2 {
   font-size: 3rem;
 }
 
-.navbar {
-  width: 100%;
-  justify-content: center;
+header {
+  margin: 1rem 0;
 }
 
 main {
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
 }
+
+ul {
+  list-style: none;
+}
+
+footer {
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+  background-color: #333;
+}
+
+.navbar {
+  width: 100%;
+  justify-content: space-around;
+  border-bottom: 4px solid #e02e3d;
+  height: 4rem;
+}
+
+.nav-item {
+  padding: 0 1rem;
+}
+
+.focus {
+  background-color: #333;
+  color: #fff;
+}
+
+.now {
+  background-color: #e02e3d;
+}
+
+/* helpers */
 
 .d-flex {
   display:flex;
@@ -159,16 +193,24 @@ main {
   width: 100%;
 }
 
-.focus {
-  background-color: #333;
-  color: #fff;
-}
-
-.now {
-  background-color: #e02e3d;
+.align-center {
+  align-items: center;
 }
 ```
 {% endcode %}
+
+## Slutligt exempel
+
+Den färdiga koden för SVT-exemplet finns att hämta [här](https://github.com/jensnti/Webbutveckling/tree/master/exempel). Ett antal saker har skett med dokumentet från tidigare versioner.
+
+* Strukturen har ändrats.
+  * Navbaren har fått en content div för att centrera innehållet.
+  * Header-elementet är flyttat utanför main, så att main kan delas i två kolumner.
+  * Aside-elementet har flyttats före nyhets-artiklarna, för att möjliggöra en float layout på två kolumner.
+* Fler helper klasser har skapats.
+* Några element har mer komplexa selektorer för att välja först eller sista elementet.
+* Det finns en media regel med brytpunkt på 1020px bredd. Detta för att ändra float layouten och ta bort de två spalterna.
+* Ett par ikoner används från [Google material icons](https://material.io/resources/icons/). De har sparats som SVG och färgen har ändrats.
 
 ## Länkar
 
