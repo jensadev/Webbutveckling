@@ -19,6 +19,10 @@
   align-items: center;
 }
 
+.text-uppercase {
+  text-transform: uppercase;
+}
+
 .bg-gray { background-color: #333; }
 .bg-red { background-color: #e02e3d; }
 .fg-gray { color: #404040; }
@@ -37,7 +41,6 @@ body {
 
 h1 {
   font-size: 1.6rem;
-  text-transform: uppercase;
 }
 
 h2 {
@@ -47,7 +50,6 @@ h2 {
 h3 {
   padding: 0;
   margin: 0;
-  text-transform: uppercase;
 }
 
 main {
@@ -133,7 +135,6 @@ a:hover {
 
 .more {
   font-weight: 600;
-  text-transform: uppercase;
   padding: 0 .4rem;
   letter-spacing: .06rem;
 }
@@ -149,7 +150,6 @@ a:hover {
 
 .brand {
   font-size: 2.4rem;
-  text-transform: uppercase;
 }
 
 .focus {
@@ -202,5 +202,11 @@ a:hover {
     float: none;
     margin: 0;
     min-height: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  main, header, .navbar-content {
+    width: 60%;
   }
 }
