@@ -62,7 +62,7 @@ För att kunna arbeta med CSS behöver vi ett HTML dokument att utgå ifrån. De
 
 Att förvandla text till grafik är svårt och CSS kan vara väldigt besvärligt att arbeta med. Det finns många faktorer att känna till och förstå sig på.
 
-Version två av exempel-dokumentet med CSS klasser tillagda.
+Version två av exempel-dokumentet med CSS klasser tillagda. Den här versionen har lagt grunden för sidans layout. Den använder flexbox för att positionera vissa element. Main-elementet har centrerats. Sidan innehåller vissa grafiska avgörande element för att vi ska känna igen den.
 
 {% code title="index.html" %}
 ```markup
@@ -201,7 +201,7 @@ footer {
 
 ## Slutligt exempel
 
-Den färdiga koden för SVT-exemplet finns att hämta [här](https://github.com/jensnti/Webbutveckling/tree/master/exempel). Ett antal saker har skett med dokumentet från tidigare versioner.
+Den färdiga koden för SVT-exemplet finns att hämta [här](https://github.com/jensnti/Webbutveckling/tree/master/exempel). Ett antal saker har skett med dokumentet från tidigare versioner. Detta visar på en mer färdig design och hoppet är ganska stort.
 
 * Strukturen har ändrats.
   * Navbaren har fått en content div för att centrera innehållet.
