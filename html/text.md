@@ -33,7 +33,7 @@ För att skapa en rubrik\(engelska **heading**\) finns det sex olika element att
 
 Genom att märka upp text så skapas en struktur på sidan. Strukturen på texten låter användaren skanna av texten snabbare och uppfatta det som väcker intresse och är relevant. Strukturen underlättar också för sökmotorer som indexerar webbsidan, en bra strukturell hierarki ger bättre resultat. Strukturen är även avgörande för webbsidans tillgänglighet.
 
-## Ett kapitel
+## Ett exempel, Dracula
 
 Böcker är ett utmärkt exempel på strukturerad text. Se följande exempel, ett utdrag från Bram Stokers [Dracula](https://www.gutenberg.org/files/345/345-h/345-h.htm).
 
@@ -63,10 +63,12 @@ JONATHAN HARKER’S JOURNAL
 
 Studera exemplet och notera mönstret med elementen och vad de representerar. Rubrikerna och paragraferna har en semantisk betydelse vilket är viktigt. Elementet `<h1>` betyder att det är en huvudrubrik, elementets benämning bär en mening.
 
-### Övning
+### Övning, kapitel två
 
-Använd vscode för att skapa ett nytt HTML-dokument och strukturera följande text. 
+Använd vscode för att skapa ett nytt HTML-dokument. Döp dokumentet till dracula.html och strukturera följande text. 
 
+{% tabs %}
+{% tab title="Plain Text" %}
 ```text
 CHAPTER II
 
@@ -75,6 +77,8 @@ JONATHAN HARKER’S JOURNAL—continued
 
 When the calèche stopped, the driver jumped down and held out his hand to assist me to alight. Again I could not but notice his prodigious strength. His hand actually seemed like a steel vice that could have crushed mine if he had chosen. Then he took out my traps, and placed them on the ground beside me as I stood close to a great door, old and studded with large iron nails, and set in a projecting doorway of massive stone. I could see even in the dim light that the stone was massively carved, but that the carving had been much worn by time and weather. As I stood, the driver jumped again into his seat and shook the reins; the horses started forward, and trap and all disappeared down one of the dark openings.
 ```
+{% endtab %}
+{% endtabs %}
 
 ## Inline element för text
 
@@ -82,17 +86,25 @@ Text märks inte enbart upp med block-element som ger dem struktur, utan det fin
 
 För att visa att något ord är extra viktigt så kan vi **betona** det.
 
-```text
+{% tabs %}
+{% tab title="HTML" %}
+```markup
 <p>Det är viktigt att <strong>fokusera</strong> när du ska lära dig något.</p>
 ```
+{% endtab %}
+{% endtabs %}
 
 I exemplet ovan så används taggen strong inuti ett p-element, det är nästlat. Strong-elementet är ett inline-element så det blir ingen radbrytning kring det vilket är viktigt.
 
 För att rent visuellt märka upp text, med **fetstil** och _kursiv stil_ så används element utan semantisk mening. 
 
-```text
+{% tabs %}
+{% tab title="HTML" %}
+```markup
 <p>Jag har köpt ett paket <b>Mirakel-flingor</b>. Flingorna är det <i>bästa</i>!</p>
 ```
+{% endtab %}
+{% endtabs %}
 
 ## Listor
 
@@ -173,7 +185,8 @@ För att märka upp datum finns elementet `<time>`. Detta är väldigt praktiskt
 
 ## Övning
 
-1. Skapa en ny HTML fil och döp den till index.html. 
-2. Kopiera två kapitel från [Dracula](https://www.gutenberg.org/files/345/345-h/345-h.htm) och märk upp texten med HTML element. Använd alla verktygen du lärt dig.
+1. Fortsätt arbeta med dracula.html.
+2. Kopiera några paragrafer\(inte hela\) ur två-tre kapitel från [Dracula](https://www.gutenberg.org/files/345/345-h/345-h.htm) och märk upp texten med HTML element. 
+   1. Använd alla verktygen du lärt dig; rubriker, paragrafer, tid.
 3. Skapa en innehållsförteckning med en lista.
 

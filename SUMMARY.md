@@ -22,7 +22,7 @@
 
 ## HTML
 
-* [Din första HTML fil](html/untitled.md)
+* [Din första HTML fil](html/html-start.md)
 * [Språket](html/html-spraket.md)
 * [Text](html/text.md)
 * [Länkar](html/laenkar.md)
@@ -30,7 +30,8 @@
 
 ## CSS
 
-* [Din första CSS fil](css/untitled.md)
+* [Din första CSS fil](css/css-start.md)
+* [Layout](css/css-layout.md)
 * [Språket](css/css-spraket.md)
 * [Sass](css/sass.md)
 
