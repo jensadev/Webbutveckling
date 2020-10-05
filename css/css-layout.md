@@ -12,9 +12,9 @@ Börja med att identifiera webbsidans komponenter och struktur.
 
 Strukturmässigt så kan vi dela upp det i följande element.
 
-* header, bestënde av rubrik, kontaktuppgifter och porträtt
-* main
-  * section, med rubrik, tidsangivelse och resume
+* `header`, bestånde av rubrik, kontaktuppgifter och porträtt
+* `main`
+  * `section`, med rubrik, tidsangivelse och resume
   * efterföljande section
 
 Elementen kan även märkas upp med ID för sektionerna för att möjliggöra fragments-navigation. Detta kan användas om vi vill göra dokumentet till mer av en webbsida, än en direkt kopia.
@@ -32,9 +32,9 @@ Elementen kan även märkas upp med ID för sektionerna för att möjliggöra fr
   <header id="contact">
     <img src="https://via.placeholder.com/200x200?text=Mario+portrait" alt="Mario portrait">
     <h1>Mario Mario</h1>
-    <h4>Plumber, princess rescuer and race car driver</h4>
-    <h2>Contact Information</h2>
-      <address>
+    <h2>Plumber, princess rescuer and race car driver</h2>
+    <h3>Contact Information</h3>
+    <address>
       Phone: +39 1985 1985
       Email: mario@super.it
       Twitter: @supermariobro
