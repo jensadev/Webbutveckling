@@ -19,11 +19,47 @@ Strukturmässigt så kan vi dela upp det i följande element.
 
 Elementen kan även märkas upp med ID för sektionerna för att möjliggöra fragments-navigation. Detta kan användas om vi vill göra dokumentet till mer av en webbsida, än en direkt kopia.
 
+{% code title="cv.html" %}
+```markup
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Mario Mario</title>
+</head>
+<body>
+  <header id="contact">
+    <img src="https://via.placeholder.com/200x200?text=Mario+portrait" alt="Mario portrait">
+    <h1>Mario Mario</h1>
+    <h4>Plumber, princess rescuer and race car driver</h4>
+    <h2>Contact Information</h2>
+      <address>
+      Phone: +39 1985 1985
+      Email: mario@super.it
+      Twitter: @supermariobro
+    </address>
+  </header>
+  <main id="professionalexperience">
+    <h1>Professional experience</h1>
+    <section id="twentyseventeen">
+      <h2><time datetime="2017">2017</time></h2>
+      <p><strong>Princess rescuer and wedding crasher</strong>, self-employed, Various Kingdoms</p>
+      <ul>
+        <li>In charge of magic cap</li>
+        <li>Controlled the art of shapeshifting</li>
+        <li>Collected valuable power moons for profit</li>
+        <li>Defeated numerous enemies, e.g. t-rexes and broodals</li>
+      </ul>
+    </section>
+```
+{% endcode %}
+
 ## SVT, ett exempel
 
 För att kunna arbeta med CSS behöver vi ett HTML dokument att utgå ifrån. Det som följer är index.html från kapitlet om HTML. Du kan ladda ned filen [här](https://raw.githubusercontent.com/jensnti/Webbutveckling/dffa89ec9e99f9d869c2b93d47e80afdc52c82e3/exempel/html-struktur.html). 
 
-{% code title="index.html" %}
+{% code title="svt.html" %}
 ```markup
 <!DOCTYPE html>
 <html lang="sv">
@@ -31,7 +67,6 @@ För att kunna arbeta med CSS behöver vi ett HTML dokument att utgå ifrån. De
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SVT Nyheter</title>
-  <link rel="stylesheet" href="stylesheets/main.css">
 </head>
 <body>
   <nav>
@@ -83,7 +118,7 @@ Att förvandla text till grafik är svårt och CSS kan vara väldigt besvärligt
 
 Version två av exempel-dokumentet med CSS klasser tillagda. Den här versionen har lagt grunden för sidans layout. Den använder flexbox för att positionera vissa element. Main-elementet har centrerats. Sidan innehåller vissa grafiska avgörande element för att vi ska känna igen den.
 
-{% code title="index.html" %}
+{% code title="svt.html" %}
 ```markup
 <!DOCTYPE html>
 <html lang="sv">
@@ -91,7 +126,7 @@ Version två av exempel-dokumentet med CSS klasser tillagda. Den här versionen 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SVT Nyheter</title>
-  <link rel="stylesheet" href="stylesheets/main.css">
+  <link rel="stylesheet" href="stylesheets/svt.css">
 </head>
 <body>
   <nav class="navbar d-flex align-center">
@@ -141,7 +176,7 @@ Version två av exempel-dokumentet med CSS klasser tillagda. Den här versionen 
 
 Tillhörande stylesheet.
 
-{% code title="stylesheets/main.css" %}
+{% code title="stylesheets/svt.css" %}
 ```css
 body {
   font-family: Arial, Helvetica, sans-serif;
