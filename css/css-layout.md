@@ -171,9 +171,9 @@ Att använda de föreslagna fonterna fungerar självklart utmärkt, men för ett
 2. Klicka på den.
 3. På fontens sida väljer du **+ Select this style**.
    1. Välj **Regular 400** om du inte har andra behov.
-4. I sidebaren med **Selected family**.
+4. Öppna sidebaren med **Selected family**.
 5. Klicka på **Embed**.
-6. Kopiera länken till ditt html dokuemnt.
+6. Kopiera länken till ditt html dokument.
 7. Kopiera CSS egenskapen font-family till ditt CSS dokument.
 
 Marios CV får Google fonten Roboto. Följande ändringar görs.
@@ -199,7 +199,7 @@ body {
 {% endtabs %}
 
 {% hint style="info" %}
-Google fonts är ett enormt bibliotek av gratis fonter du kan använda i dina projekt.
+Google fonts är ett enormt bibliotek av gratis fonter du kan använda i dina projekt. Vill du lära dig mer så läs den [här guiden](https://design.google/library/choosing-web-fonts-beginners-guide/) om att välja typsnitt för webb-projekt.
 {% endhint %}
 
 ## 
