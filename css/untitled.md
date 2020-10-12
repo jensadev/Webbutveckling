@@ -63,5 +63,31 @@ Att förvandla text till grafik är svårt och CSS kan vara väldigt besvärligt
 
 När en struktur baserad på sidans komponenter är skapad, så är nästa steg stilarna. Men var medveten att det kan komma att påverka placering och nästling av element.
 
-## 
+### Design
+
+För att återskapa sidan så kan vi ta en genväg och det är att studera framträdande element som ska återskapas. Studera skärmdumpen från SVT Nyheter, vilka element noterar du, gör en lista.
+
+![svt.se fr&#xE5;n September 2020](../.gitbook/assets/svt.png)
+
+Designelement och layout att ta fasta på:
+
+* Den röda färgen, med hjälp av utvecklarverktygen kan vi hitta att färgkoden är \#e02e3d.
+* Den grå färgen, det finns en varmare och kallare.
+  * Senaste nytt grå är \#333333
+* Typsnittet, SVT Nyheter använder ett typsnitt som heter Publik, det är inte fritt. Sök efter ett liknande alternativ.
+  * Användningen av CAPS, både som stil men också för att väcka uppmärksamhet.
+* Layouten
+  * En **screamer**, JUST NU, tar vår uppmärksamhet först.
+  * Sidan har en tydlig navbar.
+  * Dessa två delar följs av ett huvudinnehåll uppdelat på två spalter.
+    * Sidans huvudinnehåll, nyheterna.
+    * Snabbkollen, en **sidebar** med länkar och senaste.
+    * Spalterna försvinner vid lägre upplösning.
+  * En sidfot längst ned på sidan.
+
+När dessa element är identifierade så finns det en startpunkt för kodandet av sidan.
+
+## Skapa layouten
+
+
 
