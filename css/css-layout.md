@@ -1,6 +1,6 @@
 # Layout
 
-## CV, en första layout
+## CV, en första design
 
 För att skapa en sida med ett CV så är det i första hand en fråga om att märka upp text. När detta är gjort och en struktur har skapats finns det utrymme att arbeta vidare med att skapa en personlig stil. Det CV som skapas i detta exempel är ett CV för en fiktiv karaktär.
 
@@ -59,7 +59,64 @@ Koda resten av CV sidan. Texten hittar du i engelska-uppgiften. När du är klar
 ```
 {% endcode %}
 
+### Länka ett CSS dokument
+
+För att länka ett extern CSS dokument så behövs en länk i sidans head-element. Skapa cv.css.
+
+{% code title="cv.html" %}
+```markup
+<link rel="stylesheet" href="cv.css">
+```
+{% endcode %}
+
+Sidan läser nu in stilarna från det externa css-dokumentet.
+
 ### Layout med CSS
+
+Marios CV har en relativt enkelt struktur, det är en kolumns layout uppdelat i en `header` och en `main` för innehållet. Strukturen med dessa element och underliggande skapar vi för att gruppera sidans delar.
+
+Sidan är en kolumn som är centrerad. Detta kan vi göra genom att justera sidans bredd och marginaler.
+
+{% code title="cv.css" %}
+```css
+body {
+    margin: 0 auto;
+    width: 60%;
+}
+```
+{% endcode %}
+
+Headern innehåller porträttet, namn-rubriken och kontaktinformation. För att placera bilden kan vi använda egenskapen `float`. Skapa en klass för detta och koppla den till elementet.
+
+{% tabs %}
+{% tab title="HTML" %}
+{% code title="cv.html" %}
+```markup
+  <header id="contact">
+    <img class="portrait" src="https://via.placeholder.com/200x200?text=Mario+portrait" alt="Mario portrait">
+    <h1>Mario Mario</h1>
+    <h2>Plumber, princess rescuer and race car driver</h2>
+    <h3>Contact Information</h3>
+    <address>
+      Phone: +39 1985 1985
+      Email: mario@super.it
+      Twitter: @supermariobro
+    </address>
+  </header>
+```
+{% endcode %}
+{% endtab %}
+
+{% tab title="CSS" %}
+{% code title="cv.css" %}
+```css
+.portrait {
+    float: right;
+}
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
 
 
 
