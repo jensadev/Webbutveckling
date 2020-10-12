@@ -15,7 +15,7 @@ Strukturmässigt så kan vi dela upp det i följande element.
 * `header`, bestånde av rubrik, kontaktuppgifter och porträtt
 * `main`
   * `section`, med rubrik, tidsangivelse och resume
-  * efterföljande section
+  * efterföljande sektioner
 
 Elementen kan även märkas upp med ID för sektionerna för att möjliggöra fragments-navigation. Navigation, hypertext, är en möjlig förbättring vi kan göra av sidan för att utnyttja webbsidans styrkor. Kodad med HTML-element kan första delen se ut såhär. 
 
