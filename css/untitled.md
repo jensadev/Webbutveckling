@@ -89,6 +89,18 @@ När dessa element är identifierade så finns det en startpunkt för kodandet a
 
 ## Skapa layouten
 
+### Rubriker
+
+### Den röda linjen
+
+### Navigation
+
+### 2 spalter
+
+### Länkar
+
+### Screamer
+
 
 
 ## Slutgiltig version
