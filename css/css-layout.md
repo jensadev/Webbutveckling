@@ -14,7 +14,7 @@ Strukturmässigt så kan vi dela upp det i följande element.
 
 * `header`, bestånde av rubrik, kontaktuppgifter och porträtt
 * `main`
-  * `section`, med rubrik, tidsangivelse och resume
+  * `section`, med rubrik, tidsangivelse och resume.
   * efterföljande sektioner
 
 Elementen kan även märkas upp med ID för sektionerna för att möjliggöra fragments-navigation. Navigation, hypertext, är en möjlig förbättring vi kan göra av sidan för att utnyttja webbsidans styrkor. Kodad med HTML-element kan första delen se ut såhär. 
@@ -86,7 +86,7 @@ body {
 ```
 {% endcode %}
 
-Headern innehåller porträttet, namn-rubriken och kontaktinformation. För att placera bilden kan vi använda egenskapen `float`. Skapa en klass för detta och koppla den till elementet.
+Headern innehåller porträttet, namn-rubriken och kontaktinformation med tillhörande rubriknivåer. För att placera bilden kan vi använda egenskapen `float`. Skapa en klass för detta och koppla den till elementet.
 
 {% tabs %}
 {% tab title="HTML" %}
@@ -118,7 +118,89 @@ Headern innehåller porträttet, namn-rubriken och kontaktinformation. För att 
 {% endtab %}
 {% endtabs %}
 
+Ladda om sidan och bilden placeras nu till höger om texten, texten anpassar sig även till bildens storlek. 
 
+{% hint style="info" %}
+Float fungerar bra i vissa upplösningar, om du ändrar storleken på webbläsarfönstret till att vara riktigt smalt så kan du se att float får problem.
+{% endhint %}
+
+Den andra delen av sidan är samlad i ett `main` element, den innehåller huvuddelen av CV-informationen. Under detta är varje del strukturerad i en `section` med tillhörande rubrik. Marios färdigheter och erfarenheter är sedan strukturerad i en o-ordnad lista, `ul`.
+
+{% code title="cv.html" %}
+```markup
+  <main id="professionalexperience">
+    <h1>Professional experience</h1>
+    <section id="twentyseventeen">
+      <h2><time datetime="2017">2017</time></h2>
+      <p><strong>Princess rescuer and wedding crasher</strong>, self-employed, Various Kingdoms</p>
+      <ul>
+        <li>In charge of magic cap</li>
+        <li>Controlled the art of shapeshifting</li>
+        <li>Collected valuable power moons for profit</li>
+        <li>Defeated numerous enemies, e.g. t-rexes and broodals</li>
+      </ul>
+    </section>
+```
+{% endcode %}
+
+### Typsnitt
+
+Typsnittet som används på Mario sidan är en så kallad sans-seriff. En seriff är klacken på ett tecken och sans betyder utan, så utan klack. 
+
+{% hint style="info" %}
+[Läs mer här om vad en seriff är.](https://sv.wikipedia.org/wiki/Seriff)
+{% endhint %}
+
+**Visual Studio Code** ger ett antal förslag och exempel på fonter som kan användas när css-egenskpen `font-family` anges. Egenskapen tar en eller flera fonter som värde, där den provar den första om den fungerar, den andra och så vidare.
+
+{% tabs %}
+{% tab title="CSS" %}
+```css
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+```
+{% endtab %}
+{% endtabs %}
+
+#### Egna fonter
+
+Att använda de föreslagna fonterna fungerar självklart utmärkt, men för ett mer personligt uttryck för Mario så används en extern font från Google fonts. För att använda en font därifrån behöver du:
+
+1. Leta reda på en font du vill använda.
+2. Klicka på den.
+3. På fontens sida väljer du **+ Select this style**.
+   1. Välj **Regular 400** om du inte har andra behov.
+4. I sidebaren med **Selected family**.
+5. Klicka på **Embed**.
+6. Kopiera länken till ditt html dokuemnt.
+7. Kopiera CSS egenskapen font-family till ditt CSS dokument.
+
+Marios CV får Google fonten Roboto. Följande ändringar görs.
+
+{% tabs %}
+{% tab title="HTML" %}
+{% code title="cv.html" %}
+```markup
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+```
+{% endcode %}
+{% endtab %}
+
+{% tab title="CSS" %}
+{% code title="cv.css" %}
+```css
+body {
+    font-family: 'Roboto', sans-serif;
+}
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
+
+{% hint style="info" %}
+Google fonts är ett enormt bibliotek av gratis fonter du kan använda i dina projekt.
+{% endhint %}
 
 ## 
 
