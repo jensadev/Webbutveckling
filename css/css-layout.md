@@ -158,10 +158,15 @@ Typsnittet som används på Mario sidan är en så kallad sans-seriff. En seriff
 ```css
 body {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
 }
 ```
 {% endtab %}
 {% endtabs %}
+
+{% hint style="info" %}
+Font-storleken rem är root em, den baseras på root elementets font-storlek och det styrs av webbläsaren. Om standardstorleken är vald så kan du utgå från att 1rem = 16 i fontstorlek.
+{% endhint %}
 
 #### Egna fonter
 
@@ -212,7 +217,7 @@ Dokumentet innehåller ett stor antal rubriker med olika formatering. Rubrikelem
 ```markup
     <h1 class="main-heading">Professional experience</h1>
     <section id="twentyseventeen">
-      <h2 class="display-time"><time datetime="2017">2017</time></h2>
+      <h2 class="time-heading"><time datetime="2017">2017</time></h2>
 ```
 {% endcode %}
 {% endtab %}
@@ -222,8 +227,13 @@ Dokumentet innehåller ett stor antal rubriker med olika formatering. Rubrikelem
 ```css
 .main-heading {
     font-size: 2rem;
-    font-color: blue;
-    border-bottom: 1px solid blue;
+    font-color: rgb(28,69,135);
+    border-bottom: 1px solid rgb(28,69,135);
+}
+
+.time-heading {
+    font-size: 1.4rem;
+    color: #959595;
 }
 ```
 {% endcode %}
@@ -232,7 +242,71 @@ Dokumentet innehåller ett stor antal rubriker med olika formatering. Rubrikelem
 
 ### Listor
 
+I HTML så används ofta listor för att strukturera innehåll. Listorna i Marios CV är ett bra exempel på detta. I dokumentet så används - för att notera varje rad i listan, denna stil finns dock inte i HTML. 
 
+Prova olika list stilar och gör ett eget val. Utöver detta så justerar du den padding som elementet har till vänster.
+
+{% code title="cv.css" %}
+```css
+ul {
+    list-style: none;
+    padding-left: 1rem;
+ }
+```
+{% endcode %}
+
+ I en lista skapas varje rad av ett `li` element, det är block element så det blir en radbrytning vid varje. Det kan ändras med display egenskapen. Antingen kan listan, ul-elementet, ändras med `display: flex` eller så ges varje enskilt li-element egenskapen `display: inline`. Detta är användbart om en lista används för en navigation.
+
+### Navigation
+
+För att utnyttja det faktum att Marios CV nu är ett hypertextdokument så kan det skapas en navigation för dokumentet med fragmentsnavigering.
+
+{% tabs %}
+{% tab title="HTML" %}
+{% code title="cv.html" %}
+```markup
+  <nav>
+    <ul class="nav-list">
+      <li class="nav-item"><a href="#twentyseventeen">2017</a></li>
+      <li class="nav-item"><a href="#twentythirteen">2013</a></li>
+      <li class="nav-item"><a href="#twentyotwo">2002</a></li>
+      <li class="nav-item"><a href="#nineteenninetyfive">1995</a></li>
+    </ul>
+  </nav>
+```
+{% endcode %}
+{% endtab %}
+
+{% tab title="CSS" %}
+{% code title="cv.css" %}
+```css
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin: 0 1rem;
+}
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
+
+### Länkar
+
+Om du önskar att ändra länkarna i dokumentet så kan du skapa regler för a-elementet. För att påverka länkar när muspekaren är över dem så används regeln `:hover`.
+
+```css
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+```
 
 ## 
 
