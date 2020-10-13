@@ -117,3 +117,9 @@ Den färdiga koden för SVT-exemplet finns att hämta [här](https://github.com/
 * Det finns en media regel på min-width 1280px för att göra sidan mer läsbar på stora skärmar.
 * Ett par ikoner används från [Google material icons](https://material.io/resources/icons/). De har sparats som SVG och färgen har ändrats.
 
+## Länkar
+
+* Flexbox
+  * [https://www.internetingishard.com/html-and-css/flexbox/](https://www.internetingishard.com/html-and-css/flexbox/)
+  * [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS\_Flexible\_Box\_Layout/Basic\_Concepts\_of\_Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
+

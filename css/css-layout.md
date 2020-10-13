@@ -314,9 +314,10 @@ a:hover {
 
 ## Länkar
 
-* Flexbox
-  * [https://www.internetingishard.com/html-and-css/flexbox/](https://www.internetingishard.com/html-and-css/flexbox/)
-  * [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS\_Flexible\_Box\_Layout/Basic\_Concepts\_of\_Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
+Här finns det ytterligare material samlat för dig att arbeta med.
+
+* CSS
+  * [https://developer.mozilla.org/en-US/docs/Learn/CSS/First\_steps](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps)
 * Layout
   * [https://www.w3schools.com/css/css\_templates.asp](https://www.w3schools.com/css/css_templates.asp)
   * [https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS\_layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout)
