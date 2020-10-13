@@ -308,9 +308,9 @@ a:hover {
 }
 ```
 
-## 
+## Övning
 
-
+Skapa alla de stilar som behövs för att återge Marios CV.
 
 ## Länkar
 
