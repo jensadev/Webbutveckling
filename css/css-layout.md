@@ -75,7 +75,7 @@ Sidan läser nu in stilarna från det externa css-dokumentet.
 
 Marios CV har en relativt enkelt struktur, det är en kolumns layout uppdelat i en `header` och en `main` för innehållet. Strukturen med dessa element och underliggande skapar vi för att gruppera sidans delar.
 
-Sidan är en kolumn som är centrerad. Detta kan vi göra genom att justera sidans bredd och marginaler.
+Sidan är en kolumn som är centrerad. Detta kan skapas genom att justera sidans bredd och marginaler. Egenskapen `margin` styr marginalen på ett element, värdet som ges styr top, bottom och left, right.
 
 {% code title="cv.css" %}
 ```css
@@ -176,7 +176,7 @@ Att använda de föreslagna fonterna fungerar självklart utmärkt, men för ett
 6. Kopiera länken till ditt html dokument.
 7. Kopiera CSS egenskapen font-family till ditt CSS dokument.
 
-Marios CV får Google fonten Roboto. Följande ändringar görs.
+Marios CV får Google fonten Roboto. Följande ändringar görs. Att ge body elementet en `font-family` påverkar fonterna på alla platser i dokumentet.
 
 {% tabs %}
 {% tab title="HTML" %}
@@ -201,6 +201,38 @@ body {
 {% hint style="info" %}
 Google fonts är ett enormt bibliotek av gratis fonter du kan använda i dina projekt. Vill du lära dig mer så läs den [här guiden](https://design.google/library/choosing-web-fonts-beginners-guide/) om att välja typsnitt för webb-projekt.
 {% endhint %}
+
+### Rubriker
+
+Dokumentet innehåller ett stor antal rubriker med olika formatering. Rubrikelementet förekommer på flera platser i dokumentet, så därför kommer vi att använda klasser för denna styling.
+
+{% tabs %}
+{% tab title="HTML" %}
+{% code title="cv.html" %}
+```markup
+    <h1 class="main-heading">Professional experience</h1>
+    <section id="twentyseventeen">
+      <h2 class="display-time"><time datetime="2017">2017</time></h2>
+```
+{% endcode %}
+{% endtab %}
+
+{% tab title="CSS" %}
+{% code title="cv.css" %}
+```css
+.main-heading {
+    font-size: 2rem;
+    font-color: blue;
+    border-bottom: 1px solid blue;
+}
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
+
+### Listor
+
+
 
 ## 
 
