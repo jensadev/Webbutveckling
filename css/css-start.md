@@ -147,5 +147,12 @@ h1 {
 {% endtab %}
 {% endtabs %}
 
+## Övning
 
+1. Öppna filen dracula.html som du skapade i kapitlet om [text](../html/text.md#oevning).
+2. Ändra stilarna för:
+   1. Rubriker, storlek och färg.
+   2. Texten.
+   3. Länkar.
+3. Prova egenskapen `float: right;` på bilden.
 
