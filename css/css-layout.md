@@ -294,6 +294,8 @@ För att utnyttja det faktum att Marios CV nu är ett hypertextdokument så kan 
 {% endtab %}
 {% endtabs %}
 
+Med flex så kan vi justera hur element ska positioneras och visas i relation till varandra. Du kan använda CSS-egenskaperna `justify-content` och `align-items` för att styra detta.
+
 ### Länkar
 
 Om du önskar att ändra länkarna i dokumentet så kan du skapa regler för a-elementet. För att påverka länkar när muspekaren är över dem så används regeln `:hover`.
