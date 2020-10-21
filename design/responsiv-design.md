@@ -1,2 +1,12 @@
 # Responsiv design
 
+## Mediaregler
+
+
+
+## Procent
+
+
+
+
+
