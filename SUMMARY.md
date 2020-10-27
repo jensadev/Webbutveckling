@@ -6,6 +6,7 @@
 
 * [Visual Studio Code](verktyg/visual-studio-code.md)
 * [Git](verktyg/git.md)
+* [Git commandline](verktyg/git-commandline.md)
 * [Photoshop](verktyg/photoshop.md)
 
 ## Prototyping
