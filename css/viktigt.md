@@ -70,3 +70,5 @@ Om du anger detta på en sida så kan du sedan inspektera uträknade värden i w
 
 Försök i största möjliga mån använda REM som måttenhet då det tillåter användaren att ändra fontstorlek, till skillnad från pixlar.
 
+För att räkna ut storleken i pixlar från rem så kan du använda pixlar \* rem = faktisk storlek i pixlar, så om du använder 0.5rem så blir storleken 8px. Om du vet pixelstorleken och vill räkna ut storleken i rem använder du storlek i pixlar / 16 = rem.
+
