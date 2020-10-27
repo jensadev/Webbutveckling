@@ -32,7 +32,7 @@
 
 * [Din första CSS fil](css/css-start.md)
 * [Layout](css/css-layout.md)
-* [Viktigt](css/viktigt.md)
+* [Mått och värden](css/viktigt.md)
 * [Layout och design](css/untitled.md)
 * [Språket](css/css-spraket.md)
 * [Sass](css/sass.md)
