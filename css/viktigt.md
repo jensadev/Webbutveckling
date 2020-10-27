@@ -27,6 +27,10 @@ h1 {
 
 I många fall så används procent som måttenhet i CSS, det kan till exempel vara för att ange att ett element ska vara 100% brett eller 60% av ett fönsters bredd.
 
+{% hint style="info" %}
+Kom ihåg att elementets % beräknas utifrån dess förälder\(engelska parent\). Ett element med w-100 blir 100% av sin förälder, så om föräldern har w-50 så blir barn-elementet 100% av 50%.
+{% endhint %}
+
 {% tabs %}
 {% tab title="CSS" %}
 ```css
@@ -42,6 +46,18 @@ main {
     width: 80%;
     margin: 0 auto;
 }
+```
+{% endtab %}
+
+{% tab title="HTML" %}
+```markup
+<main>
+    <h1>80% av webbläsarfönstret</h1>
+    <div class="w-100">
+        <h2>100% bred, men bara 80% av fönstret</h2>
+        <p>Eftersom den ligger i main elementet.</p>
+    </div>
+</main>
 ```
 {% endtab %}
 {% endtabs %}
