@@ -46,6 +46,8 @@ main {
 {% endtab %}
 {% endtabs %}
 
+Undvik procent när du skalar text till exempel, då det ger dig väldigt lite kontroll över hur faktiskt stor texten blir.
+
 ## Root EM
 
 REM är ett måttvärde i CSS. Det utgår från root elementets font-storlek för att sätta storleken på element.
