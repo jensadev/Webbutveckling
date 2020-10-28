@@ -101,8 +101,6 @@ När dessa element är identifierade så finns det en startpunkt för kodandet a
 
 ### Screamer
 
-
-
 ## Slutgiltig version
 
 Den färdiga koden för SVT-exemplet finns att hämta [här](https://github.com/jensnti/Webbutveckling/tree/master/exempel)\(svt-css.html, svt.css, img/\). Det är en mer färdig design och hoppet mellan versionerna är markant.
