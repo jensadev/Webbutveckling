@@ -244,3 +244,97 @@ git push
 
 ## Branches
 
+**Branches** \(svenska, grenar\) är ett sätt att arbeta med Git. Namnet kommer från den trädstruktur som Git har. Den här guiden visar hur du arbetar med branches i Git cmd.
+
+> **Branching** is the way to work on different versions of a repository at one time.
+
+Som standard har alla repos en branch som heter **main**. Hittils har allt arbete du gjort skett i main. Det är något som generellt bör undvikas av olika skäl. Att arbeta i main kan leda till säkerhetsproblem, dataförlust och annat.
+
+{% hint style="info" %}
+Github training, Branch, [https://youtu.be/H5GJfcp3p4Q](https://youtu.be/H5GJfcp3p4Q).
+{% endhint %}
+
+#### Skapa en ny branch
+
+Kontrollera att du är i rätt mapp. Fortsätt från det tidigare [test-repot](git.md#git-command-line).
+
+```bash
+cd \code
+cd wu1-test
+git branch feature
+git checkout feature
+```
+
+Kommandot git branch skapar en ny branch. Git branch följs av namnet på den branch som ska skapas. Git checkout följt av namnet på den branch som ska användas byter branch. Namnet på branchen i det här fallet är feature. Den branch som är vald blir **active** \(svenska, **aktiv**\).
+
+{% hint style="info" %}
+GitHub training, Checkout, [https://youtu.be/HwrPhOp6-aM](https://youtu.be/HwrPhOp6-aM).
+{% endhint %}
+
+{% tabs %}
+{% tab title="Windows Powershell" %}
+```bash
+git branch
+# Vilket ger oss en lista av de branches som finns och * för den aktiva
+* feature
+  main
+
+```
+{% endtab %}
+{% endtabs %}
+
+![Aktiv branch i vscode](../.gitbook/assets/branch.png)
+
+{% hint style="danger" %}
+Kontrollera alltid att du arbetar i rätt branch.
+{% endhint %}
+
+Med branchen feature aktiv. Skapa en ny fil med namnet log.md.
+
+![Ny fil i vscode](../.gitbook/assets/bfile.png)
+
+När arbetet med en branch är färdigt så behöver det commitas och sedan slås ihop \(**merge**\) med master. Det kan göras på två sätt. Allt kan antingen slås ihop lokalt för att sedan pusha det till master. Eller så utförs det på GitHub med en pull request. Det första alternativet fungerar när du arbetar själv på ett projekt, i alla andra fall är det senare att föredra. 
+
+Instruktionerna som följer visar hur du slår ihop dina branches lokalt. För att skapa en pull request, läs Githubs guide [här](https://guides.github.com/activities/hello-world/).
+
+{% tabs %}
+{% tab title="Windows Powershell" %}
+```bash
+git branch # kontrollera aktiv branch
+git add . # . betyder, lägg till alla filer i mappen
+git commit -m "ny fil i ny branch"
+```
+{% endtab %}
+{% endtabs %}
+
+Kontrollera vilka filer som finns  i mappen med dir eller ls. Byt sedan branch och kontrollera igen.
+
+För att slå ihop branches väljer du först den branch som ska ta emot koden från en branch. Från den aktiva branchen körs kommandot git merge, med namnet på den branch som ska slås ihop till den aktiva.
+
+{% tabs %}
+{% tab title="Windows Powershell" %}
+```bash
+git checkout main
+git merge feature
+```
+{% endtab %}
+{% endtabs %}
+
+Om konflikter uppstår så läs felmeddelande och försöka att lösa dem som tidigare.
+
+{% hint style="info" %}
+GitHub training, Merge, [https://youtu.be/yyLiplDQtf0](https://youtu.be/yyLiplDQtf0).
+{% endhint %}
+
+Efter att de slagits ihop så tar du bort den branch som inte längre används.
+
+{% tabs %}
+{% tab title="Windows Powershell" %}
+```bash
+git branch -d feature
+```
+{% endtab %}
+{% endtabs %}
+
+Att arbeta med branches är GitHubs workflow, läs mer om det i GitHubs material för att få en bättre förståelse för hur det fungerar.
+
