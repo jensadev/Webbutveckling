@@ -31,7 +31,7 @@ Runt elementets innehåll finns det en padding på alla sidor. Denna padding är
 {% tab title="HTML" %}
 ```markup
 <div class="w-100 p-5">
-    <p>I det här exemplet styr vi div elementets storlek med klassen w-100.
+    <p>I det här exemplet styr vi div-elementets storlek med klassen w-100.
     Utöver det så sätts en padding med p-5, detta kommer ställa till problem.
     </p>
 </div>
@@ -51,13 +51,64 @@ Runt elementets innehåll finns det en padding på alla sidor. Denna padding är
 {% endtab %}
 {% endtabs %}
 
+För att räkna ut div-elementets bredd i exemplet här ovan så räknar vi ihop elementets storlek + padding. Det blir 100% + 5rem \* 2. Paddingen på sidan om elementet dubblas eftersom den finns på båda sidorna. 5 rem är med standardstorleken 16px alltså 80px, detta dubblas och elementets storlek blir 100% av parent + 160px, något som med största sannolikhet resulterar i att elementet är bredare än önskat.
+
 ### Border
 
 Om elementet har en ram så läggs även det till i elementets storlek.
 
+{% tabs %}
+{% tab title="HTML" %}
+```markup
+<div class="border">
+    <p>Div-elementets kommer ligga nägra denna text och det kommer vara styrt
+     av textens storlek. Elementets storlek kommer att vara div + border. Kom 
+     ihåg att även borderns storlek dubblas.
+     </p>
+</div>
+```
+{% endtab %}
+
+{% tab title="CSS" %}
+```css
+.border {
+    border: 1px solid black;
+}
+```
+{% endtab %}
+{% endtabs %}
+
 ### Margin
 
-Runt elementet finns slutligen en marginal som omger elementet.
+Runt elementet finns slutligen en marginal som omger elementet. Detta fungerar liknande padding, men är utanför elementet och inte innanför. Måttet dubblas även det och läggs på padding och border.
+
+{% tabs %}
+{% tab title="HTML" %}
+```markup
+<div class="news border">
+    <p>Some content.</p>
+</div>
+```
+{% endtab %}
+
+{% tab title="CSS" %}
+```css
+.news {
+    width: 40rem;
+    margin: 0 2rem;
+    padding: 1rem;
+}
+
+.border {
+    border: 1px solid black;
+}
+```
+{% endtab %}
+{% endtabs %}
+
+För att räkna ut div-elementets bredd från exemplet ovan så tar vi, content + padding \* 2 + border \* 2 + margin \* 2. Det blir alltså \(40 \* 16\) + \(1 + 1\) \* 16  + 2 + \(2 + 2\) \* 16 = 738px.
+
+Testa att räkna ut höjden och använd utvecklarverktygen i en webbläsare för att se uträknad\(engelska computed\) höjd och bredd.
 
 ## Block och inline-element
 
