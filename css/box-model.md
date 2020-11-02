@@ -8,6 +8,8 @@ Allt i CSS har en låda omkring sig, därför är det centralt att förstå hur 
 
 ### Content
 
+De element eller innehåll\(engelska content\) som finns i elementet. Innehållet styr elementets storlek.
+
 ### Padding
 
 ### Border
