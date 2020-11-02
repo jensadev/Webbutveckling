@@ -8,6 +8,8 @@ Allt i CSS har en låda omkring sig, därför är det centralt att förstå hur 
 
 Förenklat är det hur mycket plats element tar på en webbsida, hur stort det är. Men hur detta räknas ut och påverkas av andra element är komplicerat. Elementets box model är uppdelad i flera olika delar, se fig 1. Elementets storlek är summan av alla delarna.
 
+Det är väldigt viktigt att förstå elements storlek och box model när du till exempel försöker sätta flera element bredvid varandra eller när du har element som ska fylla en hel sida. Det är inte helt ovanligt att det dyker upp scrollbars där du inte önskar dem för att elementet är 100% stort + padding osv.
+
 ### Content
 
 De/det element eller innehåll\(engelska content\) som finns i elementet. Innehållet styr elementets storlek.
