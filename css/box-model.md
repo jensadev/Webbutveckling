@@ -106,7 +106,7 @@ Runt elementet finns slutligen en marginal som omger elementet. Detta fungerar l
 {% endtab %}
 {% endtabs %}
 
-För att räkna ut div-elementets bredd från exemplet ovan så tar vi, content + padding \* 2 + border \* 2 + margin \* 2. Det blir alltså \(40 \* 16\) + \(1 + 1\) \* 16  + 2 + \(2 + 2\) \* 16 = 738px.
+För att räkna ut div-elementets bredd från exemplet ovan så tar vi, content + padding \* 2 + border \* 2 + margin \* 2. Det blir alltså \(40 \* 16\) + \(1 + 1\) \* 16  + \(1 + 1\) + \(2 + 2\) \* 16 = 738px.
 
 Testa att räkna ut höjden och använd utvecklarverktygen i en webbläsare för att se uträknad\(engelska computed\) höjd och bredd.
 
