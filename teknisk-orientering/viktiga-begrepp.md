@@ -4,27 +4,32 @@
 
 ## Klient
 
-Webbläsare...
+* Webbläsare
 
 ## Server
 
-Git pages, localhost och www.google.com
+* Hosting
+  * Git pages
+  * localhost
 
 ## Protokoll
 
-http, https, tcp/ip, udp
+* http, HyperText Transfer Protocol
+* https, HyperText Transfer Protocol Secure
+* tcp/ip, Transmission Control Protocol, Internet Protocol
+* udp, User Datagram Protocol
 
 ### Portar
 
-80, 443, 8000, 8080
+* 80, http standard
+* 443, https standard
+* 3000, 5050, 8000, 8080, http alternativ för utvecklingsservrar
 
 ## Adresser
 
-dns
-
-Domäner, namn
-
-index.html
+* DNS, Domain Name System
+* Domäner, namn
+* index.html
 
 ## Säkerhet
 

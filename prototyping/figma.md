@@ -38,5 +38,5 @@ Fler resurser hittar du här nedanför.
 
 ## Övningar
 
-Översätt en eller flera av dina skisser till Figma.
+* Översätt en eller flera av dina skisser till Figma.
 
