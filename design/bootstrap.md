@@ -14,7 +14,7 @@ Bootstrap är enligt dem själva världens populäraste front-end ramverk. Det �
 
 Bootstrap är även byggt med en stor samling **agenter** \(engelska **devices**\) i åtanke, så det hjälper mobilanpassningen av webbsidan.
 
-I version 4 och tidigare har Bootstrap använt javascript-ramverket [**jQuery**](https://jquery.com/), detta har varit på gott och ont. Från version 5 kommer Bootstrap inte längre använda jQuery.
+I version 4 och tidigare har Bootstrap använt javascript-ramverket [jQuery](https://jquery.com/), detta har varit på gott och ont. Från version 5 kommer Bootstrap inte längre använda jQuery.
 
 {% hint style="info" %}
 [jQuery ](https://jquery.com/)är ett otroligt populärt javascript-ramverk för att förenkla arbetet med webbsidor.
@@ -87,11 +87,11 @@ Bootstrap skapar webbsidans layout med ett **rutsystem**\(engelska **grid**\). S
 {% endtab %}
 {% endtabs %}
 
-Container klassen finns i flera varianter utifrån responsiva-brytpunkter för att passa olika skärmstorlekar. Läs mer om hur det fungerar [**här**](https://getbootstrap.com/docs/4.5/layout/overview/).
+Container klassen finns i flera varianter utifrån responsiva-brytpunkter för att passa olika skärmstorlekar. Läs mer om hur det fungerar [här](https://getbootstrap.com/docs/4.5/layout/overview/).
 
 ### Rutsystemet
 
-I Bootstraps containers kan sedan rader och kolumner skapas utifrån det inbyggda rutsystemet. Detta är starkt kopplat till skrämstorlekar och responsiva-brytpunkter, så det är viktigt att förstå den delen. Läs mer om detta [**här**](https://getbootstrap.com/docs/4.5/layout/grid/).
+I Bootstraps containers kan sedan rader och kolumner skapas utifrån det inbyggda rutsystemet. Detta är starkt kopplat till skrämstorlekar och responsiva-brytpunkter, så det är viktigt att förstå den delen. Läs mer om detta [här](https://getbootstrap.com/docs/4.5/layout/grid/).
 
 ### Innehåll
 
@@ -242,7 +242,7 @@ Nedan följer ett modifierat [exempel](https://getbootstrap.com/docs/4.5/example
 Bootstrap kan i början kännas väldigt överväldigande på grund av alla dess klasser. Men det finns ett system och det kommer att visa sig desto mer du använder det.
 {% endhint %}
 
-Att använda Bootstrap och att förstå dess funktion kräver att du arbeta med systemet och provar det. En bra start är just [dokumentationen](https://getbootstrap.com/docs/4.5/getting-started/introduction/) och att börja prova några komponenter. Det finns även en  [exempelsid](https://getbootstrap.com/docs/4.5/examples/), där hittar du ett antal sidor och kombinationer av komponenter för att komma igång. De exempel som finns kan även inspirera, men försök alltid att förstå delarna och var noga med att undersöka om Bootstraps grund har utökats med extra css.
+Att använda Bootstrap och att förstå dess funktion kräver att du arbeta med systemet och provar det. En bra start är just [dokumentationen](https://getbootstrap.com/docs/4.5/getting-started/introduction/) och att börja prova några komponenter. Det finns även en  [exempelsida](https://getbootstrap.com/docs/4.5/examples/), där hittar du ett antal sidor och kombinationer av komponenter för att komma igång. De exempel som finns kan även inspirera, men försök alltid att förstå delarna och var noga med att undersöka om Bootstraps grund har utökats med extra css.
 
 ## Övningsuppgift
 

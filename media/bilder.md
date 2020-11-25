@@ -4,7 +4,7 @@
 
 ## Skärmupplösning
 
-En dators skärm har en [**skärmupplösning**](https://sv.wikipedia.org/wiki/Sk%C3%A4rmuppl%C3%B6sning) och ett **bildförhållande**. Du känner säkert till skärmupplösningen 1920 x 1080 och kanske att det är bildförhållandet 16:9. Det är viktigt att känna till då webbsidor används på många olika **enheter** \(**devices**\). Varje enhet har en skärm med tillhörande upplösning och bildförhållande.
+En dators skärm har en [skärmupplösning](https://sv.wikipedia.org/wiki/Sk%C3%A4rmuppl%C3%B6sning) och ett **bildförhållande**. Du känner säkert till skärmupplösningen 1920 x 1080 och kanske att det är bildförhållandet 16:9. Det är viktigt att känna till då webbsidor används på många olika **enheter** \(**devices**\). Varje enhet har en skärm med tillhörande upplösning och bildförhållande.
 
 På grund av tekniska begränsningar användes webben enbart från stationära datorer \(desktop\) tidigare men i takt med att tekniken utvecklats är nu mobila-enheter minst lika vanliga.
 
@@ -57,7 +57,7 @@ Det finns ett stort antal digitala **bildformat**. Några lämpar sig speciellt 
 
 #### Komprimering
 
-Digitala bilder använder i nästan alla fall någon form av [**komprimering**](https://sv.wikipedia.org/wiki/Datakompression). Komprimeringen hjälper till att begränsa bildens filstorlek. Det finns två typer av komprimering för bilder, **icke-destruktiv**- och **destruktiv** komprimering. En icke-destruktiv komprimering är begränsad då den arbetar på ett sådant sätt att data inte ska förloras, till skillnad mot en destruktiv komprimering där data förloras.
+Digitala bilder använder i nästan alla fall någon form av [komprimering](https://sv.wikipedia.org/wiki/Datakompression). Komprimeringen hjälper till att begränsa bildens filstorlek. Det finns två typer av komprimering för bilder, **icke-destruktiv**- och **destruktiv** komprimering. En icke-destruktiv komprimering är begränsad då den arbetar på ett sådant sätt att data inte ska förloras, till skillnad mot en destruktiv komprimering där data förloras.
 
 ### Portable Network Graphics \(PNG\)
 
