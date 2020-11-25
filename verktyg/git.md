@@ -6,7 +6,7 @@ description: Introduktion till Git och Github
 
 ## GitHub
 
-[**Git**](https://git-scm.com/) är ett **versions-hanteringssystem** för projekt och [**GitHub**](https://github.com/) är en **utvecklarplattform** för att arbeta med Git som ägs av Microsoft. GitHub är en plattform som är värd för alla möjliga olika arbeten med kod.
+[Git](https://git-scm.com/) är ett **versions-hanteringssystem** för projekt och [GitHub](https://github.com/) är en **utvecklarplattform** för att arbeta med Git som ägs av Microsoft. GitHub är en plattform som är värd för alla möjliga olika arbeten med kod.
 
 ### Varför?
 
@@ -95,7 +95,7 @@ Hej
 ```
 {% endcode %}
 
-Readme-filen är en standard i repon. I filen skrivs information kring projektet och GitHub visar den automatiskt på projektets sida. Filen skrivs i märkspråket [**Markdown**](https://guides.github.com/features/mastering-markdown/) \(**MD**\).
+Readme-filen är en standard i repon. I filen skrivs information kring projektet och GitHub visar den automatiskt på projektets sida. Filen skrivs i märkspråket [Markdown](https://guides.github.com/features/mastering-markdown/) \(**MD**\).
 
 Nu när vi har ändringar i filen så kan vi hoppa över till klienten igen. Vi ser där en lista över våra ändringar.  Klicka sedan Commit to master och efter det Push origin. Du har nu laddat upp dina lokala ändringar till GitHub.
 

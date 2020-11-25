@@ -47,6 +47,6 @@ description: >-
 
 
 {% hint style="info" %}
-\*\*\*\*[**Webbserverprogarmmering**](https://jens-andreasson.gitbook.io/webbserverprogrammering/)\*\*\*\*
+[Webbserverprogarmmering](https://jens-andreasson.gitbook.io/webbserverprogrammering/)
 {% endhint %}
 
