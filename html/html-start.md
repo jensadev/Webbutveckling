@@ -40,7 +40,7 @@ Nedan följer grunden för ett korrekt HTML-dokument. Det består av ett antal e
 * `<!DOCTYPE html>` deklarerar att dokument är ett HTML5 dokument.
 * `<html>` är **root** \(det första\) elementet för ett HTML dokument.
 * `<head>` elementet innehåller information om webbsidan till webbläsaren.
-  * `<meta>` elementet specificerar [**teckenkodning** ](../teknisk-orientering/teckenkodning.md)bland annat.
+  * `<meta>` elementet specificerar [teckenkodning ****](../teknisk-orientering/teckenkodning.md)bland annat.
   * `<title>` innehåller sidans titel som värde, vilket syns in webbläsarens titel eller **tab.**
 * `<body>` elementet definierar sidans kropp, det innehåll som vi ser på webbsidan.
   * `<h1>` elementet skapar en **rubrik** \(engelska **heading**\).
@@ -57,7 +57,7 @@ Studera indragen i exemplet, det är väldigt viktigt att skriv koden med indrag
 Exemplet ovanför har ett antal **attribut** som tillhör taggarna.
 
 * `lang`, med ett värde som anger webbsidans språk. Webbläsaren använder det för eventuell översättning av sidan baserat på användarens språk.
-* `charset`, vilket [teckenkodning ](../teknisk-orientering/teckenkodning.md)sidan ska använda. Detta kommer i 99.9% av fallen vara [**UTF-8**](../teknisk-orientering/teckenkodning.md#utf-8).
+* `charset`, vilket [teckenkodning ](../teknisk-orientering/teckenkodning.md)sidan ska använda. Detta kommer i 99.9% av fallen vara [UTF-8](../teknisk-orientering/teckenkodning.md#utf-8).
 * `name`, `viewport`. Detta anger skalan som används av olika enheter när sidan visas.
 
 {% hint style="info" %}
