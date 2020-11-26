@@ -10,5 +10,14 @@ description: >-
 
 ## Validering
 
+### Övning
+
+På GitHub finns det en övning att göra, [https://github.com/jensnti/wu1-validation](https://github.com/jensnti/wu1-validation). Klona/forka repot och arbeta med.
+
+På youtube hittar du en genomgång/rättning av uppgiften.
+
+* Del 1, [https://youtu.be/zqa9FuYYqb8](https://youtu.be/zqa9FuYYqb8)
+* Del 2, [https://youtu.be/jfgIePNNCWc](https://youtu.be/jfgIePNNCWc)
+
 
 
