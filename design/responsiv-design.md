@@ -317,3 +317,5 @@ Vi kan prova att åtgärda detta med float på bilderna, men ett annat alternati
 {% endtab %}
 {% endtabs %}
 
+Slutligen uppmanas du att testa sidan, justera storlekar och marginaler tills det ser bra ut och känns rätt. Det kan behövas fler media-regler för att det ska bli riktigt bra.
+
