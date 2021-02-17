@@ -2,7 +2,7 @@
 
 ## Vad är HTML?
 
-Hypertext Markup Language\(**HTML**\)är inte ett **programmeringsspråk.** HTML är ett märkspråk skapat för att berätta för webbläsaren hur en sida är strukturerad. HTML består av element som märker upp text. Texten märks upp med elementets tillhörande taggar. 
+Hypertext Markup Language\(**HTML**\)är inte ett **programmeringsspråk.** HTML är ett märkspråk skapat för att berätta för webbläsaren hur en sida är strukturerad. Språket följer en [levande standard](https://html.spec.whatwg.org/). HTML består av element som märker upp text. Texten märks upp med elementets tillhörande taggar. 
 
 {% tabs %}
 {% tab title="Plain text" %}
@@ -72,7 +72,7 @@ Attribut innehåller extra information om elementet som inte är innehåll.
 
 ## Semantik
 
-Semantik är grekiska för tecken. I HTML används **semantiska element** för att beskriva innehållet. Elementet ska vara meningsbärande.
+Semantik är grekiska för tecken. I HTML används **semantiska element** för att beskriva innehållet. Elementet ska vara meningsbärande. Detta enligt [W3C dokument](https://www.w3.org/standards/semanticweb/).
 
 De flesta element i HTML är semantiska. Semantiska element hjälper oss utvecklare att förstå koden, men det hjälper även webbläsaren att förstå och presentera strukturen. Rubrik-element får till exempel en större och fetare stil än en paragraf.
 
