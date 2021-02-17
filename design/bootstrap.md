@@ -8,6 +8,10 @@ description: Ett css ramverk.
 Detta dokument är skrivet utifrån version 4.5 av Bootstrap.
 {% endhint %}
 
+{% hint style="warning" %}
+Version 5 är här, [https://getbootstrap.com/](https://getbootstrap.com/) så hänvisa dit för uppdaterade exempel.
+{% endhint %}
+
 ## Vad och varför
 
 Bootstrap är enligt dem själva världens populäraste front-end ramverk. Det är ett robust system för att snabbt designa sidor, eller prototyper för sidor. Designen landar definitivt i kategorin stilrent och enkelt, med det är en bra grund att utgå ifrån.
