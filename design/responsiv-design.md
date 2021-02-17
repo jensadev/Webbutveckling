@@ -319,3 +319,15 @@ Vi kan prova att åtgärda detta med float på bilderna, men ett annat alternati
 
 Slutligen uppmanas du att testa sidan, justera storlekar och marginaler tills det ser bra ut och känns rätt. Det kan behövas fler media-regler för att det ska bli riktigt bra.
 
+### Navigation
+
+Exempelsidans navigation är väldigt enkel då den bara innehåller en brand länk. Just navigationen är ett stort område inom mobil first då navigation ofta tar mycket plats. Detta har lett till ett otal olika menytyper, mest känd är hamburgaren.
+
+Kolla mer kring navigationen på övnings-sidan, där finns det tre olika exempel som du kan använda och anpassa.
+
+* [https://jensnti.github.io/wu-ovningar/navigation.html](https://jensnti.github.io/wu-ovningar/navigation.html)
+* [https://jensnti.github.io/wu-ovningar/hamburger.html](https://jensnti.github.io/wu-ovningar/hamburger.html)
+* [https://jensnti.github.io/wu-ovningar/offcanvas.html](https://jensnti.github.io/wu-ovningar/offcanvas.html)
+
+
+
