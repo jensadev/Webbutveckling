@@ -43,12 +43,12 @@ Här nedan följer några exempel på vanliga breakpoints baserat på pixel-bred
 
 Det populära ramverket [Bootstrap ](https://getbootstrap.com/docs/5.0/layout/breakpoints/)använder följande dimensioner för att specificera sina breakpoints.
 
-* X-Small &lt;576px
-* Small ≥576px
-* Medium ≥768px
-* Large ≥992px
-* Extra large ≥1200px
-* Extra extra large ≥1400px
+* X-Small &lt; 576px
+* Small ≥ 576px
+* Medium ≥ 768px
+* Large ≥ 992px
+* Extra large ≥ 1200px
+* Extra extra large ≥ 1400px
 
 ## Meta viewport
 
@@ -78,7 +78,7 @@ img {
 
 ## Responsiv typografi
 
-Text som är angiven i till exempel procent är inget som rekommenderas. Istället så bör du skapa media-regler som byter textens storlek vid vissa breakpoints.
+Text som är angiven i till exempel procent är inget som rekommenderas. Istället så bör du skapa media-regler som byter textens storlek vid vissa breakpoints. Här är ledordet prova dig fram, [typografi på webben](https://www.smashingmagazine.com/2014/09/balancing-line-length-font-size-responsive-web-design/) är komplext.
 
 ## Exempel
 
