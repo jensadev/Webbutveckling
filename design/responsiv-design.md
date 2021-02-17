@@ -293,7 +293,7 @@ Bildstorleken åtgärdas med att sätta en max-width på innehållets container 
 
 Som skärmdumpen visar så är nu sidan svårläst och ful. Det är väldigt tydligt att den mobila designen inte lämpar sig på en dator med webbläsaren i helskärm. Med reglerna på plats för medium-stora skärmar så förbättras sidans utseende något, men det kan fortfarande förbättras. Det som kanske sticker ut mest är att den blir lite för smal och att bilderna inte passar.
 
-Vi kan prova att åtgärda detta med float på bilderna, men ett annat alternativ är att fördela texten i två spalter. Prova det ena eller det andra
+Vi kan prova att åtgärda detta med float på bilderna, men ett annat alternativ är att fördela texten i två spalter. Prova det ena eller det andra. 
 
 {% tabs %}
 {% tab title="CSS" %}
