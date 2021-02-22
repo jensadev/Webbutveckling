@@ -263,7 +263,7 @@ Detta blir alltså det första fokuset att arbeta med. Media regler för margina
 {% code title="style.css" %}
 ```css
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+@media screen (min-width: 768px) {
   body {
     font-size: 1.2rem;
   }
@@ -300,7 +300,7 @@ Vi kan prova att åtgärda detta med float på bilderna, men ett annat alternati
 {% code title="style.css" %}
 ```css
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+@media screen (min-width: 1200px) {
   .container {
     max-width: 960px;
   }
