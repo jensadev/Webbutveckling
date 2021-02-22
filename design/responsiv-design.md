@@ -329,5 +329,46 @@ Kolla mer kring navigationen på övnings-sidan, där finns det tre olika exempe
 * [https://jensnti.github.io/wu-ovningar/hamburger.html](https://jensnti.github.io/wu-ovningar/hamburger.html)
 * [https://jensnti.github.io/wu-ovningar/offcanvas.html](https://jensnti.github.io/wu-ovningar/offcanvas.html)
 
+### Kort
+
+Kort\(eng cards\) är vanligt förekommande i layout-sammanhang på webben. En flexibel för alla typer av innehåll. Kortet går att återanvända och det visas olika beroende på skärmens storlek. 
+
+Ofta samlas flera kort i en behållare som bestämmer dess layout. Sedan används flexbox för att justera layouten med mediaregler.
+
+{% tabs %}
+{% tab title="HTML" %}
+```markup
+<div class="card-group">
+  <div class="card">
+    <img src="https://picsum.photos/500/300" alt="Random picture">
+    <h3>Lorem ipsum</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam fuga reiciendis velit non est minus, iusto, ipsum ex harum maiores nisi id consectetur repellendus natus reprehenderit error. Animi, iste? Maxime!</p>
+  </div>
+  <div class="card">
+    <img src="https://picsum.photos/500/300" alt="Random picture">
+    <h3>Lorem ipsum</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam fuga reiciendis velit non est minus, iusto, ipsum ex harum maiores nisi id consectetur repellendus natus reprehenderit error. Animi, iste? Maxime!</p>
+  </div>
+  <div class="card">
+    <img src="https://picsum.photos/500/300" alt="Random picture">
+    <h3>Lorem ipsum</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam fuga reiciendis velit non est minus, iusto, ipsum ex harum maiores nisi id consectetur repellendus natus reprehenderit error. Animi, iste? Maxime!</p>
+  </div>  
+</div>
+```
+{% endtab %}
+
+{% tab title="CSS" %}
+```css
+@media screen and (min-width: 768px) {
+  .card-group {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+```
+{% endtab %}
+{% endtabs %}
+
 
 
