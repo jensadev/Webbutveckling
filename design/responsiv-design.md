@@ -93,6 +93,12 @@ En exempel-sida designad utifrån devisen mobil först \(eng mobile first\). Hä
 Sidan ger 100 för accessibility score i [Lighthouse ](https://developers.google.com/web/tools/lighthouse)med bra performance. Funktionsmässigt fungerar det bra i mobil läget. Eftersom sidan är designad för mobile först så är det att förvänta. Nästa steg blir att anpassa den för andra enheter och skärmstorlekar.
 
 {% tabs %}
+{% tab title="" %}
+```
+
+```
+{% endtab %}
+
 {% tab title="HTML" %}
 {% code title="index.html" %}
 ```markup
