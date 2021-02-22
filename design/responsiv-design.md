@@ -15,7 +15,7 @@ Det främsta verktyget för att skapa en responsiv design är att använda media
 {% tabs %}
 {% tab title="CSS" %}
 ```css
-@media media type and (condition: breakpoint) {
+@media MEDIATYPE and (condition: breakpoint) {
   // CSS regler
 }
 ```
