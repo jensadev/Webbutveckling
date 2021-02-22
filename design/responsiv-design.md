@@ -4,11 +4,11 @@ description: Mobile first.
 
 # Responsiv design
 
-Webben består idag av så otroligt många olika devices att det inte längre är hållbart att bara skapa en sida som fungerar för en desktop. Responsiv webbdesign \(eng. Responsive Web Design, RWD\) är ett koncept som handlar om att skapa en praxis för  utvecklingen av webbsidor som fungerar på många olika enheter. Där det som skiljer enheterna är skärmstorleken och upplösningen.
+Webben består idag av så otroligt många olika **enheter**\(engelska **devices**\) ****att det inte längre är hållbart att bara skapa en sida som fungerar för desktop-upplösning. **Responsiv webbdesign** \(engelska **Responsive Web Design**, **RWD**\) är ett koncept som handlar om att skapa en praxis för utvecklingen av webbsidor som fungerar på många olika enheter. Där det som skiljer enheterna är skärmstorleken och upplösningen.
 
 ## Mediaregler
 
-Det främsta verktyget för att skapa en responsiv design är att använda media regler. Media-regler är en del av CSS som gör det möjligt att ange olika regler baserat på enhetens storlek och typ.
+Det främsta verktyget för att skapa en responsiv design är att använda **media regler**\(engelska och CSS, **media queries**\). Media-regler är en del av CSS som gör det möjligt att ange olika regler baserat på enhetens storlek och typ.
 
 ### Syntax
 
@@ -31,7 +31,7 @@ Det främsta verktyget för att skapa en responsiv design är att använda media
 
 ### Breakpoints
 
-Här nedan följer några exempel på vanliga breakpoints baserat på pixel-bredd.
+Här nedan följer några exempel på vanliga **brytpunkter**\(engelska **breakpoints\)** baserat på pixel-bredd.
 
 * 320px — 480px: Mobile devices
 * 481px — 768px: iPads, Tablets
@@ -64,7 +64,7 @@ En responsiv webbsida behöver följande kod i head elementet. Detta berättar b
 
 ## Responsiva bilder
 
-Var noga med att anpassa bildstorleken genom att redigera den. 
+Var noga med att anpassa bildstorleken genom att redigera den. CSS får aldrig ersätta anpassningen av bildens upplösning. Den anpassade bilden behöver sedan CSS-regler för att få den att fungera på sidan.
 
 {% tabs %}
 {% tab title="CSS" %}
@@ -78,11 +78,11 @@ img {
 
 ## Responsiv typografi
 
-Text som är angiven i till exempel procent är inget som rekommenderas. Istället så bör du skapa media-regler som byter textens storlek vid vissa breakpoints. Här är ledordet prova dig fram, [typografi på webben](https://www.smashingmagazine.com/2014/09/balancing-line-length-font-size-responsive-web-design/) är komplext.
+Textstorlek angiven i procent är inget som rekommenderas eller fungerar särskilt bra. Istället så bör du skapa media-regler som byter textens storlek vid vissa breakpoints. Här är ledordet prova dig fram, [typografi på webben](https://www.smashingmagazine.com/2014/09/balancing-line-length-font-size-responsive-web-design/) är komplext.
 
 ## Exempel
 
-En exempel-sida designad utifrån devisen mobil först \(eng mobile first\). Här har webbläsarens utvecklarverktyg använts för att skala om fönstret för en mobil upplösning.
+En exempel-sida designad utifrån devisen **mobil först** \(engelska **mobile first**\). Här har webbläsarens utvecklarverktyg använts för att skala om fönstret för en mobil upplösning.
 
 ![Utvecklarverktygen i Chrome](../.gitbook/assets/screenshot-2021-02-17-134656.png)
 
@@ -337,9 +337,9 @@ Kolla mer kring navigationen på övnings-sidan, där finns det tre olika exempe
 
 ### Kort
 
-Kort\(eng cards\) är vanligt förekommande i layout-sammanhang på webben. En flexibel för alla typer av innehåll. Kortet går att återanvända och det visas olika beroende på skärmens storlek. 
+**Kort**\(engelska **cards**\) är vanligt förekommande i layout-sammanhang på webben. Ett kort är en flexibel container för alla typer av innehåll. Kortet går att återanvända och det visas olika beroende på skärmens storlek. 
 
-Ofta samlas flera kort i en behållare som bestämmer dess layout. Sedan används flexbox för att justera layouten med mediaregler.
+Ofta samlas flera kort i en behållare som bestämmer dess layout. Sedan används flexbox för att justera layouten med media-regler.
 
 {% tabs %}
 {% tab title="HTML" %}
