@@ -14,3 +14,7 @@ description: Ecmaskript == Javascript &&  Java != Javascript
 4. Skriv `alert('Hello world');`
 5. Fira. 👏
 
+{% hint style="info" %}
+Ett tips är dock att använda console.log\(meddelande\) istället för alert, så slipper en pop-fönstret.
+{% endhint %}
+
