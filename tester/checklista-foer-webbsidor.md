@@ -8,6 +8,8 @@ description: >-
 
 Innan du lämnar in projekt och arbeten är det bra att testa det. En del tester bör köras tidigt och ofta \(validering\) medans andra lämpar sig bättre i projektets slut. I den här listan som följer är sådant som du hela tiden bör ha i åtanke i ditt webbutvecklingsprojekt. Arbeta kontinuerligt med punkterna och dokumentera det.
 
+Här finns en interaktiv variant att prova [https://frontendchecklist.io/](https://frontendchecklist.io/)
+
 ## Hosting
 
 * Sidan hostas med Github pages.
