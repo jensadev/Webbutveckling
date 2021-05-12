@@ -11,14 +11,14 @@ En variabel är en behållare för att spara värden i. En variabel kan deklarer
 let myvar;
 
 // assign value
-myvar = 'Bengt';
+myvar = 'Erik';
 
 // anv / hämta dess värde
 
-myvar; // <- "Bengt"
+myvar; // <- "Erik"
 
 // change assigned value
-myvar = 'Åke';
+myvar = 'Frida';
 ```
 {% endtab %}
 {% endtabs %}
