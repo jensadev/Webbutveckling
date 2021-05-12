@@ -149,5 +149,34 @@ if (godis === "bilar") {
 {% endtab %}
 {% endtabs %}
 
+## Loopar, iteration
 
+## Funktioner
+
+## Events
+
+Events är något vi kan lyssna efter i koden, som ett musklick, en ändring eller tangentbordstryck.
+
+## Ett exempel
+
+I följande exempel använder vi det vi lärt oss hittills.
+
+{% tabs %}
+{% tab title="HTML" %}
+```markup
+<button>Klicka mig!</button>
+<script>
+let button = document.querySelector('button'); // väljer det första button elementet
+let clicks = 0; // number variabel
+
+// använd button, html objektet, och skapa en lyssnare på det
+// den ska lyssna på click och när det sker så körs functionen
+button.addEventListener('click', function() {
+    clicks += 1;
+    alert('Du har klickat ' + clicks + ' gånger.');
+});
+</script>
+```
+{% endtab %}
+{% endtabs %}
 
