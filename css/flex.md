@@ -91,6 +91,10 @@ main {
 
 ### Orientering
 
+{% hint style="info" %}
+Flex är det universella svaret på frågan, "hur centrerar jag elementet". Flex med justify-content: center och align-items:center. 
+{% endhint %}
+
 En av de stora styrkorna med flex är att vi kan styra över elementens orientering \(engelska alignment\). Med flex blir det väldigt mycket enklare att centrera och flytta element. Studera och kopiera följande kod för en navbar.
 
 {% tabs %}
