@@ -74,3 +74,20 @@ section {
 }
 ```
 
+### Direction
+
+Sidan kommer nu att flexa längs row, då det är standard-inställningen för flex. Vi kan styra detta med flex-direction egenskapen. Genom att sätta flex-direction till column så placeras inte längre sektionerna bredvid varandra. Detta kan vara användbart om vi önskar ändra layouten med till exempel media regler, men det låter oss även ändra ordningen med reverse värden.
+
+{% tabs %}
+{% tab title="CSS" %}
+```css
+main {
+    display: flex;
+    flex-direction: column;
+}
+```
+{% endtab %}
+{% endtabs %}
+
+
+
