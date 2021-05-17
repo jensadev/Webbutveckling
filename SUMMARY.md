@@ -35,6 +35,7 @@
 * [Layout](css/css-layout.md)
 * [Mått och värden](css/viktigt.md)
 * [Box model](css/box-model.md)
+* [Flex](css/flex.md)
 * [Layout och design](css/untitled.md)
 * [Språket](css/css-spraket.md)
 * [Sass](css/sass.md)
