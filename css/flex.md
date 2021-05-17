@@ -164,5 +164,33 @@ nav {
 {% endtab %}
 {% endtabs %}
 
+### Media regler
 
+{% hint style="info" %}
+Läs mer om media regler i [kapitlet om responsiv design](../design/responsiv-design.md).
+{% endhint %}
+
+Som sista del så ska vi mobilanpassa den layout vi skapat. För att göra det så vill vi inte visa spalter på mindre skärmar och navbar-menyn ska vara vertikal.
+
+{% tabs %}
+{% tab title="CSS" %}
+```css
+@media (max-width: 567px) {
+    main {
+        flex-direction: column;
+    }
+    ul {
+        flex-direction: column;
+        padding-left: 0;
+    }
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+```
+{% endtab %}
+{% endtabs %}
+
+Med en media regel för max-bredd så kan vi styra elementen att visas på ett annat sätt på en mindre skärm.
 
