@@ -8,7 +8,7 @@ För att skapa en sida med ett CV så är det i första hand en fråga om att m�
 Börja med att identifiera webbsidans komponenter och struktur.
 {% endhint %}
 
-![Marios CV, skapat av Stina&#xA9;](../.gitbook/assets/mario.png)
+![Marios CV, skapat av Stina©](../.gitbook/assets/mario.png)
 
 Strukturmässigt så kan vi dela upp det i följande element.
 
@@ -17,7 +17,7 @@ Strukturmässigt så kan vi dela upp det i följande element.
   * `section`, med rubrik, tidsangivelse och resume.
   * efterföljande sektioner
 
-Elementen kan även märkas upp med ID för sektionerna för att möjliggöra fragments-navigation. Navigation, hypertext, är en möjlig förbättring vi kan göra av sidan för att utnyttja webbsidans styrkor. Kodad med HTML-element kan första delen se ut såhär. 
+Elementen kan även märkas upp med ID för sektionerna för att möjliggöra fragments-navigation. Navigation, hypertext, är en möjlig förbättring vi kan göra av sidan för att utnyttja webbsidans styrkor. Kodad med HTML-element kan första delen se ut såhär.&#x20;
 
 #### Uppgift
 
@@ -73,7 +73,7 @@ Sidan läser nu in stilarna från det externa css-dokumentet.
 
 ### Layout med CSS
 
-Marios CV har en relativt enkelt struktur, det är en kolumns layout uppdelat i en `header` och en `main` för innehållet. Strukturen med dessa element och underliggande skapar vi för att gruppera sidans delar.
+Marios CV har en relativt enkelt struktur, det är en kolumns layout uppdelat i en `header `och en `main `för innehållet. Strukturen med dessa element och underliggande skapar vi för att gruppera sidans delar.
 
 Sidan är en kolumn som är centrerad. Detta kan skapas genom att justera sidans bredd och marginaler. Egenskapen `margin` styr marginalen på ett element, värdet som ges styr top, bottom och left, right.
 
@@ -118,13 +118,13 @@ Headern innehåller porträttet, namn-rubriken och kontaktinformation med tillh�
 {% endtab %}
 {% endtabs %}
 
-Ladda om sidan och bilden placeras nu till höger om texten, texten anpassar sig även till bildens storlek. 
+Ladda om sidan och bilden placeras nu till höger om texten, texten anpassar sig även till bildens storlek.&#x20;
 
 {% hint style="info" %}
 Float fungerar bra i vissa upplösningar, om du ändrar storleken på webbläsarfönstret till att vara riktigt smalt så kan du se att float får problem.
 {% endhint %}
 
-Den andra delen av sidan är samlad i ett `main` element, den innehåller huvuddelen av CV-informationen. Under detta är varje del strukturerad i en `section` med tillhörande rubrik. Marios färdigheter och erfarenheter är sedan strukturerad i en o-ordnad lista, `ul`.
+Den andra delen av sidan är samlad i ett `main `element, den innehåller huvuddelen av CV-informationen. Under detta är varje del strukturerad i en `section `med tillhörande rubrik. Marios färdigheter och erfarenheter är sedan strukturerad i en o-ordnad lista, `ul`.
 
 {% code title="cv.html" %}
 ```markup
@@ -145,7 +145,7 @@ Den andra delen av sidan är samlad i ett `main` element, den innehåller huvudd
 
 ### Typsnitt
 
-Typsnittet som används på Mario sidan är en så kallad sans-seriff. En seriff är klacken på ett tecken och sans betyder utan, så utan klack. 
+Typsnittet som används på Mario sidan är en så kallad sans-seriff. En seriff är klacken på ett tecken och sans betyder utan, så utan klack.&#x20;
 
 {% hint style="info" %}
 [Läs mer här om vad en seriff är.](https://sv.wikipedia.org/wiki/Seriff)
@@ -242,7 +242,7 @@ Dokumentet innehåller ett stor antal rubriker med olika formatering. Rubrikelem
 
 ### Listor
 
-I HTML så används ofta listor för att strukturera innehåll. Listorna i Marios CV är ett bra exempel på detta. I dokumentet så används - för att notera varje rad i listan, denna stil finns dock inte i HTML. 
+I HTML så används ofta listor för att strukturera innehåll. Listorna i Marios CV är ett bra exempel på detta. I dokumentet så används - för att notera varje rad i listan, denna stil finns dock inte i HTML.&#x20;
 
 Prova olika list stilar och gör ett eget val. Utöver detta så justerar du den padding som elementet har till vänster.
 
@@ -255,7 +255,7 @@ ul {
 ```
 {% endcode %}
 
- I en lista skapas varje rad av ett `li` element, det är block element så det blir en radbrytning vid varje. Det kan ändras med display egenskapen. Antingen kan listan, ul-elementet, ändras med `display: flex` eller så ges varje enskilt li-element egenskapen `display: inline`. Detta är användbart om en lista används för en navigation.
+&#x20;I en lista skapas varje rad av ett `li` element, det är block element så det blir en radbrytning vid varje. Det kan ändras med display egenskapen. Antingen kan listan, ul-elementet, ändras med `display: flex` eller så ges varje enskilt li-element egenskapen `display: inline`. Detta är användbart om en lista används för en navigation.
 
 ### Navigation
 
@@ -319,10 +319,8 @@ Skapa alla de stilar som behövs för att återge Marios CV.
 Här finns det ytterligare material samlat för dig att arbeta med.
 
 * CSS
-  * [https://developer.mozilla.org/en-US/docs/Learn/CSS/First\_steps](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps)
+  * [https://developer.mozilla.org/en-US/docs/Learn/CSS/First\_steps](https://developer.mozilla.org/en-US/docs/Learn/CSS/First\_steps)
 * Layout
-  * [https://www.w3schools.com/css/css\_templates.asp](https://www.w3schools.com/css/css_templates.asp)
-  * [https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS\_layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout)
-
-
+  * [https://www.w3schools.com/css/css\_templates.asp](https://www.w3schools.com/css/css\_templates.asp)
+  * [https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS\_layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS\_layout)
 

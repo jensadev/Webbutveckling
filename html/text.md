@@ -8,9 +8,9 @@ Strukturerad text följer för det mesta samma mönster, den består av rubriker
 Ett exempel är det här materialet, förhoppningsvis gör sidans struktur det mer lättläst och enklare att förstå.
 {% endhint %}
 
-**HTML** innehåller element för att märka upp text utifrån detta mönster. 
+**HTML** innehåller element för att märka upp text utifrån detta mönster.&#x20;
 
-För att märka upp en **paragraf**\(engelska **paragraph**\) så används `<p>` elementet.
+För att märka upp en **paragraf**(engelska **paragraph**) så används `<p>` elementet.
 
 {% tabs %}
 {% tab title="HTML" %}
@@ -20,7 +20,7 @@ För att märka upp en **paragraf**\(engelska **paragraph**\) så används `<p>`
 {% endtab %}
 {% endtabs %}
 
-För att skapa en rubrik\(engelska **heading**\) finns det sex olika element att välja mellan, `<h1>` , `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`. Siffrorna i heading-elementet representerar olika rubrik-nivåer där `<h1>` är huvudrubriken.
+För att skapa en rubrik(engelska **heading**) finns det sex olika element att välja mellan, `<h1>` , `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`. Siffrorna i heading-elementet representerar olika rubrik-nivåer där `<h1>` är huvudrubriken.
 
 {% tabs %}
 {% tab title="HTML" %}
@@ -39,7 +39,7 @@ Böcker är ett utmärkt exempel på strukturerad text. Se följande exempel, et
 
 {% tabs %}
 {% tab title="Plain Text" %}
-```text
+```
 D R A C U L A
 CHAPTER I
 
@@ -65,11 +65,11 @@ Studera exemplet och notera mönstret med elementen och vad de representerar. Ru
 
 ### Övning, kapitel två
 
-Använd vscode för att skapa ett nytt HTML-dokument. Döp dokumentet till dracula.html och strukturera följande text. 
+Använd vscode för att skapa ett nytt HTML-dokument. Döp dokumentet till dracula.html och strukturera följande text.&#x20;
 
 {% tabs %}
 {% tab title="Plain Text" %}
-```text
+```
 CHAPTER II
 
 JONATHAN HARKER’S JOURNAL—continued
@@ -84,7 +84,7 @@ When the calèche stopped, the driver jumped down and held out his hand to assis
 
 Text märks inte enbart upp med block-element som ger dem struktur, utan det finns även ett antal inline-element för att formatera texten. Några av elementen är semantiska, de ger mening till formateringen, medans andra är rent visuella.
 
-För att visa att något ord är extra viktigt så kan vi **betona** det.
+För att visa att något ord är extra viktigt så kan vi **betona **det.
 
 {% tabs %}
 {% tab title="HTML" %}
@@ -96,7 +96,7 @@ För att visa att något ord är extra viktigt så kan vi **betona** det.
 
 I exemplet ovan så används taggen strong inuti ett p-element, det är nästlat. Strong-elementet är ett inline-element så det blir ingen radbrytning kring det vilket är viktigt.
 
-För att rent visuellt märka upp text, med **fetstil** och _kursiv stil_ så används element utan semantisk mening. 
+För att rent visuellt märka upp text, med **fetstil **och _kursiv stil_ så används element utan semantisk mening.&#x20;
 
 {% tabs %}
 {% tab title="HTML" %}
@@ -118,7 +118,7 @@ Listor där ordningen inte spelar något roll.
 
 {% tabs %}
 {% tab title="Plain Text" %}
-```text
+```
 Banan
 Äpple
 Apelsin
@@ -138,15 +138,15 @@ Kiwi
 {% endtab %}
 {% endtabs %}
 
-En lista startar med med elementet för listans typ, **unordered** **list** har elementet `<ul>`. Varje element i listan blir sedan ett `<li>` element.
+En lista startar med med elementet för listans typ, **unordered** **list **har elementet `<ul>`. Varje element i listan blir sedan ett `<li>` element.
 
 ### Ordnade listor
 
-Ordnade listor är listor där ordningen är viktig och det visas också av att det som standard blir en numrerad lista. Elementet för **ordered list** är `<ol>`. Varje enskilt element i listan märks sedan upp med `<li>`.
+Ordnade listor är listor där ordningen är viktig och det visas också av att det som standard blir en numrerad lista. Elementet för **ordered list **är `<ol>`. Varje enskilt element i listan märks sedan upp med `<li>`.
 
 {% tabs %}
 {% tab title="Plain Text" %}
-```text
+```
 Ta fram stekpannan.
 Lägg i en klick smör och låt det smälta.
 Häll i ca. 1dl smet.
@@ -167,7 +167,7 @@ Stek pannkakan.
 {% endtabs %}
 
 {% hint style="info" %}
-Notera indragen\(indenteringen, engelska indentation\) i listan, det är viktigt att du arbetar så för att koden ska bli tydlig och läsbar.
+Notera indragen(indenteringen, engelska indentation) i listan, det är viktigt att du arbetar så för att koden ska bli tydlig och läsbar.
 {% endhint %}
 
 ## Datum
@@ -186,7 +186,6 @@ För att märka upp datum finns elementet `<time>`. Detta är väldigt praktiskt
 ## Övning
 
 1. Fortsätt arbeta med dracula.html.
-2. Kopiera några paragrafer\(inte hela\) ur två-tre kapitel från [Dracula](https://www.gutenberg.org/files/345/345-h/345-h.htm) och märk upp texten med HTML element. 
+2. Kopiera några paragrafer(inte hela) ur två-tre kapitel från [Dracula](https://www.gutenberg.org/files/345/345-h/345-h.htm) och märk upp texten med HTML element.&#x20;
    1. Använd alla verktygen du lärt dig; rubriker, paragrafer, tid.
 3. Skapa en innehållsförteckning med en lista.
-

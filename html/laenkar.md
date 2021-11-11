@@ -4,7 +4,7 @@ description: Hyperlänkar
 
 # Länkar
 
-Länkar är en stor del av webben och är en av de delar som gör webben till webben. Hypertext dokument kan innehålla hyperlänkar som länkar samma flera dokument eller resurser. Nästan alla webbplatser har en eller flera länkar. När en länk klickas så aktiveras den i webbläsaren och skickar användaren vidare till en annan adress\(Uniform Resource Locator, **URL**\).
+Länkar är en stor del av webben och är en av de delar som gör webben till webben. Hypertext dokument kan innehålla hyperlänkar som länkar samma flera dokument eller resurser. Nästan alla webbplatser har en eller flera länkar. När en länk klickas så aktiveras den i webbläsaren och skickar användaren vidare till en annan adress(Uniform Resource Locator, **URL**).
 
 Länkar kan leda till sidor eller resurser på den webbplatsen eller till andra sidor. Länkar kan även peka på filer av olika slag, kan de inte visas av webbläsaren så får du en fråga vad du vill ska ske med filen.
 
@@ -45,14 +45,14 @@ Hela element kan även användas som länkar, ett bra exempel för det är bilde
 
 ## Att länka mellan dokument
 
-När du skapar länkar på din webbplats är det viktigt att du förstår hur du länkar mellan dokument. Du behöver förstå hur du anger **sökvägen**\(engelska **path**\). En URL använder sökvägen för att hitta filer i ett filsystem. 
+När du skapar länkar på din webbplats är det viktigt att du förstår hur du länkar mellan dokument. Du behöver förstå hur du anger **sökvägen**(engelska **path**). En URL använder sökvägen för att hitta filer i ett filsystem.&#x20;
 
-![S&#xF6;kv&#xE4;gen till dokument i Windows Utforskaren.](../.gitbook/assets/soekvaeg.png)
+![Sökvägen till dokument i Windows Utforskaren.](../.gitbook/assets/soekvaeg.png)
 
-För att komma åt filer så används **relativa** sökvägar på webben. Det betyder att du utgår från dokumentet och vars det ligger i filstrukturen. Ofta utgår en sidan från index.html.
+För att komma åt filer så används **relativa **sökvägar på webben. Det betyder att du utgår från dokumentet och vars det ligger i filstrukturen. Ofta utgår en sidan från index.html.
 
 {% hint style="warning" %}
-Använd aldrig absoluta sökvägar till filer i ditt dokument. Börjar sökvägen med c:\... så kommer det inte fungera för någon annan.
+Använd aldrig absoluta sökvägar till filer i ditt dokument. Börjar sökvägen med c:\\... så kommer det inte fungera för någon annan.
 {% endhint %}
 
 ### Länka i samma mapp
@@ -69,7 +69,7 @@ Du vill länka från index.html till about.html som ligger i samma mapp.
 
 ### Länka till en undermapp
 
-Du vill länka till en fil i en mapp som ligger i samma mapp. 
+Du vill länka till en fil i en mapp som ligger i samma mapp.&#x20;
 
 {% tabs %}
 {% tab title="HTML" %}
@@ -95,7 +95,7 @@ Ibland så behöver vi kunna gå upp i mappstrukturen för att komma åt filer s
 
 ### Länka i ett dokument
 
-Vissa länkar används för att länka mellan sektioner i ett dokument, det kallas för fragment. För att göra det krävs det att ett element har ett `id` attribut och att länken pekar till det. Id markeras med \# .
+Vissa länkar används för att länka mellan sektioner i ett dokument, det kallas för fragment. För att göra det krävs det att ett element har ett `id `attribut och att länken pekar till det. Id markeras med # .
 
 {% tabs %}
 {% tab title="HTML" %}
@@ -108,7 +108,7 @@ Vissa länkar används för att länka mellan sektioner i ett dokument, det kall
 {% endtabs %}
 
 {% hint style="info" %}
-Försök att alltid namnge dina filer och mappar med små bokstäver. Undvik även specialtecken\(åäö\) och mellanslag.
+Försök att alltid namnge dina filer och mappar med små bokstäver. Undvik även specialtecken(åäö) och mellanslag.
 {% endhint %}
 
 ## Övning
@@ -118,4 +118,3 @@ Försök att alltid namnge dina filer och mappar med små bokstäver. Undvik äv
 3. Märk upp innehållsförteckningen med länkar till dokument fragment.
    1. Länk till Kapitel 1 och tillhörande id på dess rubrik.
    2. Länk till Kapitel 2 och så vidare.
-

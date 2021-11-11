@@ -2,11 +2,11 @@
 
 ## Vad är HTML?
 
-Hypertext Markup Language\(**HTML**\)är inte ett **programmeringsspråk.** HTML är ett märkspråk skapat för att berätta för webbläsaren hur en sida är strukturerad. Språket följer en [levande standard](https://html.spec.whatwg.org/). HTML består av element som märker upp text. Texten märks upp med elementets tillhörande taggar. 
+Hypertext Markup Language(**HTML**)är inte ett **programmeringsspråk.** HTML är ett märkspråk skapat för att berätta för webbläsaren hur en sida är strukturerad. Språket följer en [levande standard](https://html.spec.whatwg.org). HTML består av element som märker upp text. Texten märks upp med elementets tillhörande taggar.&#x20;
 
 {% tabs %}
 {% tab title="Plain text" %}
-```text
+```
 En paragraf med text.
 ```
 {% endtab %}
@@ -25,17 +25,17 @@ I exemplet ovan så används paragraf-elementet. Som de flesta HTML element best
 * Öppningstaggen
   * Indikerar vars elementet börjar. Det använder mindre än tecken, elementets namn och större än tecken.
 * Innehåll
-  * Det innehåll som elementet ska visa \(innehålla\).
+  * Det innehåll som elementet ska visa (innehålla).
 * Stängnigstaggen
-  * Indikerar vars elementet slutar. Det använder mindre än tecken, snedstreck \(front slash\), elementets namn och större än tecken. 
+  * Indikerar vars elementet slutar. Det använder mindre än tecken, snedstreck (front slash), elementets namn och större än tecken.&#x20;
 
 {% hint style="info" %}
-HTML är ett otroligt robust språk då webbläsaren tolkar alla element och visar dess innehåll, även om det är element som inte finns. Testa att märka upp text med &lt;finnsinte&gt;.
+HTML är ett otroligt robust språk då webbläsaren tolkar alla element och visar dess innehåll, även om det är element som inte finns. Testa att märka upp text med \<finnsinte>.
 {% endhint %}
 
 #### Nästla element
 
-I HTML kan element placeras inuti andra element, det kallas för att **nästla**\(engelska **nesting**\) element.
+I HTML kan element placeras inuti andra element, det kallas för att **nästla**(engelska **nesting**) element.
 
 {% tabs %}
 {% tab title="HTML" %}
@@ -47,7 +47,7 @@ I HTML kan element placeras inuti andra element, det kallas för att **nästla**
 
 #### Block- och inline-element
 
-Det finns två kategorier av element, **block-element** och **inline-element**.
+Det finns två kategorier av element, **block-element **och **inline-element**.
 
 * Block-element skapar ett tydligt block på en sida. Block-element börjar på en ny rad efter det innehåll som finns före det. Efter ett block-element kommer en radbrytning. Block-element är ofta strukturella element på en sida.
 * Inline-element är innehåll i block element. Inline-element är oftast en mindre del av en sida. Inline-element börjar eller slutar inte med en radbrytning.
@@ -56,7 +56,7 @@ I exemplet ovan är p ett block-element och strong är ett inline-element.
 
 #### Tomma element
 
-Vissa element följer inte mönstret med öppningstagg, innehåll, stängningstagg. De elementen kallas för tomma element. De används framförallt för att lägga till innehåll, till exempel bilder. 
+Vissa element följer inte mönstret med öppningstagg, innehåll, stängningstagg. De elementen kallas för tomma element. De används framförallt för att lägga till innehåll, till exempel bilder.&#x20;
 
 {% tabs %}
 {% tab title="HTML" %}
@@ -117,8 +117,6 @@ Studera följande exempel och försök dra slutsatser kring innehållet. Om du v
 ```
 {% endtab %}
 {% endtabs %}
-
-
 
 
 

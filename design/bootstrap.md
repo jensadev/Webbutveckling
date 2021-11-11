@@ -9,25 +9,25 @@ Detta dokument är skrivet utifrån version 4.5 av Bootstrap.
 {% endhint %}
 
 {% hint style="warning" %}
-Version 5 är här, [https://getbootstrap.com/](https://getbootstrap.com/) så hänvisa dit för uppdaterade exempel.
+Version 5 är här, [https://getbootstrap.com/](https://getbootstrap.com) så hänvisa dit för uppdaterade exempel.
 {% endhint %}
 
 ## Vad och varför
 
 Bootstrap är enligt dem själva världens populäraste front-end ramverk. Det är ett robust system för att snabbt designa sidor, eller prototyper för sidor. Designen landar definitivt i kategorin stilrent och enkelt, med det är en bra grund att utgå ifrån.
 
-Bootstrap är även byggt med en stor samling **agenter** \(engelska **devices**\) i åtanke, så det hjälper mobilanpassningen av webbsidan.
+Bootstrap är även byggt med en stor samling **agenter **(engelska **devices**) i åtanke, så det hjälper mobilanpassningen av webbsidan.
 
-I version 4 och tidigare har Bootstrap använt javascript-ramverket [jQuery](https://jquery.com/), detta har varit på gott och ont. Från version 5 kommer Bootstrap inte längre använda jQuery.
+I version 4 och tidigare har Bootstrap använt javascript-ramverket [jQuery](https://jquery.com), detta har varit på gott och ont. Från version 5 kommer Bootstrap inte längre använda jQuery.
 
 {% hint style="info" %}
-[jQuery ](https://jquery.com/)är ett otroligt populärt javascript-ramverk för att förenkla arbetet med webbsidor.
+[jQuery ](https://jquery.com)är ett otroligt populärt javascript-ramverk för att förenkla arbetet med webbsidor.
 {% endhint %}
 
 ## Hur
 
 {% hint style="info" %}
-Bootstrap finns på [https://getbootstrap.com/](https://getbootstrap.com/).
+Bootstrap finns på [https://getbootstrap.com/](https://getbootstrap.com).
 {% endhint %}
 
 För att inkludera Bootstrap på en webbsida kan du använda deras startertemplat. Den innehåller css filen samt det javascript som behövs för att det ska fungera.
@@ -79,7 +79,7 @@ Styrkan i Bootstrap ligger i att använda dess komponenter och i att förstå hu
 
 ### Layout
 
-Bootstrap skapar webbsidans layout med ett **rutsystem**\(engelska **grid**\). Systemet bygger på att använda **behållare**\(engelska **containers**\) som i sin tur kan innehålla rader och kolumner. För att skapa en behållare så används css klassen .container. Containers är kärnan i systemet.
+Bootstrap skapar webbsidans layout med ett **rutsystem**(engelska **grid**). Systemet bygger på att använda **behållare**(engelska **containers**) som i sin tur kan innehålla rader och kolumner. För att skapa en behållare så används css klassen .container. Containers är kärnan i systemet.
 
 {% tabs %}
 {% tab title="HTML" %}
@@ -103,7 +103,7 @@ En del av Bootstraps stilar hanterar formatteringen av webbsidans innehåll. Fr�
 
 ### Komponenter
 
- Bootstrap innehåller ett stort antal färdiga komponenter att använda på webbsidor. Till exempel
+&#x20;Bootstrap innehåller ett stort antal färdiga komponenter att använda på webbsidor. Till exempel
 
 * Navigation
 * Knappar
@@ -112,9 +112,9 @@ En del av Bootstraps stilar hanterar formatteringen av webbsidans innehåll. Fr�
 * Formulär
 * Modals
 
-Listan är väldigt lång så titta på [dokumentationen](https://getbootstrap.com/docs/4.5/components/). Utgå från vad webbplatsen och designen behöver. Leta upp exempel, kopiera koden och börja redigera. 
+Listan är väldigt lång så titta på [dokumentationen](https://getbootstrap.com/docs/4.5/components/). Utgå från vad webbplatsen och designen behöver. Leta upp exempel, kopiera koden och börja redigera.&#x20;
 
-### Verktyg 
+### Verktyg&#x20;
 
 När du börjar bli något mer förtrogen med hur Bootstrap fungerar så kommer du att upptäcka alla hjälpklasser det innehåller. Det är en av de stora styrkorna med systemet och något som du med största sannolikhet kommer att börja reproducera när du skriver egen CSS. Nästan alla webbsidor du skapar kommer att ha behov av klasser för **marginal**, **padding** och **flexbox**. Att då skapa en hjälpklass istället för att upprepa samma kod om och om igen är god praxis. Jämför följande exempel.
 
@@ -175,13 +175,13 @@ Några av de riktigt användbara delarna följer:
 * [Flex](https://getbootstrap.com/docs/4.5/utilities/flex/)
   * Få saker är så användbara som flex-klasserna för att skapa en layout och positionera element.
 * [Spacing](https://getbootstrap.com/docs/4.5/utilities/spacing/)
-  * Allt du behöver för att skapa **marginaler**\(engelska **margin**\) och **fyllnad**\(engelska **padding**\).
+  * Allt du behöver för att skapa **marginaler**(engelska **margin**) och **fyllnad**(engelska **padding**).
 * [Text](https://getbootstrap.com/docs/4.5/utilities/text/)
   * Klasser för att kontrollera text. Detta är komplement till [innehålls klasserna för typografi](https://getbootstrap.com/docs/4.5/content/typography/).
 
 ### Exempel
 
-Nedan följer ett modifierat [exempel](https://getbootstrap.com/docs/4.5/examples/blog/) från Bootstraps sida för att skapa en blogg-post. Notera användningen av en container, rader\(med padding top\) och kolumn. De flesta elementen får Bootstraps grund-stilar, men ett par kompletterande klasser har skapats.
+Nedan följer ett modifierat [exempel](https://getbootstrap.com/docs/4.5/examples/blog/) från Bootstraps sida för att skapa en blogg-post. Notera användningen av en container, rader(med padding top) och kolumn. De flesta elementen får Bootstraps grund-stilar, men ett par kompletterande klasser har skapats.
 
 {% tabs %}
 {% tab title="HTML" %}
@@ -251,4 +251,3 @@ Att använda Bootstrap och att förstå dess funktion kräver att du arbeta med 
 ## Övningsuppgift
 
 Välj en trycksak med en intressant layout och försök återskapa den med Bootstrap.
-

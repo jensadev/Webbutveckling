@@ -6,11 +6,12 @@ description: >-
 
 # Checklista för Webbsidor
 
-Innan du lämnar in projekt och arbeten är det bra att testa det. En del tester bör köras tidigt och ofta \(validering\) medans andra lämpar sig bättre i projektets slut. I den här listan som följer är sådant som du hela tiden bör ha i åtanke i ditt webbutvecklingsprojekt. Arbeta kontinuerligt med punkterna och dokumentera det.
+Innan du lämnar in projekt och arbeten är det bra att testa det. En del tester bör köras tidigt och ofta (validering) medans andra lämpar sig bättre i projektets slut. I den här listan som följer är sådant som du hela tiden bör ha i åtanke i ditt webbutvecklingsprojekt. Arbeta kontinuerligt med punkterna och dokumentera det.
 
-Här finns en interaktiv variant att prova [https://frontendchecklist.io/](https://frontendchecklist.io/)
+Här finns en interaktiv variant att prova [https://frontendchecklist.io/](https://frontendchecklist.io)
 
-## Hosting
+Hosting
+
 
 * Sidan hostas med Github pages.
   * Alla resurser fungerar och använder **relativa** sökvägar.
@@ -29,38 +30,42 @@ Här finns en interaktiv variant att prova [https://frontendchecklist.io/](https
 * Om möjligt:
   * Hosta på skolan.
   * Kör hostingtjänst enligt kurs.
-    * [Heroku](https://www.heroku.com/).
+    * [Heroku](https://www.heroku.com).
 
-## Manuell granskning
+Manuell granskning
+
 
 * Sidan fungerar i ett par webbläsare.
 * Sidan fungerar på telefon.
   * Använd Git pages. live eller lokal server för att testa.
 * Kolla av checklistan, [https://webbriktlinjer.se/testa-din-webbplats/  ](https://webbriktlinjer.se/testa-din-webbplats/).
 
-## Lagar och regler
+Lagar och regler
+
 
 * Sidan följer alla relevanta lagar och regler för publicering på webben.
   * Personuppgifter, GDPR.
   * Copyright.
 
-## Validering
+Validering
+
 
 * Alla sidans dokument validerar som korrekt HTML  .
-  * [https://validator.nu/    ](https://validator.nu/).
+  * [https://validator.nu/    ](https://validator.nu).
 * All CSS validerar som korrekt CSS.
   * [https://jigsaw.w3.org/css-validator/    ](https://jigsaw.w3.org/css-validator/).
 
 ## Design
 
-Försök att kontinuerligt utvärdera sidans design, framförallt om den är din egen. Var inte rädd för att ändra om det inte fungerar. 
+Försök att kontinuerligt utvärdera sidans design, framförallt om den är din egen. Var inte rädd för att ändra om det inte fungerar.&#x20;
 
 * Skissa.
 * Gör prototyper.
 * Utvärdera.
 * Testa användbarheten.
 
-## Media
+Media
+
 
 * Sidans media är optimerat.
 * Bildstorlek och upplösning.
@@ -73,10 +78,11 @@ Försök att kontinuerligt utvärdera sidans design, framförallt om den är din
 * Sidans totala storlek är rimlig.
   * Devtools, throttle network, testa.
 
-## Tillgänglighet
+Tillgänglighet
+
 
 * Sidan har testats med Wave.
-  * [https://wave.webaim.org/    ](https://wave.webaim.org/).
+  * [https://wave.webaim.org/    ](https://wave.webaim.org).
   * Finns även som extension.
 * Arbete är gjort för att begränsa och åtgärda kontrast-varningar.
   * Motivera.
@@ -86,14 +92,13 @@ Försök att kontinuerligt utvärdera sidans design, framförallt om den är din
   * Javascript.
 
 {% hint style="danger" %}
-Sidan du skapat är inte en katastrof enligt [https://webbriktlinjer.se/riktlinjer/](%20https://webbriktlinjer.se/riktlinjer/).
+Sidan du skapat är inte en katastrof enligt [https://webbriktlinjer.se/riktlinjer/](https://webbriktlinjer.se/riktlinjer/).
 {% endhint %}
 
-## Helhet
+Helhet
+
 
 * I chrome devtools, kör audits med [Lighthouse](https://developers.google.com/web/tools/lighthouse) för sidan.
 * Åtgärda fel, kontrollera och fixa.
   * Du kan bortse från  PWA    .
-
-
 

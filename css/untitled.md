@@ -67,13 +67,13 @@ När en struktur baserad på sidans komponenter är skapad, så är nästa steg 
 
 För att återskapa sidan så kan vi ta en genväg och det är att studera framträdande element som ska återskapas. Studera skärmdumpen från SVT Nyheter, vilka element noterar du, gör en lista.
 
-![svt.se fr&#xE5;n September 2020](../.gitbook/assets/svt.png)
+![svt.se från September 2020](../.gitbook/assets/svt.png)
 
 Designelement och layout att ta fasta på:
 
-* Den röda färgen, med hjälp av utvecklarverktygen kan vi hitta att färgkoden är \#e02e3d.
+* Den röda färgen, med hjälp av utvecklarverktygen kan vi hitta att färgkoden är #e02e3d.
 * Den grå färgen, det finns en varmare och kallare.
-  * Senaste nytt grå är \#333333
+  * Senaste nytt grå är #333333
 * Typsnittet, SVT Nyheter använder ett typsnitt som heter Publik, det är inte fritt. Sök efter ett liknande alternativ.
   * Användningen av CAPS, både som stil men också för att väcka uppmärksamhet.
 * Layouten
@@ -81,7 +81,7 @@ Designelement och layout att ta fasta på:
   * Sidan har en tydlig navbar.
   * Dessa två delar följs av ett huvudinnehåll uppdelat på två spalter.
     * Sidans huvudinnehåll, nyheterna.
-    * Snabbkollen, en **sidebar** med länkar och senaste.
+    * Snabbkollen, en **sidebar **med länkar och senaste.
     * Spalterna försvinner vid lägre upplösning.
   * En sidfot längst ned på sidan.
 
@@ -103,7 +103,7 @@ När dessa element är identifierade så finns det en startpunkt för kodandet a
 
 ## Slutgiltig version
 
-Den färdiga koden för SVT-exemplet finns att hämta [här](https://github.com/jensnti/Webbutveckling/tree/master/exempel)\(svt-css.html, svt.css, img/\). Det är en mer färdig design och hoppet mellan versionerna är markant.
+Den färdiga koden för SVT-exemplet finns att hämta [här](https://github.com/jensnti/Webbutveckling/tree/master/exempel)(svt-css.html, svt.css, img/). Det är en mer färdig design och hoppet mellan versionerna är markant.
 
 * Strukturen har ändrats.
   * Navbaren har fått en content div för att centrera innehållet.
@@ -119,5 +119,4 @@ Den färdiga koden för SVT-exemplet finns att hämta [här](https://github.com/
 
 * Flexbox
   * [https://www.internetingishard.com/html-and-css/flexbox/](https://www.internetingishard.com/html-and-css/flexbox/)
-  * [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS\_Flexible\_Box\_Layout/Basic\_Concepts\_of\_Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
-
+  * [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS\_Flexible\_Box\_Layout/Basic\_Concepts\_of\_Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS\_Flexible\_Box\_Layout/Basic\_Concepts\_of\_Flexbox)

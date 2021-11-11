@@ -1,14 +1,14 @@
 # Din första HTML fil
 
-> Märkspråk och deras inbördes roller, syntax och semantik – där det huvudsakliga innehållet är standarderna för HTML och CSS samt orientering om Ecmaskript och dokumentobjektsmodellen \(DOM\).
+> Märkspråk och deras inbördes roller, syntax och semantik – där det huvudsakliga innehållet är standarderna för HTML och CSS samt orientering om Ecmaskript och dokumentobjektsmodellen (DOM).
 
 ## Vad är HTML?
 
 * **HTML** står för **Hyper Text Markup Language**
-* HTML är ett **märkspråk** \(ett språk för att märka upp textfiler\)
+* HTML är ett **märkspråk **(ett språk för att märka upp textfiler)
 * HTML är standardspråket för att skapa webbsidor
 * HTML beskriver strukturen för en webbsida
-* HTML består av **element** som berättar för webbläsaren hur webbsidan ska se ut
+* HTML består av **element **som berättar för webbläsaren hur webbsidan ska se ut
 
 ## Ett exempel
 
@@ -16,7 +16,7 @@
 Om en HTML-fil har filnamnet **index** så kommer den automatiskt öppnas av webbläsaren när adressen besöks. Filändelsen är **.html**
 {% endhint %}
 
-Nedan följer grunden för ett korrekt HTML-dokument. Det består av ett antal element med tillhörande **attribut**. Element skrivs med **taggar** \(namnet inom &lt; &gt; tecken\).
+Nedan följer grunden för ett korrekt HTML-dokument. Det består av ett antal element med tillhörande **attribut**. Element skrivs med **taggar **(namnet inom < > tecken).
 
 {% code title="index.html" %}
 ```markup
@@ -38,13 +38,13 @@ Nedan följer grunden för ett korrekt HTML-dokument. Det består av ett antal e
 ### Element
 
 * `<!DOCTYPE html>` deklarerar att dokument är ett HTML5 dokument.
-* `<html>` är **root** \(det första\) elementet för ett HTML dokument.
+* `<html>` är **root **(det första) elementet för ett HTML dokument.
 * `<head>` elementet innehåller information om webbsidan till webbläsaren.
-  * `<meta>` elementet specificerar [teckenkodning ****](../teknisk-orientering/teckenkodning.md)bland annat.
+  * `<meta>` elementet specificerar [teckenkodning** **](../teknisk-orientering/teckenkodning.md)bland annat.
   * `<title>` innehåller sidans titel som värde, vilket syns in webbläsarens titel eller **tab.**
 * `<body>` elementet definierar sidans kropp, det innehåll som vi ser på webbsidan.
-  * `<h1>` elementet skapar en **rubrik** \(engelska **heading**\).
-  * `<p>` elementet skapar en **paragraf** \(engelska **paragraph**\).
+  * `<h1>` elementet skapar en **rubrik **(engelska **heading**).
+  * `<p>` elementet skapar en **paragraf **(engelska **paragraph**).
 
 Notera att de flesta element har en öppnings- och stängnings-tagg. Ett elements värde skrivs mellan taggarna. Taggar stängs med ett snedstreck /.
 
@@ -73,4 +73,3 @@ Du kan kopiera koden från exemplet här, men det är inte praktiskt i längden.
 {% hint style="info" %}
 Nästan alla kod-element har kortkommandon i ditt IDE, lär dig dem!
 {% endhint %}
-

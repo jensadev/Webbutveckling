@@ -9,16 +9,16 @@ Ladda ned 64-bit Git portable for Windows, [https://git-scm.com/download/win](ht
 {% endhint %}
 
 {% hint style="info" %}
-Ett _portable_ program är ett program utan installationsfiler. Du laddar ned det, packar\(oftast\) upp det och sedan kan du köra programmet.
+Ett _portable _program är ett program utan installationsfiler. Du laddar ned det, packar(oftast) upp det och sedan kan du köra programmet.
 {% endhint %}
 
-**PortableGit** är en **körbar** \(**executable, exe**\) fil som låter dig packa upp de filer du behöver. Kör programmet och välj att spara filerna under `c:\tools\portablegit`.
+**PortableGit** är en **körbar** (**executable, exe**) fil som låter dig packa upp de filer du behöver. Kör programmet och välj att spara filerna under `c:\tools\portablegit`.
 
-Windows behöver kunna hitta program för att kunna köra dem från cmd \(till exempel **Powershell**\). För det används systemets **PATH**, en global sökväg som går att redigera. För att lägga till ett program i PATH:
+Windows behöver kunna hitta program för att kunna köra dem från cmd (till exempel **Powershell**). För det används systemets **PATH**, en global sökväg som går att redigera. För att lägga till ett program i PATH:
 
-1. Starta **Utforskaren** \(**Explorer**\) win+e.
+1. Starta **Utforskaren** (**Explorer**) win+e.
 2. Högerklicka på **Den här datorn**, välj **Egenskaper.**
-3. Öppna **System och säkerhet, System**    i **Kontrollpanelen.**
+3. Öppna **System och säkerhet, System**   &#x20;i **Kontrollpanelen.**
 4. Välj **Avancerade systeminställningar   .**
 5. Klicka på **Miljövariabler   .**
 6. Välj **Användarvariabler** för din användare.
@@ -41,7 +41,7 @@ Det är bra att ha kunskapr kring hur Git fungerar i cmd. Det här avsnittet rep
 Skapa en code mapp om du inte har gjort det
 {% endhint %}
 
-Använd sedan en terminal \(Powershell, cmd, [WSL](https://jens-andreasson.gitbook.io/webbserverprogrammering/utvecklarmiljo/wsl)\) för att skapa en mapp för ditt repo.
+Använd sedan en terminal (Powershell, cmd, [WSL](https://jens-andreasson.gitbook.io/webbserverprogrammering/utvecklarmiljo/wsl)) för att skapa en mapp för ditt repo.
 
 {% hint style="info" %}
 Använd samma namn på mappen för repot som repots namn
@@ -61,12 +61,12 @@ cd wu1-test
 {% endtabs %}
 
 {% hint style="info" %}
-För att lista innehållet \(i en mapp\) eller se var i en filstruktur du befinner dig kan du i cmd skriva **dir** \(Windows\) eller **ls** \(Linux\).
+För att lista innehållet (i en mapp) eller se var i en filstruktur du befinner dig kan du i cmd skriva **dir** (Windows) eller **ls** (Linux).
 {% endhint %}
 
 Skapa sedan ett nytt repo på GitHub, gör det genom att [repetera de här stegen](git.md#ditt-foersta-repository), ge repot namnet **wu1-test**.
 
-![Skapa ett nytt repository-dialogen p&#xE5; GitHub.com](../.gitbook/assets/newrepo.png)
+![Skapa ett nytt repository-dialogen på GitHub.com](../.gitbook/assets/newrepo.png)
 
 Klicka **Create repository** för att skapa repot. Då kommer **Quick setup** att visas.
 
@@ -74,7 +74,7 @@ Klicka **Create repository** för att skapa repot. Då kommer **Quick setup** at
 Om du markerat "Intialize this repository with a README" så kommer inte Quick setup instruktionerna visas.
 {% endhint %}
 
-![Quick setup p&#xE5; Github.com](../.gitbook/assets/qset.png)
+![Quick setup på Github.com](../.gitbook/assets/qset.png)
 
 Quick setup är en lista över de kommandon som behöver köras för att slutföra skapandet av repot. Det skapar även en README-fil. **Om du kopierar Quick setup-koden, var noga med att köra den från rätt mapp!**
 
@@ -93,9 +93,9 @@ git push -u origin master
 {% endtab %}
 {% endtabs %}
 
-1. echo skriver ut text och med &gt;&gt; så pipar \(skickas informationen, engelska **pipe**\) det texten till en fil. Det skapar filen README.md.
+1. echo skriver ut text och med >> så pipar (skickas informationen, engelska **pipe**) det texten till en fil. Det skapar filen README.md.
 2. git init, initialiserar mappen som ett git repo.
-3. git add _filnamn_ lägger till en eller flera filer till repot.
+3. git add _filnamn _lägger till en eller flera filer till repot.
 4. git commit -m "meddelande", skapar en commit med ett namn.
 5. git remote add origin _github url_, detta kopplar samman git repot med remote origin på GitHub.
 6. git push, skickar repots commits till GitHub.
@@ -180,7 +180,7 @@ git pull
 
 Öppna repot på GitHub.com. Redigera README.md och commita dina ändringar..
 
-![Redigera README-filen p&#xE5; GitHub](../.gitbook/assets/commit.png)
+![Redigera README-filen på GitHub](../.gitbook/assets/commit.png)
 
 Öppna vscode och redigera README-filen. Sparan ändringarna och skapa en ny commit.
 
@@ -194,7 +194,7 @@ git push
 {% endtab %}
 {% endtabs %}
 
-Att pusha filerna resulterar i en konflikt \(merge issue\). Felmeddelandet ser ut ungefär såhär.
+Att pusha filerna resulterar i en konflikt (merge issue). Felmeddelandet ser ut ungefär såhär.
 
 ```bash
 To https://github.com/jensnti/wu1-test.git
@@ -244,9 +244,9 @@ git push
 
 ## Branches
 
-**Branches** \(svenska, grenar\) är ett sätt att arbeta med Git. Namnet kommer från den trädstruktur som Git har. Den här guiden visar hur du arbetar med branches i Git cmd.
+**Branches** (svenska, grenar) är ett sätt att arbeta med Git. Namnet kommer från den trädstruktur som Git har. Den här guiden visar hur du arbetar med branches i Git cmd.
 
-> **Branching** is the way to work on different versions of a repository at one time.
+> &#x20;**Branching** is the way to work on different versions of a repository at one time.
 
 Som standard har alla repos en branch som heter **main**. Hittils har allt arbete du gjort skett i main. Det är något som generellt bör undvikas av olika skäl. Att arbeta i main kan leda till säkerhetsproblem, dataförlust och annat.
 
@@ -265,7 +265,7 @@ git branch feature
 git checkout feature
 ```
 
-Kommandot git branch skapar en ny branch. Git branch följs av namnet på den branch som ska skapas. Git checkout följt av namnet på den branch som ska användas byter branch. Namnet på branchen i det här fallet är feature. Den branch som är vald blir **active** \(svenska, **aktiv**\).
+Kommandot git branch skapar en ny branch. Git branch följs av namnet på den branch som ska skapas. Git checkout följt av namnet på den branch som ska användas byter branch. Namnet på branchen i det här fallet är feature. Den branch som är vald blir **active** (svenska, **aktiv**).
 
 {% hint style="info" %}
 GitHub training, Checkout, [https://youtu.be/HwrPhOp6-aM](https://youtu.be/HwrPhOp6-aM).
@@ -293,7 +293,7 @@ Med branchen feature aktiv. Skapa en ny fil med namnet log.md.
 
 ![Ny fil i vscode](../.gitbook/assets/bfile.png)
 
-När arbetet med en branch är färdigt så behöver det commitas och sedan slås ihop \(**merge**\) med master. Det kan göras på två sätt. Allt kan antingen slås ihop lokalt för att sedan pusha det till master. Eller så utförs det på GitHub med en pull request. Det första alternativet fungerar när du arbetar själv på ett projekt, i alla andra fall är det senare att föredra. 
+När arbetet med en branch är färdigt så behöver det commitas och sedan slås ihop (**merge**) med master. Det kan göras på två sätt. Allt kan antingen slås ihop lokalt för att sedan pusha det till master. Eller så utförs det på GitHub med en pull request. Det första alternativet fungerar när du arbetar själv på ett projekt, i alla andra fall är det senare att föredra.&#x20;
 
 Instruktionerna som följer visar hur du slår ihop dina branches lokalt. För att skapa en pull request, läs Githubs guide [här](https://guides.github.com/activities/hello-world/).
 
@@ -337,4 +337,3 @@ git branch -d feature
 {% endtabs %}
 
 Att arbeta med branches är GitHubs workflow, läs mer om det i GitHubs material för att få en bättre förståelse för hur det fungerar.
-

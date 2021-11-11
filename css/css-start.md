@@ -1,12 +1,12 @@
 # Din första CSS fil
 
-> Märkspråk och deras inbördes roller, syntax och semantik – där det huvudsakliga innehållet är standarderna för HTML och CSS samt orientering om Ecmaskript och dokumentobjektsmodellen \(DOM\).
+> Märkspråk och deras inbördes roller, syntax och semantik – där det huvudsakliga innehållet är standarderna för HTML och CSS samt orientering om Ecmaskript och dokumentobjektsmodellen (DOM).
 
-**Cascading Style Sheets**\(**CSS**\) är webbens verktyg för att skapa en webbplats utseende eller stil, webbplatsens presentation. CSS låter dig bestämma fonter, placeringar, färger och andra dekorativa funktioner. Ofta används namnet **stylesheet** för CSS-dokument.
+**Cascading Style Sheets**(**CSS**) är webbens verktyg för att skapa en webbplats utseende eller stil, webbplatsens presentation. CSS låter dig bestämma fonter, placeringar, färger och andra dekorativa funktioner. Ofta används namnet **stylesheet **för CSS-dokument.
 
 ## Syntax
 
-Alla CSS regler börjar med en **selektor**\(engelska **selector**\) vilken väljer elementet som regeln ska gälla. Om vi önskar att ge alla rubriker med nivå ett röd text så kan h1 elementet användas. Efter att elementet har valts så visar en uppsättning måsvingar, `{}`, regelns början och slut. CSS värden skrivs med `attribut: värde;`
+Alla CSS regler börjar med en **selektor**(engelska **selector**) vilken väljer elementet som regeln ska gälla. Om vi önskar att ge alla rubriker med nivå ett röd text så kan h1 elementet användas. Efter att elementet har valts så visar en uppsättning måsvingar, `{}`, regelns början och slut. CSS värden skrivs med `attribut: värde;`
 
 {% tabs %}
 {% tab title="CSS" %}
@@ -81,7 +81,7 @@ Den sista typen av selektor är ID. ID används främst för att namnge element 
 
 ## Cascading
 
-När du arbetar med CSS är det viktigt att känna till hur reglerna appliceras, reglerna har en ordning för hur de användas, **cascading**\(kaskad, flöde, vattenfall\). De appliceras i en särskild ordning.
+När du arbetar med CSS är det viktigt att känna till hur reglerna appliceras, reglerna har en ordning för hur de användas, **cascading**(kaskad, flöde, vattenfall). De appliceras i en särskild ordning.
 
 ### Den sista i ordningen vinner
 
@@ -155,4 +155,3 @@ h1 {
    2. Texten.
    3. Länkar.
 3. Prova egenskapen `float: right;` på bilden.
-

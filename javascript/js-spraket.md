@@ -2,7 +2,7 @@
 
 ## Variabler
 
-En variabel är en behållare för att spara värden i. En variabel kan deklareras i javascript med nyckelorden `var` eller `let`, av de två så är `let` att föredra.
+En variabel är en behållare för att spara värden i. En variabel kan deklareras i javascript med nyckelorden `var `eller `let`, av de två så är `let `att föredra.
 
 {% tabs %}
 {% tab title="JavaScript" %}
@@ -27,112 +27,23 @@ myvar = 'Frida';
 
 En variabels värde kan vara av olika datatyper.
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Datatyp</th>
-      <th style="text-align:left">F&#xF6;rklaring</th>
-      <th style="text-align:left">Exempel</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">String</td>
-      <td style="text-align:left">
-        <p>En sekvens av tecken bilder en str&#xE4;ng.</p>
-        <p>En str&#xE4;ng &#xE4;r l&#xE4;tt att k&#xE4;nna igen d&#xE5; v&#xE4;rdet</p>
-        <p>alltid &#xE4;r omgivet av enkel- eller dubbel-fnuttar.</p>
-      </td>
-      <td style="text-align:left">
-        <p>let myvar = &apos;Bengt&apos;;</p>
-        <p>let myvar = &quot;&#xC5;ke&quot;;</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Number</td>
-      <td style="text-align:left">Ett nummer. Kan &#xE4;ven vara i decimalform.</td>
-      <td style="text-align:left">let myvar = 10;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Boolean</td>
-      <td style="text-align:left">Har v&#xE4;rdet true eller false.</td>
-      <td style="text-align:left">let myvar = true;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Array</td>
-      <td style="text-align:left">
-        <p>En datastruktur som l&#xE5;ter dig spara flera v&#xE4;rden i</p>
-        <p>samma variabel. K&#xE4;nns igen p&#xE5; hakparenteser</p>
-        <p>(eng. squarebrackets). V&#xE4;rden h&#xE4;mtas genom att</p>
-        <p>ange dess index-plats.</p>
-      </td>
-      <td style="text-align:left">
-        <p>let myvar = [1, 2];</p>
-        <p>myvar[0];</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Object</td>
-      <td style="text-align:left">
-        <p>V&#xE4;ldigt mycket i javascript kan vara object och</p>
-        <p>kan d&#xE5; sparas i en variabel. Det kan vara allt fr&#xE5;n</p>
-        <p>en object literal till ett html element.</p>
-      </td>
-      <td style="text-align:left">
-        <p>let myvar = {</p>
-        <p>name : &quot;&#xC5;ke&quot;</p>
-        <p>}</p>
-        <p>myvar.name;</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Datatyp | Förklaring                                                                                                                                                                                      | Exempel                                                               |
+| ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| String  | <p>En sekvens av tecken bilder en sträng. </p><p>En sträng är lätt att känna igen då värdet</p><p>alltid är omgivet av enkel- eller dubbel-fnuttar.</p>                                         | <p>let myvar = 'Bengt';</p><p>let myvar = "Åke";</p>                  |
+| Number  | Ett nummer. Kan även vara i decimalform.                                                                                                                                                        | let myvar = 10;                                                       |
+| Boolean | Har värdet true eller false.                                                                                                                                                                    | let myvar = true;                                                     |
+| Array   | <p>En datastruktur som låter dig spara flera värden i</p><p>samma variabel. Känns igen på hakparenteser </p><p>(eng. squarebrackets). Värden hämtas genom att</p><p>ange dess index-plats. </p> | <p>let myvar = [1, 2];</p><p>myvar[0];</p>                            |
+| Object  | <p>Väldigt mycket i javascript kan vara object och </p><p>kan då sparas i en variabel. Det kan vara allt från</p><p>en object literal till ett html element.</p>                                | <p>let myvar = {</p><p>    name : "Åke"</p><p>}</p><p>myvar.name;</p> |
 
 ## Operatorer
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Operator</th>
-      <th style="text-align:left">Symbol</th>
-      <th style="text-align:left">F&#xF6;rklaring</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Addition</td>
-      <td style="text-align:left">+</td>
-      <td style="text-align:left">Addera tv&#xE5; tal eller konkatenera en str&#xE4;ng.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p>Subtraktion,</p>
-        <p>multiplikation,</p>
-        <p>division</p>
-      </td>
-      <td style="text-align:left">-, *, /</td>
-      <td style="text-align:left">Som i matematiken.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Tilldelning</td>
-      <td style="text-align:left">=</td>
-      <td style="text-align:left">Anv&#xE4;nds f&#xF6;r att tilldela en variabel ett v&#xE4;rde.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Likamed</td>
-      <td style="text-align:left">===</td>
-      <td style="text-align:left">Unders&#xF6;k om tv&#xE5; v&#xE4;rden &#xE4;r densamma.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Inte, inte likamed</td>
-      <td style="text-align:left">!, !==</td>
-      <td style="text-align:left">
-        <p>F&#xF6;r att unders&#xF6;ka om n&#xE5;got inte &#xE4;r, eller inte</p>
-        <p>&#xE4;r likamed.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Operator                                                 | Symbol   | Förklaring                                                              |
+| -------------------------------------------------------- | -------- | ----------------------------------------------------------------------- |
+| Addition                                                 | +        | Addera två tal eller konkatenera en sträng.                             |
+| <p>Subtraktion,</p><p>multiplikation,</p><p>division</p> | -, \*, / | Som i matematiken.                                                      |
+| Tilldelning                                              | =        | Används för att tilldela en variabel ett värde.                         |
+| Likamed                                                  | ===      | Undersök om två värden är densamma.                                     |
+| Inte, inte likamed                                       | !, !==   | <p>För att undersöka om något inte är, eller inte</p><p>är likamed.</p> |
 
 ## Villkorssatser, selektion
 
@@ -179,4 +90,3 @@ button.addEventListener('click', function() {
 ```
 {% endtab %}
 {% endtabs %}
-

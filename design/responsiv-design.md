@@ -4,11 +4,11 @@ description: Mobile first.
 
 # Responsiv design
 
-Webben består idag av så otroligt många olika **enheter**\(engelska **devices**\) ****att det inte längre är hållbart att bara skapa en sida som fungerar för desktop-upplösning. **Responsiv webbdesign** \(engelska **Responsive Web Design**, **RWD**\) är ett koncept som handlar om att skapa en praxis för utvecklingen av webbsidor som fungerar på många olika enheter. Där det som skiljer enheterna är skärmstorleken och upplösningen.
+Webben består idag av så otroligt många olika **enheter**(engelska **devices**)** **att det inte längre är hållbart att bara skapa en sida som fungerar för desktop-upplösning. **Responsiv webbdesign** (engelska **Responsive Web Design**, **RWD**) är ett koncept som handlar om att skapa en praxis för utvecklingen av webbsidor som fungerar på många olika enheter. Där det som skiljer enheterna är skärmstorleken och upplösningen.
 
 ## Mediaregler
 
-Det främsta verktyget för att skapa en responsiv design är att använda **media regler**\(engelska och CSS, **media queries**\). Media-regler är en del av CSS som gör det möjligt att ange olika regler baserat på enhetens storlek och typ.
+Det främsta verktyget för att skapa en responsiv design är att använda **media regler**(engelska och CSS,** media queries**). Media-regler är en del av CSS som gör det möjligt att ange olika regler baserat på enhetens storlek och typ.
 
 ### Syntax
 
@@ -31,7 +31,7 @@ Det främsta verktyget för att skapa en responsiv design är att använda **med
 
 ### Breakpoints
 
-Här nedan följer några exempel på vanliga **brytpunkter**\(engelska **breakpoints\)** baserat på pixel-bredd.
+Här nedan följer några exempel på vanliga **brytpunkter**(engelska **breakpoints) **baserat på pixel-bredd.
 
 * 320px — 480px: Mobile devices
 * 481px — 768px: iPads, Tablets
@@ -43,7 +43,7 @@ Här nedan följer några exempel på vanliga **brytpunkter**\(engelska **breakp
 
 Det populära ramverket [Bootstrap ](https://getbootstrap.com/docs/5.0/layout/breakpoints/)använder följande dimensioner för att specificera sina breakpoints.
 
-* X-Small &lt; 576px
+* X-Small < 576px
 * Small ≥ 576px
 * Medium ≥ 768px
 * Large ≥ 992px
@@ -82,13 +82,13 @@ Textstorlek angiven i procent är inget som rekommenderas eller fungerar särski
 
 ## Exempel
 
-En exempel-sida designad utifrån devisen **mobil först** \(engelska **mobile first**\). Här har webbläsarens utvecklarverktyg använts för att skala om fönstret för en mobil upplösning.
+En exempel-sida designad utifrån devisen **mobil först** (engelska **mobile first**). Här har webbläsarens utvecklarverktyg använts för att skala om fönstret för en mobil upplösning.
 
 ![Utvecklarverktygen i Chrome](../.gitbook/assets/screenshot-2021-02-17-134656.png)
 
 ### Mobil 340px
 
-![Sk&#xE4;rmdump mobil, 340px](../.gitbook/assets/screenshot-2021-02-17-133153.png)
+![Skärmdump mobil, 340px](../.gitbook/assets/screenshot-2021-02-17-133153.png)
 
 Sidan ger 100 för accessibility score i [Lighthouse ](https://developers.google.com/web/tools/lighthouse)med bra performance. Funktionsmässigt fungerar det bra i mobil läget. Eftersom sidan är designad för mobile först så är det att förvänta. Nästa steg blir att anpassa den för andra enheter och skärmstorlekar.
 
@@ -252,9 +252,9 @@ footer > p > a {
 
 ### Desktop 768px
 
-Nästa steg är att öka skärmens storlek och studera resultatet. Det mesta fungerar helt okej, men det är tydligt att bildernas upplösning och ratio gör att linjeringen på sidans högra sida blir väldigt hackig. Detta är något som förstärks mer och mer desto bredare sidan blir. Sidans marginal är nu väldigt liten och radlängden i längsta laget \(bör vara runt [40-75 tecken](https://www.smashingmagazine.com/2014/09/balancing-line-length-font-size-responsive-web-design/)\).
+Nästa steg är att öka skärmens storlek och studera resultatet. Det mesta fungerar helt okej, men det är tydligt att bildernas upplösning och ratio gör att linjeringen på sidans högra sida blir väldigt hackig. Detta är något som förstärks mer och mer desto bredare sidan blir. Sidans marginal är nu väldigt liten och radlängden i längsta laget (bör vara runt [40-75 tecken](https://www.smashingmagazine.com/2014/09/balancing-line-length-font-size-responsive-web-design/)).
 
-![Sk&#xE4;rmdump windowed desktop, 768px](../.gitbook/assets/screenshot-2021-02-17-133359.png)
+![Skärmdump windowed desktop, 768px](../.gitbook/assets/screenshot-2021-02-17-133359.png)
 
 Detta blir alltså det första fokuset att arbeta med. Media regler för marginal, text och bilder. Ingen ändring ska göras i HTML koden.
 
@@ -289,11 +289,11 @@ Bildstorleken åtgärdas med att sätta en max-width på innehållets container 
 
 ### Desktop 1200px
 
-![Sk&#xE4;rmdump fullscreen desktop, 1920px](../.gitbook/assets/screenshot-2021-02-17-133553.png)
+![Skärmdump fullscreen desktop, 1920px](../.gitbook/assets/screenshot-2021-02-17-133553.png)
 
 Som skärmdumpen visar så är nu sidan svårläst och ful. Det är väldigt tydligt att den mobila designen inte lämpar sig på en dator med webbläsaren i helskärm. Med reglerna på plats för medium-stora skärmar så förbättras sidans utseende något, men det kan fortfarande förbättras. Det som kanske sticker ut mest är att den blir lite för smal och att bilderna inte passar.
 
-Vi kan prova att åtgärda detta med float på bilderna, men ett annat alternativ är att fördela texten i två spalter. Prova det ena eller det andra. 
+Vi kan prova att åtgärda detta med float på bilderna, men ett annat alternativ är att fördela texten i två spalter. Prova det ena eller det andra.&#x20;
 
 {% tabs %}
 {% tab title="CSS" %}
@@ -331,7 +331,7 @@ Kolla mer kring navigationen på övnings-sidan, där finns det tre olika exempe
 
 ### Kort
 
-**Kort**\(engelska **cards**\) är vanligt förekommande i layout-sammanhang på webben. Ett kort är en flexibel container för alla typer av innehåll. Kortet går att återanvända och det visas olika beroende på skärmens storlek. 
+**Kort**(engelska **cards**) är vanligt förekommande i layout-sammanhang på webben. Ett kort är en flexibel container för alla typer av innehåll. Kortet går att återanvända och det visas olika beroende på skärmens storlek.&#x20;
 
 Ofta samlas flera kort i en behållare som bestämmer dess layout. Sedan används flexbox för att justera layouten med media-regler.
 
@@ -369,6 +369,4 @@ Ofta samlas flera kort i en behållare som bestämmer dess layout. Sedan använd
 ```
 {% endtab %}
 {% endtabs %}
-
-
 
